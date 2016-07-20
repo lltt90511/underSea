@@ -1,0 +1,520 @@
+<Solution>
+  <PropertyGroup Name="underSea" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="ani">
+          <ExportJsonFile Name="denglongyu.ExportJson" />
+          <ExportJsonFile Name="gold.ExportJson" />
+          <ExportJsonFile Name="loadingmini2.ExportJson" />
+          <ExportJsonFile Name="moguiyu.ExportJson" />
+          <ExportJsonFile Name="shayu.ExportJson" />
+          <ExportJsonFile Name="wugui.ExportJson" />
+        </Folder>
+        <Folder Name="qietu">
+          <Folder Name="alert">
+            <Image Name="bar.png" />
+            <Image Name="bg1.png" />
+            <Image Name="bg2.png" />
+            <Image Name="bg3.png" />
+            <Image Name="btn1.png" />
+            <Image Name="btn2.png" />
+            <Image Name="charge_bg.png" />
+            <Image Name="charge1.png" />
+            <Image Name="charge2.png" />
+            <Image Name="close1.png" />
+            <Image Name="close2.png" />
+            <Image Name="confirm1.png" />
+            <Image Name="confirm2.png" />
+            <Image Name="exchange_bg.png" />
+            <Image Name="line.png" />
+            <Image Name="pay1.png" />
+            <Image Name="pay2.png" />
+            <Image Name="top.png" />
+          </Folder>
+          <Folder Name="chat">
+            <Image Name="inpit2.png" />
+            <Image Name="input1.png" />
+            <Image Name="send.png" />
+            <Image Name="tab_bg.png" />
+            <Image Name="tab1.png" />
+            <Image Name="tab2.png" />
+            <Image Name="tab3.png" />
+            <Image Name="userBtn1.png" />
+            <Image Name="userBtn2.png" />
+          </Folder>
+          <Folder Name="common">
+            <Image Name="backBt01.png" />
+            <Image Name="backBt01b.png" />
+            <Image Name="bigfangBt01.png" />
+            <Image Name="bigfangBt02.png" />
+            <Image Name="cfxz001.png" />
+            <Image Name="cfxz001b.png" />
+            <Image Name="chongBt01.png" />
+            <Image Name="chongBt02.png" />
+            <Image Name="cman001.png" />
+            <Image Name="cman001b.png" />
+            <Image Name="cman002.png" />
+            <Image Name="cman002b.png" />
+            <Image Name="duihuakuangBg3.png" />
+            <Image Name="gold.png" />
+            <Image Name="input.png" />
+            <Image Name="input2.png" />
+            <Image Name="qh001.png" />
+            <Image Name="qh001b.png" />
+            <Image Name="vipText.png" />
+            <Image Name="zd001.png" />
+            <Image Name="zd001b.png" />
+          </Folder>
+          <Folder Name="effect">
+            <Image Name="biaopai.png" />
+            <Image Name="fcxx.png" />
+            <Image Name="guang.png" />
+            <Image Name="num01.png" />
+            <Image Name="num02.png" />
+            <Image Name="num03.png" />
+            <Image Name="star01.png" />
+            <Image Name="star02.png" />
+          </Folder>
+          <Folder Name="fish">
+            <Image Name="bet.png" />
+            <Image Name="bet_1.png" />
+            <Image Name="bet_2.png" />
+            <Image Name="bet_3.png" />
+            <Image Name="bet_4.png" />
+            <Image Name="bet_5.png" />
+            <Image Name="bet_6.png" />
+            <Image Name="bet_bg_1.png" />
+            <Image Name="bet_bg_2.png" />
+            <Image Name="bet_btn_1.png" />
+            <Image Name="bet_btn_2.png" />
+            <Image Name="bet_layout.png" />
+            <Image Name="bo.png" />
+            <Image Name="bottom_bg.png" />
+            <Image Name="cd_bg.png" />
+            <Image Name="equip_1.png" />
+            <Image Name="equip_2.png" />
+            <Image Name="equip_3.png" />
+            <Image Name="equip_4.png" />
+            <Image Name="fish_1.png" />
+            <Image Name="fish_10.png" />
+            <Image Name="fish_11.png" />
+            <Image Name="fish_12.png" />
+            <Image Name="fish_13.png" />
+            <Image Name="fish_14.png" />
+            <Image Name="fish_2.png" />
+            <Image Name="fish_3.png" />
+            <Image Name="fish_4.png" />
+            <Image Name="fish_5.png" />
+            <Image Name="fish_6.png" />
+            <Image Name="fish_7.png" />
+            <Image Name="fish_8.png" />
+            <Image Name="fish_9.png" />
+            <Image Name="fish_bg.jpg" />
+            <Image Name="light_1.png" />
+            <Image Name="light_2.png" />
+            <Image Name="rebet1.png" />
+            <Image Name="rebet2.png" />
+            <Image Name="shan.png" />
+            <Image Name="win_bg.png" />
+          </Folder>
+          <Folder Name="fruit">
+            <Image Name="changtiao.png" />
+            <Image Name="cztBg001.png" />
+            <Image Name="hong.png" />
+            <Image Name="huang.png" />
+            <Image Name="lv.png" />
+            <Image Name="numBox001.png" />
+            <Image Name="numBox002.png" />
+            <Image Name="numDa01b.png" />
+            <Image Name="numDa02b.png" />
+            <Image Name="shuiguo01.png" />
+            <Image Name="shuiguo01d.png" />
+            <Image Name="shuiguo02.png" />
+            <Image Name="shuiguo02d.png" />
+            <Image Name="shuiguo03.png" />
+            <Image Name="shuiguo03d.png" />
+            <Image Name="shuiguo04.png" />
+            <Image Name="shuiguo04d.png" />
+            <Image Name="shuiguo05.png" />
+            <Image Name="shuiguo05d.png" />
+            <Image Name="shuiguo06.png" />
+            <Image Name="shuiguo06d.png" />
+            <Image Name="shuiguo07.png" />
+            <Image Name="shuiguo07d.png" />
+            <Image Name="shuiguo08.png" />
+            <Image Name="shuiguo08d.png" />
+            <Image Name="tk001.png" />
+            <Image Name="tk001b.png" />
+            <Image Name="tk002.png" />
+            <Image Name="top001.png" />
+          </Folder>
+          <Folder Name="main">
+            <Image Name="bg.png" />
+            <Image Name="btn_chongzhi.png" />
+            <Image Name="btn_choujiang.png" />
+            <Image Name="btn_dating.png" />
+            <Image Name="btn_huodong.png" />
+            <Image Name="btn_jiangli.png" />
+            <Image Name="btn_kefu.png" />
+            <Image Name="btn_lingqu.png" />
+            <Image Name="btn_paihang.png" />
+            <Image Name="btn_shangcheng.png" />
+            <Image Name="btn_shezhi.png" />
+            <Image Name="btn_vip.png" />
+            <Image Name="btn_youjian.png" />
+            <Image Name="Gold.png" />
+            <Image Name="loadingbar.png" />
+            <Image Name="loadingbarbg.png" />
+            <Image Name="loadingbg.png" />
+            <Image Name="maoxian.png" />
+            <Image Name="pao.png" />
+            <Image Name="shuiguo.png" />
+            <Image Name="title1.png" />
+            <Image Name="title2.png" />
+            <Image Name="title3.png" />
+            <Image Name="top.png" />
+            <Image Name="VIP.png" />
+          </Folder>
+          <Folder Name="main2">
+            <Image Name="bg01.jpg" />
+            <Image Name="bj01.png" />
+            <Image Name="bj02.png" />
+            <Image Name="btText01.png" />
+            <Image Name="btText02.png" />
+            <Image Name="btText03.png" />
+            <Image Name="btText04.png" />
+            <Image Name="cjIcon01.png" />
+            <Image Name="cjIcon02.png" />
+            <Image Name="default.jpg" />
+            <Image Name="diBar.png" />
+            <Image Name="dtIcon01.png" />
+            <Image Name="dtIcon02.png" />
+            <Image Name="gameTopbar.png" />
+            <Image Name="gameXm01.png" />
+            <Image Name="gameXm02.png" />
+            <Image Name="gdIcon01.png" />
+            <Image Name="gdIcon02.png" />
+            <Image Name="guang01.png" />
+            <Image Name="guang02.png" />
+            <Image Name="hdIcon01.png" />
+            <Image Name="hdIcon02.png" />
+            <Image Name="heizz.png" />
+            <Image Name="hqjbIcon01.png" />
+            <Image Name="hqjbIcon02.png" />
+            <Image Name="iconGuang.png" />
+            <Image Name="iconGuang2.png" />
+            <Image Name="jinbiIcon.png" />
+            <Image Name="jlIcon01.png" />
+            <Image Name="jlIcon02.png" />
+            <Image Name="kIcon01.png" />
+            <Image Name="kIcon02.png" />
+            <Image Name="lkBt01.png" />
+            <Image Name="lkBt02.png" />
+            <Image Name="lqjbIcon01.png" />
+            <Image Name="lqjbIcon02.png" />
+            <Image Name="lqjbText.png" />
+            <Image Name="phIcon01.png" />
+            <Image Name="phIcon02.png" />
+            <Image Name="redmb.png" />
+            <Image Name="scIcon01.png" />
+            <Image Name="scIcon02.png" />
+            <Image Name="tcBt01.png" />
+            <Image Name="tcBt02.png" />
+            <Image Name="topBar.png" />
+            <Image Name="txkxiao.png" />
+            <Image Name="vipIcon01.png" />
+            <Image Name="vipIcon02.png" />
+            <Image Name="xBt01.png" />
+            <Image Name="xBt02.png" />
+            <Image Name="xiaoBt01.png" />
+            <Image Name="xiaoBt02.png" />
+            <Image Name="yjIcon01.png" />
+            <Image Name="yjIcon02.png" />
+            <Image Name="yqsIcon01.png" />
+            <Image Name="yqsIcon02.png" />
+          </Folder>
+          <Folder Name="mora">
+            <Image Name="bg.png" />
+            <Image Name="bu_1.png" />
+            <Image Name="bu_2.png" />
+            <Image Name="di.png" />
+            <Image Name="di_1.png" />
+            <Image Name="di_2.png" />
+            <Image Name="jiandao_1.png" />
+            <Image Name="jiandao_2.png" />
+            <Image Name="jinbi.png" />
+            <Image Name="jujue.png" />
+            <Image Name="num_1.png" />
+            <Image Name="num_2.png" />
+            <Image Name="pingju.png" />
+            <Image Name="queding.png" />
+            <Image Name="quxiao.png" />
+            <Image Name="shengli.png" />
+            <Image Name="shibai.png" />
+            <Image Name="shitou_1.png" />
+            <Image Name="shitou_2.png" />
+            <Image Name="shuru.png" />
+            <Image Name="tongyi.png" />
+            <Image Name="touxiang_1.png" />
+            <Image Name="touxiang_2.png" />
+            <Image Name="wenhao.png" />
+            <Image Name="xiala.png" />
+            <Image Name="xialaanniu.png" />
+            <Image Name="yaoqing.png" />
+            <Image Name="yaoqingniwan.png" />
+            <Image Name="yaoqingzhong.png" />
+          </Folder>
+          <Folder Name="paiming">
+            <Image Name="btBar.png" />
+            <Image Name="czbIcon01.png" />
+            <Image Name="czbIcon02.png" />
+            <Image Name="fenge01.png" />
+            <Image Name="fenge02.png" />
+            <Image Name="fhbIcon01.png" />
+            <Image Name="fhbIcon02.png" />
+            <Image Name="pmtext01.png" />
+            <Image Name="pmtext02.png" />
+            <Image Name="pmtext03.png" />
+            <Image Name="pmtext04.png" />
+            <Image Name="pmtext05.png" />
+            <Image Name="pmtext06.png" />
+            <Image Name="pmtext07.png" />
+            <Image Name="quan.png" />
+            <Image Name="smBar.png" />
+            <Image Name="tiaomuBar.png" />
+            <Image Name="type01.png" />
+            <Image Name="type02.png" />
+            <Image Name="zmBar.png" />
+            <Image Name="zsbg.png" />
+          </Folder>
+          <Folder Name="start">
+            <Image Name="dlBg.jpg" />
+            <Image Name="guang.png" />
+            <Image Name="ksyxBt01.png" />
+            <Image Name="ksyxBt02.png" />
+            <Image Name="loadingBar01.png" />
+            <Image Name="loadingBar02.png" />
+            <Image Name="paizi.png" />
+            <Image Name="xx.png" />
+            <Image Name="xxTp.png" />
+            <Image Name="youjin.png" />
+            <Image Name="zuojin.png" />
+          </Folder>
+          <Folder Name="text">
+            <Image Name="giftNum.png" />
+            <Image Name="textA01.png" />
+            <Image Name="textA02.png" />
+            <Image Name="textA03.png" />
+            <Image Name="textA04.png" />
+            <Image Name="textA05.png" />
+            <Image Name="textA06.png" />
+            <Image Name="textA07.png" />
+            <Image Name="textA08.png" />
+            <Image Name="textA09.png" />
+            <Image Name="textA10.png" />
+            <Image Name="textA11.png" />
+            <Image Name="textC01.png" />
+            <Image Name="vipNum.png" />
+            <Image Name="wenzi_1.png" />
+            <Image Name="wenzi_2.png" />
+            <Image Name="wenzi_3.png" />
+            <Image Name="wenzi_xiazhu.png" />
+            <Image Name="xh.png" />
+          </Folder>
+          <Folder Name="top">
+            <Image Name="add1.png" />
+            <Image Name="add2.png" />
+            <Image Name="close1.png" />
+            <Image Name="close2.png" />
+            <Image Name="get1.png" />
+            <Image Name="get2.png" />
+            <Image Name="gold_bg.png" />
+            <Image Name="head.png" />
+            <Image Name="name_bg.png" />
+            <Image Name="top_bg.png" />
+            <Image Name="vip.png" />
+            <Image Name="vip_bg.png" />
+          </Folder>
+          <Folder Name="tymb">
+            <Image Name="cfBt01.png" />
+            <Image Name="cfBt02.png" />
+            <Image Name="changBt01.png" />
+            <Image Name="changBt02.png" />
+            <Image Name="chat_bg0.png" />
+            <Image Name="chat_bg1.png" />
+            <Image Name="check.png" />
+            <Image Name="ctBt.png" />
+            <Image Name="daBox.png" />
+            <Image Name="dapuhuo.png" />
+            <Image Name="dctBt.png" />
+            <Image Name="goldIcon.png" />
+            <Image Name="gou.png" />
+            <Image Name="guanbiBt01.png" />
+            <Image Name="guanbiBt02.png" />
+            <Image Name="headBg.png" />
+            <Image Name="help.png" />
+            <Image Name="help_select.png" />
+            <Image Name="hfengexian.png" />
+            <Image Name="historyBtn.png" />
+            <Image Name="hot.png" />
+            <Image Name="hsBar.png" />
+            <Image Name="icon.png" />
+            <Image Name="jdBar01.png" />
+            <Image Name="jdBar02.png" />
+            <Image Name="jiangliBt01.png" />
+            <Image Name="jiangliBt02.png" />
+            <Image Name="jilu.png" />
+            <Image Name="jiluBox.png" />
+            <Image Name="jinbiIcon01.png" />
+            <Image Name="jinbiIcon02.png" />
+            <Image Name="jinbiIcon03.png" />
+            <Image Name="jinbiIcon04.png" />
+            <Image Name="jinbiIcon05.png" />
+            <Image Name="jinbiIcon06.png" />
+            <Image Name="jineBox.png" />
+            <Image Name="kjBar.png" />
+            <Image Name="kuang_liang.png" />
+            <Image Name="libaoIcon.png" />
+            <Image Name="light.png" />
+            <Image Name="lotter_bg.png" />
+            <Image Name="lqjlBt01.png" />
+            <Image Name="lqjlBt02.png" />
+            <Image Name="mbText01.png" />
+            <Image Name="mbText02.png" />
+            <Image Name="mbText03.png" />
+            <Image Name="mbText04.png" />
+            <Image Name="mbText05.png" />
+            <Image Name="mbText06.png" />
+            <Image Name="mbText07.png" />
+            <Image Name="mbText08.png" />
+            <Image Name="mbText09.png" />
+            <Image Name="mbText10.png" />
+            <Image Name="mbText11.png" />
+            <Image Name="mbText12.png" />
+            <Image Name="mbText13.png" />
+            <Image Name="mbText14.png" />
+            <Image Name="mbText15.png" />
+            <Image Name="mbText16.png" />
+            <Image Name="mbText17.png" />
+            <Image Name="new.png" />
+            <Image Name="nrBar01.png" />
+            <Image Name="siliaoBg.png" />
+            <Image Name="siliaokuang.png" />
+            <Image Name="siliaokuang_jiantou.png" />
+            <Image Name="ssxiaoBox.png" />
+            <Image Name="tanchu.png" />
+            <Image Name="text_1.png" />
+            <Image Name="text_2.png" />
+            <Image Name="text_3.png" />
+            <Image Name="tmBgkuang.png" />
+            <Image Name="tmBox.png" />
+            <Image Name="tree.png" />
+            <Image Name="tuidongBar01.png" />
+            <Image Name="tuidongBar02.png" />
+            <Image Name="tuidongBt.png" />
+            <Image Name="txkBg.png" />
+            <Image Name="vipMax.png" />
+            <Image Name="vipUp01.png" />
+            <Image Name="vipUp02.png" />
+            <Image Name="xian.png" />
+            <Image Name="xiaoBox.png" />
+            <Image Name="xiaopuhuo.png" />
+            <Image Name="xiaoxiaoBox.png" />
+            <Image Name="xinshoukuang.png" />
+            <Image Name="xuanzhong01a.png" />
+            <Image Name="xuanzhong01b.png" />
+            <Image Name="xuanzhong02a.png" />
+            <Image Name="xuanzhong02b.png" />
+            <Image Name="youBt01.png" />
+            <Image Name="youBt02.png" />
+            <Image Name="zhongBox.png" />
+            <Image Name="zhongBt01.png" />
+            <Image Name="zhongBt02.png" />
+            <Image Name="zhongxian.png" />
+            <Image Name="zpkBig.png" />
+            <Image Name="zuoBt01.png" />
+            <Image Name="zuoBt02.png" />
+          </Folder>
+          <Folder Name="user">
+            <Image Name="v0.png" />
+            <Image Name="v1.png" />
+            <Image Name="v10.png" />
+            <Image Name="v11.png" />
+            <Image Name="v12.png" />
+            <Image Name="v13.png" />
+            <Image Name="v14.png" />
+            <Image Name="v15.png" />
+            <Image Name="v16.png" />
+            <Image Name="v17.png" />
+            <Image Name="v18.png" />
+            <Image Name="v19.png" />
+            <Image Name="v2.png" />
+            <Image Name="v20.png" />
+            <Image Name="v21.png" />
+            <Image Name="v22.png" />
+            <Image Name="v23.png" />
+            <Image Name="v24.png" />
+            <Image Name="v25.png" />
+            <Image Name="v26.png" />
+            <Image Name="v27.png" />
+            <Image Name="v28.png" />
+            <Image Name="v3.png" />
+            <Image Name="v4.png" />
+            <Image Name="v5.png" />
+            <Image Name="v6.png" />
+            <Image Name="v7.png" />
+            <Image Name="v8.png" />
+            <Image Name="v9.png" />
+          </Folder>
+        </Folder>
+        <Project Name="about.csd" Type="Layer" />
+        <Project Name="activity.csd" Type="Layer" />
+        <Project Name="alert.csd" Type="Layer" />
+        <Project Name="betAlert.csd" Type="Layer" />
+        <Project Name="binding.csd" Type="Layer" />
+        <Image Name="buleLoading.png" />
+        <Image Name="buleLoadingBg.png" />
+        <Project Name="charge.csd" Type="Layer" />
+        <Project Name="charge_alert.csd" Type="Layer" />
+        <Project Name="chargeAlert.csd" Type="Layer" />
+        <Project Name="chat.csd" Type="Layer" />
+        <Project Name="chatHistory.csd" Type="Layer" />
+        <Project Name="chatPrivate.csd" Type="Layer" />
+        <Project Name="common_top.csd" Type="Layer" />
+        <Project Name="exchange.csd" Type="Layer" />
+        <Project Name="fish_machine.csd" Type="Layer" />
+        <Project Name="fruit_machine.csd" Type="Layer" />
+        <Project Name="inviterAlert.csd" Type="Layer" />
+        <Project Name="loading.csd" Type="Layer" />
+        <Project Name="login_alert.csd" Type="Layer" />
+        <Project Name="login_scene.csd" Type="Layer" />
+        <Project Name="loginGift.csd" Type="Layer" />
+        <Project Name="lottery.csd" Type="Layer" />
+        <Project Name="mail.csd" Type="Layer" />
+        <Project Name="main_scene.csd" Type="Layer" />
+        <Project Name="moraGame.csd" Type="Layer" />
+        <Image Name="num01.png" />
+        <Image Name="num02.png" />
+        <Image Name="num03.png" />
+        <Image Name="num04.png" />
+        <Image Name="num05.png" />
+        <Image Name="numDa01.png" />
+        <Image Name="numXiao01.png" />
+        <Project Name="quitAlert.csd" Type="Layer" />
+        <Project Name="Rank.csd" Type="Layer" />
+        <Project Name="receive.csd" Type="Layer" />
+        <Project Name="reward.csd" Type="Layer" />
+        <Project Name="self_info.csd" Type="Layer" />
+        <Project Name="service.csd" Type="Layer" />
+        <Project Name="setting.csd" Type="Layer" />
+        <Project Name="start.csd" Type="Layer" />
+        <Project Name="startLoading.csd" Type="Layer" />
+        <Project Name="tree.csd" Type="Layer" />
+        <Project Name="userAlert.csd" Type="Layer" />
+        <Project Name="vip.csd" Type="Layer" />
+        <Project Name="waitInviterAlert.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

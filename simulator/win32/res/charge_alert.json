@@ -1,0 +1,840 @@
+{
+  "ID": "21d50ba1-d7cc-4451-971c-74d65e9d1d83",
+  "Version": "3.10.0.0",
+  "Name": "charge_alert",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {},
+            "EndColor": {
+              "R": 150,
+              "G": 200
+            },
+            "ColorVector": {
+              "ScaleY": -1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 6633,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "qietu/tymb/xiaoBox.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 960.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.3354
+                },
+                "Tag": 6642,
+                "Children": [
+                  {
+                    "FontSize": 40,
+                    "LabelText": "购买金币",
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 140.0,
+                      "Y": 422.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.3704,
+                      "Y": 0.1553
+                    },
+                    "PreSize": {
+                      "X": 0.1481,
+                      "Y": 0.0807
+                    },
+                    "Tag": 6643,
+                    "ActionTag": 38386746,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 52.0
+                    },
+                    "Name": "title_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/nrBar01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 40,
+                    "Scale9Width": 700,
+                    "Scale9Height": 80,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 320.0,
+                      "Y": 422.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.2037,
+                      "Y": 0.1553
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.1242
+                    },
+                    "Tag": 6644,
+                    "Children": [
+                      {
+                        "FontSize": 40,
+                        "LabelText": "+0",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.125,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.265,
+                          "Y": 0.65
+                        },
+                        "Tag": 6645,
+                        "ActionTag": 62985866,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 66650753,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "LabelText": "赠送金币",
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 550.0,
+                      "Y": 422.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0093,
+                      "Y": 0.1553
+                    },
+                    "PreSize": {
+                      "X": 0.1481,
+                      "Y": 0.0807
+                    },
+                    "Tag": 6649,
+                    "ActionTag": 3153698,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 52.0
+                    },
+                    "Name": "title_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/nrBar01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 40,
+                    "Scale9Width": 700,
+                    "Scale9Height": 80,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 730.0,
+                      "Y": 422.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1759,
+                      "Y": 0.1553
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.1242
+                    },
+                    "Tag": 6650,
+                    "Children": [
+                      {
+                        "FontSize": 40,
+                        "LabelText": "+0",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.125,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.265,
+                          "Y": 0.65
+                        },
+                        "Tag": 6651,
+                        "ActionTag": 54123011,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 28383289,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "LabelText": "首充奖励",
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 140.0,
+                      "Y": 322.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.3704,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1481,
+                      "Y": 0.0807
+                    },
+                    "Tag": 6652,
+                    "ActionTag": 48566591,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 52.0
+                    },
+                    "Name": "title_3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/nrBar01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 40,
+                    "Scale9Width": 700,
+                    "Scale9Height": 80,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 320.0,
+                      "Y": 322.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.2037,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.1242
+                    },
+                    "Tag": 6653,
+                    "Children": [
+                      {
+                        "FontSize": 40,
+                        "LabelText": "+0",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.125,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.265,
+                          "Y": 0.65
+                        },
+                        "Tag": 6654,
+                        "ActionTag": 59209577,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 41579773,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "LabelText": "超值包",
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 550.0,
+                      "Y": 322.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0093,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1111,
+                      "Y": 0.0807
+                    },
+                    "Tag": 6655,
+                    "ActionTag": 1221454,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 52.0
+                    },
+                    "Name": "title_4",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/nrBar01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 40,
+                    "Scale9Width": 700,
+                    "Scale9Height": 80,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 730.0,
+                      "Y": 322.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1759,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.1242
+                    },
+                    "Tag": 6656,
+                    "Children": [
+                      {
+                        "FontSize": 40,
+                        "LabelText": "+0",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.125,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.265,
+                          "Y": 0.65
+                        },
+                        "Tag": 6657,
+                        "ActionTag": 18025225,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 31828964,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/nrBar01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 40,
+                    "Scale9Width": 700,
+                    "Scale9Height": 80,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 178.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.2236
+                    },
+                    "PreSize": {
+                      "X": 0.463,
+                      "Y": 0.1242
+                    },
+                    "Tag": 6662,
+                    "Children": [
+                      {
+                        "FontSize": 40,
+                        "LabelText": "合计：",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.45,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.24,
+                          "Y": 0.65
+                        },
+                        "Tag": 6663,
+                        "ActionTag": 39118012,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "0",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 145.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.21,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.046,
+                          "Y": 0.65
+                        },
+                        "Tag": 6666,
+                        "ActionTag": 33920847,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 23.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/main2/jinbiIcon.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 470.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.44,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.174,
+                          "Y": 0.9375
+                        },
+                        "Tag": 6664,
+                        "ActionTag": 20562828,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 87.0,
+                          "Y": 75.0
+                        },
+                        "Name": "gold",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 41629148,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_bottom",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/text_3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 542.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.3416
+                    },
+                    "PreSize": {
+                      "X": 0.2954,
+                      "Y": 0.1258
+                    },
+                    "Tag": 6667,
+                    "ActionTag": 46906729,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 319.0,
+                      "Y": 81.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/guanbiBt02.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/guanbiBt01.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 977.0,
+                      "Y": 583.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4046,
+                      "Y": 0.4053
+                    },
+                    "PreSize": {
+                      "X": 0.1222,
+                      "Y": 0.205
+                    },
+                    "Tag": 6670,
+                    "ActionTag": 58991532,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 132.0,
+                      "Y": 132.0
+                    },
+                    "Name": "back",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 43913588,
+                "IsAutoSize": true,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 644.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Panel_49",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "UiEntity1717931",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "qietu/main2/jinbiIcon.png",
+        "qietu/tymb/guanbiBt01.png",
+        "qietu/tymb/guanbiBt02.png",
+        "qietu/tymb/nrBar01.png",
+        "qietu/tymb/text_3.png",
+        "qietu/tymb/xiaoBox.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,82 @@
+﻿生成启动时间为 2016/7/13 11:36:52。
+     1>项目“C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\underSea.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.exe) does not match the Linker's OutputFile property value (C:\Users\Administrator\Desktop\underSea\simulator\win32\underSea.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>PreLinkEvent:
+         if not exist "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "d:\Cocos310\cocos2d-x\cocos2d-x-3.10\prebuilt\win32\*.*" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\../../../simulator/win32/underSea.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\\" libcurl_imp.lib "mozjs-33.lib" ws2_32.lib sqlite3.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\../../../simulator/win32/underSea.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\RuntimeJsImpl.obj
+         Debug.win32\SimpleConfigParser.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\SimulatorWin.obj
+     1>RuntimeJsImpl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+            正在创建库 C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.lib 和对象 C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.exp
+         underSea.vcxproj -> C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.exe
+       CustomBuildStep:
+         if not exist "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" mkdir "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy "d:\Cocos310\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\script" /D /E /I /F /Y
+         xcopy "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\..\..\..\src" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\src" /D /E /I /F /Y
+         xcopy "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\..\..\..\res" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\res" /D /E /I /F /Y
+         copy "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\..\..\..\main.js" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         copy "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\..\..\..\project.json" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         xcopy /Y /Q "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\*.dll" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\..\Classes\ide-support\lang" "C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         :VCEnd
+         D:\Cocos310\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\README.md -> C:\Users\Administrator\Desktop\underSea\simulator\win32\script\debugger\README.md
+         复制了 1 个文件
+         C:\Users\Administrator\Desktop\underSea\src\loading.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\loading.js
+         C:\Users\Administrator\Desktop\underSea\src\resource.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\resource.js
+         C:\Users\Administrator\Desktop\underSea\src\start.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\start.js
+         复制了 3 个文件
+         C:\Users\Administrator\Desktop\underSea\res\about.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\about.json
+         C:\Users\Administrator\Desktop\underSea\res\activity.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\activity.json
+         C:\Users\Administrator\Desktop\underSea\res\betAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\betAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\binding.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\binding.json
+         C:\Users\Administrator\Desktop\underSea\res\charge.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\charge.json
+         C:\Users\Administrator\Desktop\underSea\res\chargeAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\chargeAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\charge_alert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\charge_alert.json
+         C:\Users\Administrator\Desktop\underSea\res\chat.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\chat.json
+         C:\Users\Administrator\Desktop\underSea\res\chatHistory.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\chatHistory.json
+         C:\Users\Administrator\Desktop\underSea\res\chatPrivate.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\chatPrivate.json
+         C:\Users\Administrator\Desktop\underSea\res\common_top.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\common_top.json
+         C:\Users\Administrator\Desktop\underSea\res\exchange.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\exchange.json
+         C:\Users\Administrator\Desktop\underSea\res\fish_machine.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\fish_machine.json
+         C:\Users\Administrator\Desktop\underSea\res\fruit_machine.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\fruit_machine.json
+         C:\Users\Administrator\Desktop\underSea\res\inviterAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\inviterAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\loading.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\loading.json
+         C:\Users\Administrator\Desktop\underSea\res\loginGift.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\loginGift.json
+         C:\Users\Administrator\Desktop\underSea\res\login_alert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\login_alert.json
+         C:\Users\Administrator\Desktop\underSea\res\login_scene.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\login_scene.json
+         C:\Users\Administrator\Desktop\underSea\res\lottery.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\lottery.json
+         C:\Users\Administrator\Desktop\underSea\res\mail.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\mail.json
+         C:\Users\Administrator\Desktop\underSea\res\main_scene.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\main_scene.json
+         C:\Users\Administrator\Desktop\underSea\res\moraGame.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\moraGame.json
+         C:\Users\Administrator\Desktop\underSea\res\quitAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\quitAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\Rank.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\Rank.json
+         C:\Users\Administrator\Desktop\underSea\res\receive.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\receive.json
+         C:\Users\Administrator\Desktop\underSea\res\reward.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\reward.json
+         C:\Users\Administrator\Desktop\underSea\res\self_info.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\self_info.json
+         C:\Users\Administrator\Desktop\underSea\res\service.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\service.json
+         C:\Users\Administrator\Desktop\underSea\res\setting.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\setting.json
+         C:\Users\Administrator\Desktop\underSea\res\start.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\start.json
+         C:\Users\Administrator\Desktop\underSea\res\startLoading.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\startLoading.json
+         C:\Users\Administrator\Desktop\underSea\res\tree.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\tree.json
+         C:\Users\Administrator\Desktop\underSea\res\userAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\userAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\vip.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\vip.json
+         C:\Users\Administrator\Desktop\underSea\res\waitInviterAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\waitInviterAlert.json
+         C:\Users\Administrator\Desktop\underSea\res\qietu\start\guang.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\start\guang.png
+         复制了 37 个文件
+         已复制         1 个文件。
+         已复制         1 个文件。
+         复制了 16 个文件
+         复制了 1 个文件
+     1>已完成生成项目“C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\underSea.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:31.75

@@ -1,0 +1,761 @@
+{
+  "ID": "92796ff8-123d-4ed0-ba6c-e1ddf14c45f8",
+  "Version": "3.10.0.0",
+  "Name": "mail",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 168,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {},
+            "EndColor": {
+              "R": 150,
+              "G": 200
+            },
+            "ColorVector": {
+              "ScaleY": -1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 573,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 227.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1182
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.7813
+                },
+                "Tag": 574,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/daBox.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 539.0,
+                      "Y": 712.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4991,
+                      "Y": 0.4747
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9207
+                    },
+                    "Tag": 575,
+                    "Children": [
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 979.0,
+                          "Y": 1322.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4065,
+                          "Y": 0.4576
+                        },
+                        "PreSize": {
+                          "X": 0.1222,
+                          "Y": 0.0956
+                        },
+                        "Tag": 576,
+                        "ActionTag": 49770231,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 132.0
+                        },
+                        "Name": "back",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/mbText04.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 1313.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.4511
+                        },
+                        "PreSize": {
+                          "X": 0.2519,
+                          "Y": 0.0565
+                        },
+                        "Tag": 1374,
+                        "ActionTag": 7619668,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 272.0,
+                          "Y": 78.0
+                        },
+                        "Name": "title",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "InnerNodeSize": {
+                          "Width": 940,
+                          "Height": 1200
+                        },
+                        "ScrollDirectionType": "Vertical",
+                        "ClipAble": false,
+                        "BackColorAlpha": 100,
+                        "SingleColor": {
+                          "G": 150,
+                          "B": 100
+                        },
+                        "FirstColor": {},
+                        "EndColor": {
+                          "G": 150,
+                          "B": 100
+                        },
+                        "ColorVector": {
+                          "ScaleY": -1.0
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 76.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4296,
+                          "Y": -0.4243
+                        },
+                        "PreSize": {
+                          "X": 0.8704,
+                          "Y": 0.8327
+                        },
+                        "Tag": 1382,
+                        "ActionTag": 64665861,
+                        "Size": {
+                          "X": 940.0,
+                          "Y": 1150.0
+                        },
+                        "Name": "listView",
+                        "ctype": "ScrollViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 3128272,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 1381.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 54240673,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 1500.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1252.0,
+                  "Y": 1070.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.1593,
+                  "Y": 0.5573
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 1375,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/dctBt.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/dctBt.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/dctBt.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 159.0,
+                      "Y": 116.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.795,
+                      "Y": 0.58
+                    },
+                    "PreSize": {
+                      "X": 4.71,
+                      "Y": 1.035
+                    },
+                    "Tag": 1376,
+                    "Children": [
+                      {
+                        "FontSize": 35,
+                        "LabelText": "系统邮件",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 31.0,
+                          "Y": 166.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 204,
+                          "B": 32
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4671,
+                          "Y": 0.3043
+                        },
+                        "PreSize": {
+                          "X": 0.1486,
+                          "Y": 0.2222
+                        },
+                        "Tag": 1377,
+                        "ActionTag": 13175060,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 46.0
+                        },
+                        "Name": "title",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 30,
+                        "LabelText": "Text Label",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 386.0,
+                          "Y": 72.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.0902,
+                          "Y": -0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.7431,
+                          "Y": 0.3865
+                        },
+                        "Tag": 1378,
+                        "ActionTag": 59634710,
+                        "Size": {
+                          "X": 700.0,
+                          "Y": 80.0
+                        },
+                        "Name": "info",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/zhongBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/zhongBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 835.0,
+                          "Y": 71.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3864,
+                          "Y": -0.1546
+                        },
+                        "PreSize": {
+                          "X": 0.1614,
+                          "Y": 0.3768
+                        },
+                        "Tag": 1379,
+                        "Children": [
+                          {
+                            "FontSize": 35,
+                            "LabelText": "进入",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 76.0,
+                              "Y": 39.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 103,
+                              "G": 45,
+                              "B": 25
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.4605,
+                              "Y": 0.5897
+                            },
+                            "Tag": 1380,
+                            "ActionTag": 42234619,
+                            "ZOrder": 1,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 70.0,
+                              "Y": 46.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 35,
+                            "LabelText": "进入",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 76.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 236,
+                              "B": 130
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": -0.0256
+                            },
+                            "PreSize": {
+                              "X": 0.4605,
+                              "Y": 0.5897
+                            },
+                            "Tag": 2846,
+                            "ActionTag": 16884007,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 70.0,
+                              "Y": 46.0
+                            },
+                            "Name": "text_shadow",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 37801412,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 152.0,
+                          "Y": 78.0
+                        },
+                        "Name": "btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "2016-01-01 00:00:00",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 911.0,
+                          "Y": 166.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4671,
+                          "Y": 0.3043
+                        },
+                        "PreSize": {
+                          "X": 0.3195,
+                          "Y": 0.1884
+                        },
+                        "Tag": 13405,
+                        "ActionTag": 40217981,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 301.0,
+                          "Y": 39.0
+                        },
+                        "Name": "time",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 25024749,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 942.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/mbText04.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 49.0,
+                      "Y": 394.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.245,
+                      "Y": 1.97
+                    },
+                    "PreSize": {
+                      "X": 1.36,
+                      "Y": 0.39
+                    },
+                    "Tag": 1381,
+                    "ActionTag": 66311669,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 272.0,
+                      "Y": 78.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 60027365,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "mial_btn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1318.0,
+                  "Y": 1194.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2204,
+                  "Y": 0.6219
+                },
+                "PreSize": {
+                  "X": 0.0741,
+                  "Y": 0.0417
+                },
+                "Tag": 1383,
+                "Children": [
+                  {
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 64.0,
+                      "Y": 18.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3,
+                      "Y": -0.275
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 1384,
+                    "ActionTag": 16897799,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "scroll_bar",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 34015711,
+                "IsAutoSize": true,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "scroll_bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Panel_52",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "UiEntity30787047",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "qietu/tymb/daBox.png",
+        "qietu/tymb/dctBt.png",
+        "qietu/tymb/guanbiBt01.png",
+        "qietu/tymb/guanbiBt02.png",
+        "qietu/tymb/mbText04.png",
+        "qietu/tymb/zhongBt01.png",
+        "qietu/tymb/zhongBt02.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

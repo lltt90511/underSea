@@ -1,0 +1,801 @@
+{
+  "ID": "5930fd9b-88a1-40f9-8853-65d5cb9d9a80",
+  "Version": "3.10.0.0",
+  "Name": "lottery",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {},
+            "EndColor": {
+              "R": 150,
+              "G": 200
+            },
+            "ColorVector": {
+              "ScaleY": -1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2060,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1177
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.7813
+                },
+                "Tag": 2072,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/light.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 539.0,
+                      "Y": 1369.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4991,
+                      "Y": 0.9127
+                    },
+                    "PreSize": {
+                      "X": 0.4917,
+                      "Y": 0.194
+                    },
+                    "Tag": 2083,
+                    "ActionTag": 55143343,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 531.0,
+                      "Y": 291.0
+                    },
+                    "Name": "light",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/lotter_bg.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 712.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4747
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9533
+                    },
+                    "Tag": 2073,
+                    "Children": [
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 974.0,
+                          "Y": 1179.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4019,
+                          "Y": 0.3245
+                        },
+                        "PreSize": {
+                          "X": 0.1222,
+                          "Y": 0.0923
+                        },
+                        "Tag": 2074,
+                        "ActionTag": 39532318,
+                        "ZOrder": 1,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 132.0
+                        },
+                        "Name": "back",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "CharWidth": 52,
+                        "CharHeight": 69,
+                        "LabelText": "164",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "num05.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 555.0,
+                          "Y": 958.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0139,
+                          "Y": 0.1699
+                        },
+                        "PreSize": {
+                          "X": 0.1444,
+                          "Y": 0.0483
+                        },
+                        "Tag": 2090,
+                        "ActionTag": 63454755,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 156.0,
+                          "Y": 69.0
+                        },
+                        "Name": "num",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/mbText16.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 958.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0231,
+                          "Y": 0.1699
+                        },
+                        "PreSize": {
+                          "X": 0.0685,
+                          "Y": 0.0538
+                        },
+                        "Tag": 2091,
+                        "ActionTag": 29209404,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 74.0,
+                          "Y": 77.0
+                        },
+                        "Name": "wenzi_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/mbText15.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 744.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0203
+                        },
+                        "PreSize": {
+                          "X": 0.2519,
+                          "Y": 0.0538
+                        },
+                        "Tag": 2092,
+                        "ActionTag": 6605256,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 272.0,
+                          "Y": 77.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "wenzi_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "每次抽奖花费10万金币",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 876.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.1126
+                        },
+                        "PreSize": {
+                          "X": 0.3759,
+                          "Y": 0.0364
+                        },
+                        "Tag": 2093,
+                        "ActionTag": 16895541,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 406.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "(刷新：中午1点晚上9点)",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 796.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 249,
+                          "B": 71
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0566
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.0364
+                        },
+                        "Tag": 2095,
+                        "ActionTag": 33002673,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 432.0,
+                          "Y": 52.0
+                        },
+                        "Name": "label_2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 100,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {},
+                        "EndColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "ColorVector": {
+                          "ScaleY": -1.0
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 265.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.5,
+                          "Y": -0.3147
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.6993
+                        },
+                        "Tag": 2101,
+                        "ActionTag": 64724260,
+                        "Size": {
+                          "X": 1080.0,
+                          "Y": 1000.0
+                        },
+                        "Name": "layout",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": 31971224,
+                    "ZOrder": 1,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 1430.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/changBt02.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/changBt01.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 703.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4687
+                    },
+                    "PreSize": {
+                      "X": 0.2593,
+                      "Y": 0.0607
+                    },
+                    "Tag": 2099,
+                    "Children": [
+                      {
+                        "FontSize": 50,
+                        "LabelText": "开始",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 140.0,
+                          "Y": 45.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 103,
+                          "G": 45,
+                          "B": 25
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.3571,
+                          "Y": 0.7143
+                        },
+                        "Tag": 2100,
+                        "ActionTag": 67090639,
+                        "ZOrder": 1,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 65.0
+                        },
+                        "Name": "text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 50,
+                        "LabelText": "开始",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 140.0,
+                          "Y": 43.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 236,
+                          "B": 130
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": -0.022
+                        },
+                        "PreSize": {
+                          "X": 0.3571,
+                          "Y": 0.7143
+                        },
+                        "Tag": 2830,
+                        "ActionTag": 43044317,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 65.0
+                        },
+                        "Name": "text_shadow",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 64596706,
+                    "ZOrder": 2,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 280.0,
+                      "Y": 91.0
+                    },
+                    "Name": "btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 100,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {},
+                    "EndColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "ColorVector": {
+                      "ScaleY": -1.0
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": -279.0,
+                      "Y": 467.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.2583,
+                      "Y": 0.3113
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.1333
+                    },
+                    "Tag": 2087,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/jinbiIcon01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 120.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6
+                        },
+                        "PreSize": {
+                          "X": 0.77,
+                          "Y": 0.44
+                        },
+                        "Tag": 2088,
+                        "ActionTag": 865039,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 154.0,
+                          "Y": 88.0
+                        },
+                        "Name": "gold",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "15万",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 104.0,
+                          "Y": 60.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.52,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.43,
+                          "Y": 0.26
+                        },
+                        "Tag": 2089,
+                        "ActionTag": 36161185,
+                        "ZOrder": 1,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 86.0,
+                          "Y": 52.0
+                        },
+                        "Name": "num",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/kuang_liang.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.975,
+                          "Y": 0.96
+                        },
+                        "Tag": 2085,
+                        "ActionTag": 24777313,
+                        "ZOrder": 1,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 195.0,
+                          "Y": 192.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 12426725,
+                    "ZOrder": 5,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 200.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 28036863,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 1500.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Panel_24",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "UiEntity33246944",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "num05.png",
+        "qietu/tymb/changBt01.png",
+        "qietu/tymb/changBt02.png",
+        "qietu/tymb/guanbiBt01.png",
+        "qietu/tymb/guanbiBt02.png",
+        "qietu/tymb/jinbiIcon01.png",
+        "qietu/tymb/kuang_liang.png",
+        "qietu/tymb/light.png",
+        "qietu/tymb/lotter_bg.png",
+        "qietu/tymb/mbText15.png",
+        "qietu/tymb/mbText16.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

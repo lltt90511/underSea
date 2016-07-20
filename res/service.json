@@ -1,0 +1,960 @@
+{
+  "ID": "e71c634a-0b82-4dbe-b4cf-eedf56c5885a",
+  "Version": "3.10.0.0",
+  "Name": "service",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 168,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {},
+            "EndColor": {
+              "R": 150,
+              "G": 200
+            },
+            "ColorVector": {
+              "ScaleY": -1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1715,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1177
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.7813
+                },
+                "Tag": 1744,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/tymb/daBox.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 712.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4747
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9207
+                    },
+                    "Tag": 1745,
+                    "Children": [
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 979.0,
+                          "Y": 1322.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4065,
+                          "Y": 0.4576
+                        },
+                        "PreSize": {
+                          "X": 0.1222,
+                          "Y": 0.0956
+                        },
+                        "Tag": 1746,
+                        "ActionTag": 19980869,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 132.0
+                        },
+                        "Name": "back",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/mbText11.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 1313.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.4511
+                        },
+                        "PreSize": {
+                          "X": 0.1602,
+                          "Y": 0.055
+                        },
+                        "Tag": 1747,
+                        "ActionTag": 45610096,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 173.0,
+                          "Y": 76.0
+                        },
+                        "Name": "title",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "DirectionType": "Vertical",
+                        "InnerNodeSize": {
+                          "Width": 0,
+                          "Height": 0
+                        },
+                        "ScrollDirectionType": "Vertical",
+                        "ClipAble": true,
+                        "BackColorAlpha": 100,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 150
+                        },
+                        "FirstColor": {},
+                        "EndColor": {
+                          "R": 150,
+                          "G": 150
+                        },
+                        "ColorVector": {
+                          "ScaleY": -1.0
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 75.0,
+                          "Y": 230.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4306,
+                          "Y": -0.3331
+                        },
+                        "PreSize": {
+                          "X": 0.8704,
+                          "Y": 0.7241
+                        },
+                        "Tag": 1775,
+                        "Children": [
+                          {
+                            "ClipAble": false,
+                            "BackColorAlpha": 100,
+                            "SingleColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "FirstColor": {},
+                            "EndColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "ColorVector": {
+                              "ScaleY": -1.0
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 1.0,
+                              "Y": 1404.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.88
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.5
+                            },
+                            "Tag": 13428,
+                            "Children": [
+                              {
+                                "FontSize": 40,
+                                "LabelText": "1.充值后金币未到账怎么办？",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 460.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "G": 249,
+                                  "B": 71
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 0.92
+                                },
+                                "PreSize": {
+                                  "X": 0.5457,
+                                  "Y": 0.104
+                                },
+                                "Tag": 13427,
+                                "ActionTag": 7792550,
+                                "IsAutoSize": true,
+                                "Size": {
+                                  "X": 513.0,
+                                  "Y": 52.0
+                                },
+                                "Name": "label_1",
+                                "ctype": "TextObjectData"
+                              },
+                              {
+                                "IsCustomSize": true,
+                                "FontSize": 40,
+                                "LabelText": "游戏中充值购买金币都是立即到账的，如果出现5分钟内未到账的情况，请联系客服QQ号码2045339517反馈你的ID和充值时间，充值金额等，客服核实后将尽快补发，并根据延期到账的时间额外赠送20%~50%金币作为补偿。",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 360.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 0.72
+                                },
+                                "PreSize": {
+                                  "X": 0.9149,
+                                  "Y": 0.64
+                                },
+                                "Tag": 13450,
+                                "ActionTag": 15511217,
+                                "Size": {
+                                  "X": 860.0,
+                                  "Y": 320.0
+                                },
+                                "Name": "label_2",
+                                "ctype": "TextObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Normal",
+                                  "Path": "qietu/tymb/hfengexian.png",
+                                  "Plist": ""
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 470.0,
+                                  "Y": 47.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.5,
+                                  "Y": 0.094
+                                },
+                                "PreSize": {
+                                  "X": 0.883,
+                                  "Y": 0.052
+                                },
+                                "Tag": 13453,
+                                "ActionTag": 613321,
+                                "IsAutoSize": true,
+                                "Size": {
+                                  "X": 830.0,
+                                  "Y": 26.0
+                                },
+                                "Name": "line",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": 38408991,
+                            "Size": {
+                              "X": 940.0,
+                              "Y": 500.0
+                            },
+                            "Name": "panel_1",
+                            "ctype": "PanelObjectData"
+                          },
+                          {
+                            "ClipAble": false,
+                            "BackColorAlpha": 100,
+                            "SingleColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "FirstColor": {},
+                            "EndColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "ColorVector": {
+                              "ScaleY": -1.0
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 2.0,
+                              "Y": 1099.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.38
+                            },
+                            "Tag": 13458,
+                            "Children": [
+                              {
+                                "FontSize": 40,
+                                "LabelText": "2.充值榜奖励的金币如何领取？",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 380.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "G": 249,
+                                  "B": 71
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 1.0
+                                },
+                                "PreSize": {
+                                  "X": 0.5883,
+                                  "Y": 0.1368
+                                },
+                                "Tag": 13459,
+                                "ActionTag": 38406862,
+                                "IsAutoSize": true,
+                                "Size": {
+                                  "X": 553.0,
+                                  "Y": 52.0
+                                },
+                                "Name": "label_1",
+                                "ctype": "TextObjectData"
+                              },
+                              {
+                                "IsCustomSize": true,
+                                "FontSize": 40,
+                                "LabelText": "当日24点名列充值榜前20名的玩家，可以在24点以后，点击昨日充值榜找到自己的名次，在最后一列奖励金币处点击按钮领取奖励。",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 280.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 0.7368
+                                },
+                                "PreSize": {
+                                  "X": 0.9149,
+                                  "Y": 0.5789
+                                },
+                                "Tag": 13460,
+                                "ActionTag": 63752587,
+                                "Size": {
+                                  "X": 860.0,
+                                  "Y": 220.0
+                                },
+                                "Name": "label_2",
+                                "ctype": "TextObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Normal",
+                                  "Path": "qietu/tymb/hfengexian.png",
+                                  "Plist": ""
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 470.0,
+                                  "Y": 47.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.5,
+                                  "Y": 0.1237
+                                },
+                                "PreSize": {
+                                  "X": 0.883,
+                                  "Y": 0.0684
+                                },
+                                "Tag": 13461,
+                                "ActionTag": 36902371,
+                                "IsAutoSize": true,
+                                "Size": {
+                                  "X": 830.0,
+                                  "Y": 26.0
+                                },
+                                "Name": "line",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": 37715266,
+                            "ZOrder": 1,
+                            "Size": {
+                              "X": 940.0,
+                              "Y": 380.0
+                            },
+                            "Name": "panel_2",
+                            "ctype": "PanelObjectData"
+                          },
+                          {
+                            "ClipAble": false,
+                            "BackColorAlpha": 100,
+                            "SingleColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "FirstColor": {},
+                            "EndColor": {
+                              "R": 150,
+                              "G": 200
+                            },
+                            "ColorVector": {
+                              "ScaleY": -1.0
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": -1063.0,
+                              "Y": 1575.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.5
+                            },
+                            "Tag": 13462,
+                            "Children": [
+                              {
+                                "FontSize": 40,
+                                "LabelText": "3.为什么有时候下注了没有获得奖励？",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 500.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "G": 249,
+                                  "B": 71
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 1.0
+                                },
+                                "PreSize": {
+                                  "X": 0.716,
+                                  "Y": 0.104
+                                },
+                                "Tag": 13463,
+                                "ActionTag": 45841223,
+                                "IsAutoSize": true,
+                                "Size": {
+                                  "X": 673.0,
+                                  "Y": 52.0
+                                },
+                                "Name": "label_1",
+                                "ctype": "TextObjectData"
+                              },
+                              {
+                                "IsCustomSize": true,
+                                "FontSize": 40,
+                                "LabelText": "我们的游戏是网络游戏，是否成功下注以服务器收到的下注信息为准，如果手机网络情况不佳，或者在倒计时最后3秒内下注，有可能倒计时结束前服务器未收到，这种情况下不会扣除下注金币，也不会获得奖励金币，请在较好的网络情况下进行游戏。",
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 1.0
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 400.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.0213,
+                                  "Y": 0.8
+                                },
+                                "PreSize": {
+                                  "X": 0.9149,
+                                  "Y": 0.72
+                                },
+                                "Tag": 13464,
+                                "ActionTag": 9917829,
+                                "Size": {
+                                  "X": 860.0,
+                                  "Y": 360.0
+                                },
+                                "Name": "label_2",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 20006550,
+                            "ZOrder": 2,
+                            "Size": {
+                              "X": 940.0,
+                              "Y": 500.0
+                            },
+                            "Name": "panel_3",
+                            "ctype": "PanelObjectData"
+                          }
+                        ],
+                        "ActionTag": 41410648,
+                        "Size": {
+                          "X": 940.0,
+                          "Y": 1000.0
+                        },
+                        "Name": "list",
+                        "ctype": "ListViewObjectData"
+                      },
+                      {
+                        "ClipAble": true,
+                        "BackColorAlpha": 100,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {},
+                        "EndColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "ColorVector": {
+                          "ScaleY": -1.0
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 409.0,
+                          "Y": 113.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1213,
+                          "Y": -0.4178
+                        },
+                        "PreSize": {
+                          "X": 0.2222,
+                          "Y": 0.0724
+                        },
+                        "Tag": 13423,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "qietu/tymb/mbText12.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 232.5,
+                              "Y": 50.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.9688,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.8542,
+                              "Y": 0.63
+                            },
+                            "Tag": 1751,
+                            "ActionTag": 12898672,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 445.0,
+                              "Y": 63.0
+                            },
+                            "Name": "bottom",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 40499673,
+                        "Size": {
+                          "X": 240.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Panel_30",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "CharWidth": 37,
+                        "CharHeight": 43,
+                        "LabelText": "2045339517",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "num01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 830.0,
+                          "Y": 165.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2685,
+                          "Y": -0.3802
+                        },
+                        "PreSize": {
+                          "X": 0.3426,
+                          "Y": 0.0311
+                        },
+                        "Tag": 13424,
+                        "ActionTag": 44240399,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 370.0,
+                          "Y": 43.0
+                        },
+                        "Name": "AtlasLabel_31",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 59899000,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 1381.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 26989006,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 1500.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1318.0,
+                  "Y": 1194.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2204,
+                  "Y": 0.6219
+                },
+                "PreSize": {
+                  "X": 0.0741,
+                  "Y": 0.0417
+                },
+                "Tag": 1749,
+                "Children": [
+                  {
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 64.0,
+                      "Y": 18.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3,
+                      "Y": -0.275
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 1750,
+                    "ActionTag": 17643533,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "scroll_bar",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 9416933,
+                "IsAutoSize": true,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "scroll_bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Panel_15",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "UiEntity9196329",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "num01.png",
+        "qietu/tymb/daBox.png",
+        "qietu/tymb/guanbiBt01.png",
+        "qietu/tymb/guanbiBt02.png",
+        "qietu/tymb/hfengexian.png",
+        "qietu/tymb/mbText11.png",
+        "qietu/tymb/mbText12.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

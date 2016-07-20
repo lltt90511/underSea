@@ -1,0 +1,4993 @@
+{
+  "ID": "268a8be4-a463-47b8-9ee4-06124c83d0ec",
+  "Version": "3.10.0.0",
+  "Name": "Rank",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {},
+            "EndColor": {
+              "R": 150,
+              "G": 200
+            },
+            "ColorVector": {
+              "ScaleY": -1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 692,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 219.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1141
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.7495
+                },
+                "Tag": 693,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/zsbg.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 520,
+                    "Scale9OriginY": 400,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 1437.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.9986
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9138
+                    },
+                    "Tag": 694,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/zmBar.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 914.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": -0.3049
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.057
+                        },
+                        "Tag": 696,
+                        "Children": [
+                          {
+                            "FontSize": 35,
+                            "LabelText": "登顶充值帮，x10倍奖励送；上榜均有将！",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 553.0,
+                              "Y": 34.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 233,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.512,
+                              "Y": 0.4533
+                            },
+                            "PreSize": {
+                              "X": 0.6065,
+                              "Y": 0.6133
+                            },
+                            "Tag": 706,
+                            "ActionTag": 16474136,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 655.0,
+                              "Y": 46.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 32403871,
+                        "ZOrder": 2,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 1080.0,
+                          "Y": 75.0
+                        },
+                        "Name": "topTip",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/type02.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/type02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/type01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 131.0,
+                          "Y": 1032.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1213,
+                          "Y": -0.2152
+                        },
+                        "PreSize": {
+                          "X": 0.2454,
+                          "Y": 0.07
+                        },
+                        "Tag": 699,
+                        "Children": [
+                          {
+                            "FontSize": 40,
+                            "LabelText": "充值榜",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 122.0,
+                              "Y": 44.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 3,
+                              "G": 3,
+                              "B": 3
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -0.0377,
+                              "Y": -0.0217
+                            },
+                            "PreSize": {
+                              "X": 0.4528,
+                              "Y": 0.5652
+                            },
+                            "Tag": 705,
+                            "ActionTag": 4637512,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 120.0,
+                              "Y": 52.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 48279530,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 265.0,
+                          "Y": 92.0
+                        },
+                        "Name": "tab",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/guanbiBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1013.0,
+                          "Y": 851.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.938,
+                          "Y": -0.3529
+                        },
+                        "PreSize": {
+                          "X": 0.1222,
+                          "Y": 0.1004
+                        },
+                        "Tag": 701,
+                        "ActionTag": 31944712,
+                        "ZOrder": 15,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 132.0
+                        },
+                        "Name": "back",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/smBar.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": -137.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": -1.1042
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.1141
+                        },
+                        "Tag": 695,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 35,
+                            "LabelText": "每天五点更新嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻详详细细嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 533.0,
+                              "Y": 74.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 233,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4935,
+                              "Y": 0.4933
+                            },
+                            "PreSize": {
+                              "X": 0.9259,
+                              "Y": 0.6667
+                            },
+                            "Tag": 707,
+                            "ActionTag": 35099270,
+                            "Size": {
+                              "X": 1000.0,
+                              "Y": 100.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 27078366,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 1080.0,
+                          "Y": 150.0
+                        },
+                        "Name": "bottomTip",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/czbIcon02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/czbIcon01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 181.0,
+                          "Y": 1194.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1676,
+                          "Y": -0.092
+                        },
+                        "PreSize": {
+                          "X": 0.1537,
+                          "Y": 0.1186
+                        },
+                        "Tag": 703,
+                        "ActionTag": 43082746,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 166.0,
+                          "Y": 156.0
+                        },
+                        "Name": "charge",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fhbIcon02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fhbIcon01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 431.0,
+                          "Y": 1194.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3991,
+                          "Y": -0.092
+                        },
+                        "PreSize": {
+                          "X": 0.138,
+                          "Y": 0.1186
+                        },
+                        "Tag": 704,
+                        "ActionTag": 17055867,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 149.0,
+                          "Y": 156.0
+                        },
+                        "Name": "vip",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/btBar.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 538.0,
+                          "Y": 855.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4981,
+                          "Y": -0.3498
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.0928
+                        },
+                        "Tag": 721,
+                        "ActionTag": 57148047,
+                        "ZOrder": 10,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 1080.0,
+                          "Y": 122.0
+                        },
+                        "Name": "topPos",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "InnerNodeSize": {
+                          "Width": 1080,
+                          "Height": 1200
+                        },
+                        "ScrollDirectionType": "Vertical",
+                        "ClipAble": false,
+                        "BackColorAlpha": 100,
+                        "SingleColor": {
+                          "G": 150,
+                          "B": 100
+                        },
+                        "FirstColor": {},
+                        "EndColor": {
+                          "G": 150,
+                          "B": 100
+                        },
+                        "ColorVector": {
+                          "ScaleY": -1.0
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": -0.9947
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.597
+                        },
+                        "ActionTag": 60917597,
+                        "ZOrder": 10,
+                        "Size": {
+                          "X": 1080.0,
+                          "Y": 785.0
+                        },
+                        "Name": "listView",
+                        "ctype": "ScrollViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 28050156,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 1315.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 35585749,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 1439.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1568.0,
+                  "Y": 1484.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.4519,
+                  "Y": 0.7729
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 731,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 700,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 722,
+                        "ActionTag": 20672036,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 605.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0602,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 724,
+                        "ActionTag": 64773314,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 805.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2454,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 725,
+                        "ActionTag": 11004979,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 726,
+                        "ActionTag": 38363592,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 84.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4222,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 727,
+                        "ActionTag": 48391387,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 395.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1343,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0926,
+                          "Y": 0.4344
+                        },
+                        "Tag": 728,
+                        "ActionTag": 25038435,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_36",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext03.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 705.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1528,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1824,
+                          "Y": 0.4344
+                        },
+                        "Tag": 729,
+                        "ActionTag": 40060537,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 197.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_37",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext04.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 915.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3472,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1787,
+                          "Y": 0.4344
+                        },
+                        "Tag": 730,
+                        "ActionTag": 64963002,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 193.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_38",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 8786980,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 709,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 710,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 711,
+                            "ActionTag": 52694795,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 58907549,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 712,
+                        "ActionTag": 3911321,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 255.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2639,
+                          "Y": 0.0048
+                        },
+                        "PreSize": {
+                          "X": 0.1111,
+                          "Y": 0.5797
+                        },
+                        "Tag": 713,
+                        "ActionTag": 25058084,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 120.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "名字八个字才牛逼",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 134.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2037,
+                          "Y": 0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.2222
+                        },
+                        "Tag": 714,
+                        "ActionTag": 22776429,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 46.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "ID:8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5208
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2037,
+                          "Y": -0.1836
+                        },
+                        "PreSize": {
+                          "X": 0.1778,
+                          "Y": 0.2222
+                        },
+                        "Tag": 715,
+                        "ActionTag": 14394440,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 46.0
+                        },
+                        "Name": "id",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 605.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0602,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 716,
+                        "ActionTag": 54594702,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_24",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 705.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1528,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1491,
+                          "Y": 0.2512
+                        },
+                        "Tag": 717,
+                        "ActionTag": 3926249,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 161.0,
+                          "Y": 52.0
+                        },
+                        "Name": "charge_num",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 805.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2454,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 718,
+                        "ActionTag": 23988898,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_26",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "30000万",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 915.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 233,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3472,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1296,
+                          "Y": 0.2222
+                        },
+                        "Tag": 719,
+                        "ActionTag": 51333607,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 46.0
+                        },
+                        "Name": "gift",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1528714,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 52961587,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "charge",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1585.0,
+                  "Y": 972.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.4676,
+                  "Y": 0.5063
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 753,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 754,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 755,
+                        "ActionTag": 35223860,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 667.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1176,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 756,
+                        "ActionTag": 48579290,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 758,
+                        "ActionTag": 42608451,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 91.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4157,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 759,
+                        "ActionTag": 5216984,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 421.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1102,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0926,
+                          "Y": 0.4344
+                        },
+                        "Tag": 760,
+                        "ActionTag": 46952860,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_36",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext06.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 880.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3148,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1806,
+                          "Y": 0.4262
+                        },
+                        "Tag": 774,
+                        "ActionTag": 17147668,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 195.0,
+                          "Y": 52.0
+                        },
+                        "Name": "Image_82",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 11370302,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 763,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 764,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 765,
+                            "ActionTag": 56156718,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 50978878,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 766,
+                        "ActionTag": 1840394,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 271.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2491,
+                          "Y": 0.0048
+                        },
+                        "PreSize": {
+                          "X": 0.1111,
+                          "Y": 0.5797
+                        },
+                        "Tag": 767,
+                        "ActionTag": 16563553,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 120.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "名字八个字才牛逼",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 358.0,
+                          "Y": 134.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1685,
+                          "Y": 0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.2222
+                        },
+                        "Tag": 768,
+                        "ActionTag": 14854251,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 46.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "ID:8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5208
+                        },
+                        "Position": {
+                          "X": 357.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1694,
+                          "Y": -0.1836
+                        },
+                        "PreSize": {
+                          "X": 0.1778,
+                          "Y": 0.2222
+                        },
+                        "Tag": 769,
+                        "ActionTag": 66579403,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 46.0
+                        },
+                        "Name": "id",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 666.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1167,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 770,
+                        "ActionTag": 62343721,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_24",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/text/textC01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 842.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2796,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0824,
+                          "Y": 0.2126
+                        },
+                        "Tag": 775,
+                        "ActionTag": 16818559,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 89.0,
+                          "Y": 44.0
+                        },
+                        "Name": "Image_83",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "CharWidth": 32,
+                        "CharHeight": 44,
+                        "LabelText": "10",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "qietu/text/vipNum.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 894.0,
+                          "Y": 105.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3278,
+                          "Y": 0.0097
+                        },
+                        "PreSize": {
+                          "X": 0.0593,
+                          "Y": 0.2126
+                        },
+                        "Tag": 776,
+                        "ActionTag": 49063522,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 64.0,
+                          "Y": 44.0
+                        },
+                        "Name": "vipLv",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 28033941,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 16176447,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "vip",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1593.0,
+                  "Y": 6.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.475,
+                  "Y": 0.0031
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 795,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 796,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 797,
+                        "ActionTag": 38634445,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 799,
+                        "ActionTag": 42382327,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 91.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4157,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 800,
+                        "ActionTag": 45896629,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext05.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 581.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.038,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1815,
+                          "Y": 0.4344
+                        },
+                        "Tag": 802,
+                        "ActionTag": 26639479,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 196.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_82",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 5447995,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 803,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 804,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 805,
+                            "ActionTag": 30145001,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 25719065,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 806,
+                        "ActionTag": 31107635,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "4万*充值金额",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 586.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0426,
+                          "Y": -0.0145
+                        },
+                        "PreSize": {
+                          "X": 0.2231,
+                          "Y": 0.2512
+                        },
+                        "Tag": 813,
+                        "ActionTag": 44792072,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 52.0
+                        },
+                        "Name": "gift",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 10314214,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 33373583,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "chargeGift",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1593.0,
+                  "Y": 522.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.475,
+                  "Y": 0.2719
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 831,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 832,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 833,
+                        "ActionTag": 46098827,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 667.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1176,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 834,
+                        "ActionTag": 12236263,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 835,
+                        "ActionTag": 43017511,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 91.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4157,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 836,
+                        "ActionTag": 51613283,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 421.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1102,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0926,
+                          "Y": 0.4344
+                        },
+                        "Tag": 837,
+                        "ActionTag": 61866363,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_36",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext07.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 873.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3083,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1815,
+                          "Y": 0.4344
+                        },
+                        "Tag": 838,
+                        "ActionTag": 19926362,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 196.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_82",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 27491713,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 839,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 840,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 841,
+                            "ActionTag": 30803822,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 3422646,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 842,
+                        "ActionTag": 8798943,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 271.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2491,
+                          "Y": 0.0048
+                        },
+                        "PreSize": {
+                          "X": 0.1111,
+                          "Y": 0.5797
+                        },
+                        "Tag": 843,
+                        "ActionTag": 12081628,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 120.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "名字八个字才牛逼",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 358.0,
+                          "Y": 134.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1685,
+                          "Y": 0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.2222
+                        },
+                        "Tag": 844,
+                        "ActionTag": 41625788,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 46.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "ID:8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5208
+                        },
+                        "Position": {
+                          "X": 357.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1694,
+                          "Y": -0.1836
+                        },
+                        "PreSize": {
+                          "X": 0.1778,
+                          "Y": 0.2222
+                        },
+                        "Tag": 845,
+                        "ActionTag": 39087778,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 46.0
+                        },
+                        "Name": "id",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 666.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1167,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 846,
+                        "ActionTag": 16245686,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_24",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "30000000万",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 872.0,
+                          "Y": 105.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3074,
+                          "Y": 0.0097
+                        },
+                        "PreSize": {
+                          "X": 0.188,
+                          "Y": 0.2222
+                        },
+                        "Tag": 847,
+                        "ActionTag": 11993449,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 203.0,
+                          "Y": 46.0
+                        },
+                        "Name": "gold",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 45119536,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 25424256,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "gold",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -1395.0,
+                  "Y": 2111.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.2917,
+                  "Y": 1.0995
+                },
+                "PreSize": {
+                  "X": 0.0741,
+                  "Y": 0.0417
+                },
+                "Tag": 1201,
+                "Children": [
+                  {
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.0,
+                      "Y": 21.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0875,
+                      "Y": -0.2375
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 1202,
+                    "ActionTag": 35889231,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "scroll_bar",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 63598297,
+                "IsAutoSize": true,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "scroll_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1610.0,
+                  "Y": 1899.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.4907,
+                  "Y": 0.9891
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 1224,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 1225,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 1226,
+                        "ActionTag": 25523548,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 605.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0602,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 1227,
+                        "ActionTag": 28385340,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 805.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2454,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 1228,
+                        "ActionTag": 54141475,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 1229,
+                        "ActionTag": 17511233,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 84.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4222,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 1230,
+                        "ActionTag": 23383375,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 395.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1343,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0926,
+                          "Y": 0.4344
+                        },
+                        "Tag": 1231,
+                        "ActionTag": 9123791,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_36",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext03.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 705.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1528,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1824,
+                          "Y": 0.4344
+                        },
+                        "Tag": 1232,
+                        "ActionTag": 15005256,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 197.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_37",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext05.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 915.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3472,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1815,
+                          "Y": 0.4344
+                        },
+                        "Tag": 1233,
+                        "ActionTag": 829581,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 196.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_38",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 47575192,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 1234,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 1235,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 1236,
+                            "ActionTag": 784831,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 87203,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 1237,
+                        "ActionTag": 7063482,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 255.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2639,
+                          "Y": 0.0048
+                        },
+                        "PreSize": {
+                          "X": 0.1111,
+                          "Y": 0.5797
+                        },
+                        "Tag": 1238,
+                        "ActionTag": 63571341,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 120.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "名字八个字才牛逼",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 134.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2037,
+                          "Y": 0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.2222
+                        },
+                        "Tag": 1239,
+                        "ActionTag": 35271161,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 46.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "ID:8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5208
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2037,
+                          "Y": -0.1836
+                        },
+                        "PreSize": {
+                          "X": 0.1778,
+                          "Y": 0.2222
+                        },
+                        "Tag": 1240,
+                        "ActionTag": 49005000,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 46.0
+                        },
+                        "Name": "id",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 605.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0602,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 1241,
+                        "ActionTag": 38391817,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_24",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 40,
+                        "LabelText": "8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 705.0,
+                          "Y": 123.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1528,
+                          "Y": 0.0966
+                        },
+                        "PreSize": {
+                          "X": 0.1491,
+                          "Y": 0.2512
+                        },
+                        "Tag": 1242,
+                        "ActionTag": 9982039,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 161.0,
+                          "Y": 52.0
+                        },
+                        "Name": "charge_num",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 805.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2454,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 1243,
+                        "ActionTag": 22729490,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_26",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "30000万",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 915.0,
+                          "Y": 123.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 233,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3472,
+                          "Y": 0.0966
+                        },
+                        "PreSize": {
+                          "X": 0.1296,
+                          "Y": 0.2222
+                        },
+                        "Tag": 1244,
+                        "ActionTag": 3238819,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 46.0
+                        },
+                        "Name": "gift",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/changBt02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/tymb/changBt01.png",
+                          "Plist": ""
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 915.0,
+                          "Y": 53.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3472,
+                          "Y": -0.2415
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.4396
+                        },
+                        "Tag": 5886,
+                        "Children": [
+                          {
+                            "FontSize": 40,
+                            "LabelText": "领取金币",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 140.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 103,
+                              "G": 45,
+                              "B": 25
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.5714,
+                              "Y": 0.5714
+                            },
+                            "Tag": 5887,
+                            "ActionTag": 4763029,
+                            "ZOrder": 1,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 160.0,
+                              "Y": 52.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 40,
+                            "LabelText": "领取金币",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 140.0,
+                              "Y": 43.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 236,
+                              "B": 130
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": -0.022
+                            },
+                            "PreSize": {
+                              "X": 0.5714,
+                              "Y": 0.5714
+                            },
+                            "Tag": 5888,
+                            "ActionTag": 44617570,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 160.0,
+                              "Y": 52.0
+                            },
+                            "Name": "text_shadow",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 60119179,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 91.0
+                        },
+                        "Name": "get",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 7466229,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 22526938,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "charge_yes",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 100,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {},
+                "EndColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "ColorVector": {
+                  "ScaleY": -1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1563.0,
+                  "Y": 2281.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.4472,
+                  "Y": 1.188
+                },
+                "PreSize": {
+                  "X": 0.1852,
+                  "Y": 0.1042
+                },
+                "Tag": 14412,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/btBar.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 171.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.855
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 0.61
+                    },
+                    "Tag": 14413,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 58.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": -0.0246
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 14414,
+                        "ActionTag": 18211904,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 667.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1176,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 14415,
+                        "ActionTag": 29689414,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 186.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3278,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 1.5902
+                        },
+                        "Tag": 14416,
+                        "ActionTag": 65878138,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_30_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 91.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4157,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0917,
+                          "Y": 0.4344
+                        },
+                        "Tag": 14417,
+                        "ActionTag": 56032333,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_35",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 421.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1102,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0926,
+                          "Y": 0.4344
+                        },
+                        "Tag": 14418,
+                        "ActionTag": 34528952,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Image_36",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/pmtext07.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 873.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3083,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1815,
+                          "Y": 0.4344
+                        },
+                        "Tag": 14419,
+                        "ActionTag": 42325116,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 196.0,
+                          "Y": 53.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "Image_82",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 36,
+                        "LabelText": "单局赢币",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 870.0,
+                          "Y": 61.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 196,
+                          "B": 16
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3056,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.1333,
+                          "Y": 0.377
+                        },
+                        "Tag": 14429,
+                        "ActionTag": 51866019,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 144.0,
+                          "Y": 46.0
+                        },
+                        "Name": "Label_40",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 54219328,
+                    "ZOrder": 10,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 122.0
+                    },
+                    "Name": "top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "qietu/paiming/tiaomuBar.png",
+                      "Plist": ""
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.065,
+                      "Y": 0.025
+                    },
+                    "PreSize": {
+                      "X": 5.4,
+                      "Y": 1.035
+                    },
+                    "Tag": 14420,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/quan.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 99.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.4194,
+                          "Y": -0.0193
+                        },
+                        "PreSize": {
+                          "X": 0.0944,
+                          "Y": 0.5072
+                        },
+                        "Tag": 14421,
+                        "Children": [
+                          {
+                            "FontSize": 45,
+                            "LabelText": "4",
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 51.0,
+                              "Y": 52.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.2549,
+                              "Y": 0.5524
+                            },
+                            "Tag": 14422,
+                            "ActionTag": 52041570,
+                            "IsAutoSize": true,
+                            "Size": {
+                              "X": 26.0,
+                              "Y": 58.0
+                            },
+                            "Name": "text",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 5782396,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 102.0,
+                          "Y": 105.0
+                        },
+                        "Name": "rank",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.3407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0306,
+                          "Y": 0.9758
+                        },
+                        "Tag": 14423,
+                        "ActionTag": 65720949,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 202.0
+                        },
+                        "Name": "Image_20",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 271.0,
+                          "Y": 104.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2491,
+                          "Y": 0.0048
+                        },
+                        "PreSize": {
+                          "X": 0.1111,
+                          "Y": 0.5797
+                        },
+                        "Tag": 14424,
+                        "ActionTag": 54617630,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 120.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "名字八个字才牛逼",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 358.0,
+                          "Y": 134.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1685,
+                          "Y": 0.1498
+                        },
+                        "PreSize": {
+                          "X": 0.2593,
+                          "Y": 0.2222
+                        },
+                        "Tag": 14425,
+                        "ActionTag": 21796622,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 46.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "ID:8888888",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5208
+                        },
+                        "Position": {
+                          "X": 357.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.1694,
+                          "Y": -0.1836
+                        },
+                        "PreSize": {
+                          "X": 0.1778,
+                          "Y": 0.2222
+                        },
+                        "Tag": 14426,
+                        "ActionTag": 61951870,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 46.0
+                        },
+                        "Name": "id",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/paiming/fenge01.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 666.0,
+                          "Y": 103.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1167,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0037,
+                          "Y": 0.9372
+                        },
+                        "Tag": 14427,
+                        "ActionTag": 17820427,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 4.0,
+                          "Y": 194.0
+                        },
+                        "Name": "Image_24",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 35,
+                        "LabelText": "30000000万",
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 872.0,
+                          "Y": 105.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3074,
+                          "Y": 0.0097
+                        },
+                        "PreSize": {
+                          "X": 0.188,
+                          "Y": 0.2222
+                        },
+                        "Tag": 14428,
+                        "ActionTag": 26166122,
+                        "IsAutoSize": true,
+                        "Size": {
+                          "X": 203.0,
+                          "Y": 46.0
+                        },
+                        "Name": "gold",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 45381731,
+                    "IsAutoSize": true,
+                    "Size": {
+                      "X": 1080.0,
+                      "Y": 207.0
+                    },
+                    "Name": "tmp",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 35850531,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "winGold",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Panel_76",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "UiEntity63243911",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "qietu/paiming/btBar.png",
+        "qietu/paiming/czbIcon01.png",
+        "qietu/paiming/czbIcon02.png",
+        "qietu/paiming/fenge01.png",
+        "qietu/paiming/fenge02.png",
+        "qietu/paiming/fhbIcon01.png",
+        "qietu/paiming/fhbIcon02.png",
+        "qietu/paiming/pmtext01.png",
+        "qietu/paiming/pmtext02.png",
+        "qietu/paiming/pmtext03.png",
+        "qietu/paiming/pmtext04.png",
+        "qietu/paiming/pmtext05.png",
+        "qietu/paiming/pmtext06.png",
+        "qietu/paiming/pmtext07.png",
+        "qietu/paiming/quan.png",
+        "qietu/paiming/smBar.png",
+        "qietu/paiming/tiaomuBar.png",
+        "qietu/paiming/type01.png",
+        "qietu/paiming/type02.png",
+        "qietu/paiming/zmBar.png",
+        "qietu/paiming/zsbg.png",
+        "qietu/text/textC01.png",
+        "qietu/text/vipNum.png",
+        "qietu/tymb/changBt01.png",
+        "qietu/tymb/changBt02.png",
+        "qietu/tymb/guanbiBt01.png",
+        "qietu/tymb/guanbiBt02.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
