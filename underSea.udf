@@ -1,16 +1,5 @@
 <UserData Version="3.10.0.0">
   <Properties>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="start.csd" />
-          <FilePathData Path="main_scene.csd" />
-          <FilePathData Path="binding.csd" />
-          <FilePathData Path="fish_machine.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="fish_machine.csd" />
-      </Value>
-    </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
