@@ -1,7 +1,7 @@
 {
     "project_type": "javascript",
 
-    "debugMode" : 1,
+    "debugMode" : 0,
     "showFPS" : false,
     "frameRate" : 60,
     "noCache" : false,
@@ -9,13 +9,20 @@
     "renderMode" : 0,
     "engineDir":"frameworks/cocos2d-html5",
 
-    "modules" : ["cocos2d", "cocostudio"],
+    "modules" : ["cocos2d", "cocostudio", "extensions"],
 
     "jsList" : [
         "src/resource.js",
+        "src/network.js",
         "src/start.js",
         "src/main.js",
         "src/public.js",
-        "src/sliderView.js"
+        "src/sliderView.js",
+        "src/about.js",
+        "src/binding.js",
+        "src/alert.js",
+        "src/fish.js",
+        "src/commonTop.js",
+        "src/chat.js"
     ]
 }

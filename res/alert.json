@@ -31,6 +31,8 @@
             "ColorVector": {
               "ScaleY": 1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -95,6 +97,11 @@
                     "IsCustomSize": true,
                     "FontSize": 45,
                     "LabelText": "未知错误",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "HorizontalAlignmentType": "HT_Center",
                     "VerticalAlignmentType": "VT_Center",
                     "OutlineColor": {
@@ -207,7 +214,7 @@
                       "Y": 0.1413
                     },
                     "LeftMargin": 159.9997,
-                    "RightMargin": 640.0002,
+                    "RightMargin": 640.0003,
                     "TopMargin": 358.5002,
                     "BottomMargin": 194.4998,
                     "Tag": 182,
@@ -215,6 +222,11 @@
                       {
                         "FontSize": 40,
                         "LabelText": "确定",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -224,7 +236,7 @@
                           "B": 130
                         },
                         "ShadowOffsetX": 0.0,
-                        "ShadowOffsetY": 2.0,
+                        "ShadowOffsetY": -2.0,
                         "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
@@ -251,18 +263,18 @@
                           "Y": 0.5
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.4396
+                          "X": 0.2964,
+                          "Y": 0.5604
                         },
-                        "LeftMargin": 100.0,
-                        "RightMargin": 100.0,
-                        "TopMargin": 25.5,
-                        "BottomMargin": 25.5,
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 20.0,
+                        "BottomMargin": 20.0,
                         "Tag": 183,
                         "ActionTag": -282528579,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 40.0
+                          "X": 83.0,
+                          "Y": 51.0
                         },
                         "Name": "text",
                         "ctype": "TextObjectData"
@@ -347,6 +359,11 @@
                       {
                         "FontSize": 40,
                         "LabelText": "取消",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -356,7 +373,7 @@
                           "B": 130
                         },
                         "ShadowOffsetX": 0.0,
-                        "ShadowOffsetY": 2.0,
+                        "ShadowOffsetY": -2.0,
                         "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
@@ -383,18 +400,18 @@
                           "Y": 0.5
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.4396
+                          "X": 0.2929,
+                          "Y": 0.5604
                         },
-                        "LeftMargin": 100.0,
-                        "RightMargin": 100.0,
-                        "TopMargin": 25.5,
-                        "BottomMargin": 25.5,
+                        "LeftMargin": 99.0,
+                        "RightMargin": 99.0,
+                        "TopMargin": 20.0,
+                        "BottomMargin": 20.0,
                         "Tag": 185,
                         "ActionTag": 65897963,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 40.0
+                          "X": 82.0,
+                          "Y": 51.0
                         },
                         "Name": "text",
                         "ctype": "TextObjectData"
@@ -436,6 +453,7 @@
       },
       "UsedResources": [
         "Default/Button_Disable.png",
+        "Microsoft YaHei UI Bold.ttf",
         "qietu/tymb/changBt01.png",
         "qietu/tymb/changBt02.png",
         "qietu/tymb/xiaoBox.png"

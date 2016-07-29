@@ -28,27 +28,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_1.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="62919310" ZOrder="1" Tag="14775" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x50" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="62919310" ZOrder="1" Tag="14775" IconVisible="False" LeftMargin="33.5000" RightMargin="34.5000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x50" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="61.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="39809079" VisibleForFrame="False" Tag="19900" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x50" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.4729" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="38305344" ZOrder="1" Tag="19945" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -82,8 +72,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bet_2" ActionTag="25096285" Tag="19907" IconVisible="False" LeftMargin="134.5000" RightMargin="524.5000" TopMargin="7.0000" BottomMargin="7.0000" TouchEnable="True" FontSize="14" Scale9Width="129" Scale9Height="150" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="129.0000" Y="150.0000" />
@@ -98,27 +88,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_2.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="19533241" ZOrder="1" Tag="19909" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="19533241" ZOrder="1" Tag="19909" IconVisible="False" LeftMargin="33.5000" RightMargin="34.5000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x20" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="61.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="41581441" VisibleForFrame="False" Tag="19910" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.4729" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="55848677" ZOrder="1" Tag="19948" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -152,8 +132,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bet_3" ActionTag="25655453" Tag="19913" IconVisible="False" LeftMargin="264.5000" RightMargin="394.5000" TopMargin="7.0000" BottomMargin="7.0000" TouchEnable="True" FontSize="14" Scale9Width="129" Scale9Height="150" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="129.0000" Y="150.0000" />
@@ -168,27 +148,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_3.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="11213353" ZOrder="1" Tag="19915" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x10" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="11213353" ZOrder="1" Tag="19915" IconVisible="False" LeftMargin="33.5000" RightMargin="34.5000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x10" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="61.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="19495844" VisibleForFrame="False" Tag="19916" IconVisible="False" LeftMargin="40.0000" RightMargin="41.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x10" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="48.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.3721" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.4729" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="66607698" ZOrder="1" Tag="19952" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -222,8 +192,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bet_4" ActionTag="9168838" Tag="19919" IconVisible="False" LeftMargin="394.5000" RightMargin="264.5000" TopMargin="7.0000" BottomMargin="7.0000" TouchEnable="True" FontSize="14" Scale9Width="129" Scale9Height="150" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="129.0000" Y="150.0000" />
@@ -238,27 +208,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_4.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="4478408" ZOrder="1" Tag="19921" IconVisible="False" LeftMargin="48.0000" RightMargin="49.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="32.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="4478408" ZOrder="1" Tag="19921" IconVisible="False" LeftMargin="44.0000" RightMargin="45.0000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x5" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="40.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.2481" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="40305674" VisibleForFrame="False" Tag="19922" IconVisible="False" LeftMargin="48.0000" RightMargin="49.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="32.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.2481" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.3101" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="15369632" ZOrder="1" Tag="19956" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -292,8 +252,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bet_5" ActionTag="34539789" Tag="19925" IconVisible="False" LeftMargin="524.5000" RightMargin="134.5000" TopMargin="7.0000" BottomMargin="7.0000" TouchEnable="True" FontSize="14" Scale9Width="129" Scale9Height="150" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="129.0000" Y="150.0000" />
@@ -308,27 +268,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_5.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="46259511" ZOrder="1" Tag="19927" IconVisible="False" LeftMargin="32.0000" RightMargin="33.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="64.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="46259511" ZOrder="1" Tag="19927" IconVisible="False" LeftMargin="29.5000" RightMargin="30.5000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="69.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.4961" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="13682421" VisibleForFrame="False" Tag="19928" IconVisible="False" LeftMargin="32.0000" RightMargin="33.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="64.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.4961" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.5349" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="40075035" ZOrder="1" Tag="19960" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -362,8 +312,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bet_6" ActionTag="11126844" Tag="19931" IconVisible="False" LeftMargin="654.5000" RightMargin="4.5000" TopMargin="7.0000" BottomMargin="7.0000" TouchEnable="True" FontSize="14" Scale9Width="129" Scale9Height="150" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="129.0000" Y="150.0000" />
@@ -378,27 +328,17 @@
                             <PreSize X="0.9922" Y="0.6533" />
                             <FileData Type="Normal" Path="qietu/fish/bet_6.png" Plist="" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="8706999" ZOrder="1" Tag="19933" IconVisible="False" LeftMargin="32.0000" RightMargin="33.0000" TopMargin="108.5000" BottomMargin="8.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="64.0000" Y="33.0000" />
+                          <AbstractNodeData Name="num" ActionTag="8706999" ZOrder="1" Tag="19933" IconVisible="False" LeftMargin="29.5000" RightMargin="30.5000" TopMargin="104.5000" BottomMargin="4.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="69.0000" Y="41.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="64.0000" Y="25.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.4961" Y="0.1667" />
-                            <PreSize X="0.4961" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
-                          </AbstractNodeData>
-                          <AbstractNodeData Name="num_shadow" ActionTag="16983646" VisibleForFrame="False" Tag="19934" IconVisible="False" LeftMargin="32.0000" RightMargin="33.0000" TopMargin="109.5000" BottomMargin="7.5000" FontSize="32" LabelText="x1.5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="64.0000" Y="33.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <Position X="64.0000" Y="24.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <PrePosition X="0.4961" Y="0.1600" />
-                            <PreSize X="0.4961" Y="0.2200" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.5349" Y="0.2733" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                           <AbstractNodeData Name="mask" ActionTag="47623473" ZOrder="1" Tag="19964" IconVisible="False" LeftMargin="-0.5000" RightMargin="0.5000" TopMargin="0.5000" BottomMargin="0.5000" TouchEnable="True" Scale9Width="129" Scale9Height="149" ctype="ImageViewObjectData">
                             <Size X="129.0000" Y="149.0000" />
@@ -432,8 +372,8 @@
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -450,27 +390,29 @@
                       <AbstractNodeData Name="btn_1" ActionTag="41341165" Tag="19875" IconVisible="False" LeftMargin="4.0000" RightMargin="128.0000" TopMargin="5.0000" BottomMargin="82.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="47698421" Tag="19878" IconVisible="False" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="玫瑰" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="60.0000" Y="30.0000" />
+                          <AbstractNodeData Name="text" ActionTag="47698421" Tag="19878" IconVisible="False" LeftMargin="29.5000" RightMargin="29.5000" TopMargin="-1.0000" BottomMargin="39.0000" FontSize="30" LabelText="玫瑰" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="63.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.4918" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.5164" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="52988976" Tag="21943" IconVisible="False" LeftMargin="38.5000" RightMargin="38.5000" TopMargin="43.0000" BottomMargin="3.0000" FontSize="30" LabelText="100" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="45.0000" Y="30.0000" />
+                          <AbstractNodeData Name="num" ActionTag="52988976" Tag="21943" IconVisible="False" LeftMargin="31.5000" RightMargin="31.5000" TopMargin="39.0000" BottomMargin="-1.0000" FontSize="30" LabelText="100" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="59.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="18.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.2368" />
-                            <PreSize X="0.3689" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.4836" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -483,33 +425,35 @@
                         <DisabledFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet_btn_1.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="btn_2" ActionTag="46226559" Tag="19881" IconVisible="False" LeftMargin="128.0000" RightMargin="4.0000" TopMargin="5.0000" BottomMargin="82.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="13385854" Tag="19882" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="千纸鹤" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="90.0000" Y="30.0000" />
+                          <AbstractNodeData Name="text" ActionTag="13385854" Tag="19882" IconVisible="False" LeftMargin="15.0000" RightMargin="15.0000" TopMargin="-1.0000" BottomMargin="39.0000" FontSize="30" LabelText="千纸鹤" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="92.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.7377" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.7541" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="10140172" Tag="21945" IconVisible="False" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="43.0000" BottomMargin="3.0000" FontSize="30" LabelText="1000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="60.0000" Y="30.0000" />
+                          <AbstractNodeData Name="num" ActionTag="10140172" Tag="21945" IconVisible="False" LeftMargin="22.0000" RightMargin="22.0000" TopMargin="39.0000" BottomMargin="-1.0000" FontSize="30" LabelText="1000" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="78.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="18.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.2368" />
-                            <PreSize X="0.4918" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.6393" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -522,33 +466,35 @@
                         <DisabledFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet_btn_1.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="btn_3" ActionTag="38587990" Tag="19883" IconVisible="False" LeftMargin="4.0000" RightMargin="128.0000" TopMargin="83.0000" BottomMargin="4.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="11747593" Tag="19884" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="水晶鞋" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="90.0000" Y="30.0000" />
+                          <AbstractNodeData Name="text" ActionTag="11747593" Tag="19884" IconVisible="False" LeftMargin="14.5000" RightMargin="14.5000" TopMargin="-1.0000" BottomMargin="39.0000" FontSize="30" LabelText="水晶鞋" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="93.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.7377" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.7623" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="1600304" Tag="21947" IconVisible="False" LeftMargin="23.5000" RightMargin="23.5000" TopMargin="43.0000" BottomMargin="3.0000" FontSize="30" LabelText="10000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="75.0000" Y="30.0000" />
+                          <AbstractNodeData Name="num" ActionTag="1600304" Tag="21947" IconVisible="False" LeftMargin="12.5000" RightMargin="12.5000" TopMargin="39.0000" BottomMargin="-1.0000" FontSize="30" LabelText="10000" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="97.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="18.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.2368" />
-                            <PreSize X="0.6148" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.7951" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -561,33 +507,35 @@
                         <DisabledFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet_btn_1.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="btn_4" ActionTag="4466740" Tag="19885" IconVisible="False" LeftMargin="128.0000" RightMargin="4.0000" TopMargin="83.0000" BottomMargin="4.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="40200664" Tag="19886" IconVisible="False" LeftMargin="1.0000" RightMargin="1.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="兰博基尼" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="120.0000" Y="30.0000" />
+                          <AbstractNodeData Name="text" ActionTag="40200664" Tag="19886" IconVisible="False" LeftMargin="-0.5000" RightMargin="-0.5000" TopMargin="-1.0000" BottomMargin="39.0000" FontSize="30" LabelText="兰博基尼" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="123.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.9836" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="1.0082" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="20005823" Tag="21949" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="43.0000" BottomMargin="3.0000" FontSize="30" LabelText="100000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                            <Size X="90.0000" Y="30.0000" />
+                          <AbstractNodeData Name="num" ActionTag="20005823" Tag="21949" IconVisible="False" LeftMargin="3.0000" RightMargin="3.0000" TopMargin="39.0000" BottomMargin="-1.0000" FontSize="30" LabelText="100000" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="116.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="18.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.2368" />
-                            <PreSize X="0.7377" Y="0.3947" />
-                            <OutlineColor A="0" R="0" G="0" B="0" />
-                            <ShadowColor A="0" R="0" G="0" B="0" />
+                            <PreSize X="0.9508" Y="0.5000" />
+                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <OutlineColor A="255" R="0" G="0" B="0" />
+                            <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -600,8 +548,8 @@
                         <DisabledFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <PressedFileData Type="Normal" Path="qietu/fish/bet_btn_2.png" Plist="" />
                         <NormalFileData Type="Normal" Path="qietu/fish/bet_btn_1.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -615,16 +563,17 @@
                   <AbstractNodeData Name="layout" ActionTag="40740550" ZOrder="2" VisibleForFrame="False" Tag="15111" IconVisible="False" BottomMargin="918.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ComboBoxIndex="1" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="1080.0000" Y="180.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="2859685" ZOrder="1" Tag="15112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="252.5000" RightMargin="252.5000" TopMargin="65.0000" BottomMargin="65.0000" FontSize="50" LabelText="正在开奖中,请稍后......" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="575.0000" Y="50.0000" />
+                      <AbstractNodeData Name="text" ActionTag="2859685" ZOrder="1" Tag="15112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="291.0000" RightMargin="291.0000" TopMargin="58.0000" BottomMargin="58.0000" FontSize="50" LabelText="正在开奖中,请稍后......" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="498.0000" Y="64.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="540.0000" Y="90.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="0" B="4" />
                         <PrePosition X="0.5000" Y="0.5000" />
-                        <PreSize X="0.5324" Y="0.2778" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <PreSize X="0.4611" Y="0.3556" />
+                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                       <AbstractNodeData Name="bg" ActionTag="14326175" Tag="24117" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="90.0000" RightMargin="90.0000" TopMargin="30.0000" BottomMargin="30.0000" Scale9Enable="True" LeftEage="176" RightEage="175" TopEage="66" BottomEage="67" Scale9OriginX="176" Scale9OriginY="66" Scale9Width="1" Scale9Height="1" ctype="ImageViewObjectData">
                         <Size X="900.0000" Y="120.0000" />
@@ -671,8 +620,8 @@
                         <CColor A="255" R="204" G="255" B="255" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.6250" Y="0.6250" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1337,8 +1286,8 @@
                     <TextColor A="255" R="255" G="255" B="255" />
                     <PressedFileData Type="Normal" Path="qietu/tymb/help_select.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/tymb/help.png" Plist="" />
-                    <OutlineColor A="0" R="0" G="0" B="0" />
-                    <ShadowColor A="0" R="0" G="0" B="0" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="rebet" ActionTag="35226063" Tag="14797" IconVisible="False" LeftMargin="810.0000" RightMargin="19.0000" TopMargin="587.0000" BottomMargin="9.0000" TouchEnable="True" FontSize="14" Scale9Width="251" Scale9Height="96" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="251.0000" Y="96.0000" />
@@ -1351,8 +1300,8 @@
                     <TextColor A="255" R="255" G="255" B="255" />
                     <PressedFileData Type="Normal" Path="qietu/fish/rebet2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/fish/rebet1.png" Plist="" />
-                    <OutlineColor A="0" R="0" G="0" B="0" />
-                    <ShadowColor A="0" R="0" G="0" B="0" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleY="1.0000" />
@@ -1363,145 +1312,154 @@
                 <PreSize X="1.0000" Y="0.3604" />
                 <FileData Type="Normal" Path="qietu/fish/fish_bg.jpg" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="help" ActionTag="59011077" ZOrder="100" VisibleForFrame="False" Tag="27477" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
-                <Size X="1080.0000" Y="1920.0000" />
+            </Children>
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0000" Y="1.0000" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="255" G="255" B="255" />
+            <EndColor A="255" R="150" G="200" B="255" />
+            <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="help" ActionTag="59011077" ZOrder="100" VisibleForFrame="False" Tag="27477" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+            <Size X="1080.0000" Y="1920.0000" />
+            <Children>
+              <AbstractNodeData Name="help_alert" ActionTag="10095295" ZOrder="10" Tag="27444" IconVisible="False" TopMargin="267.8567" BottomMargin="271.1434" Scale9Width="1080" Scale9Height="1381" ctype="ImageViewObjectData">
+                <Size X="1080.0000" Y="1381.0000" />
                 <Children>
-                  <AbstractNodeData Name="help_alert" ActionTag="10095295" ZOrder="10" Tag="27444" IconVisible="False" TopMargin="269.5000" BottomMargin="269.5000" Scale9Width="1080" Scale9Height="1381" ctype="ImageViewObjectData">
-                    <Size X="1080.0000" Y="1381.0000" />
-                    <Children>
-                      <AbstractNodeData Name="back" ActionTag="35654905" Tag="27445" IconVisible="False" LeftMargin="913.0000" RightMargin="35.0000" TopMargin="-7.0000" BottomMargin="1256.0000" TouchEnable="True" FontSize="14" Scale9Width="132" Scale9Height="132" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                        <Size X="132.0000" Y="132.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="979.0000" Y="1322.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.9065" Y="0.9573" />
-                        <PreSize X="0.1222" Y="0.0956" />
-                        <TextColor A="255" R="255" G="255" B="255" />
-                        <PressedFileData Type="Normal" Path="qietu/tymb/guanbiBt02.png" Plist="" />
-                        <NormalFileData Type="Normal" Path="qietu/tymb/guanbiBt01.png" Plist="" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="title" ActionTag="58557143" Tag="27458" IconVisible="False" LeftMargin="290.0000" RightMargin="290.0000" TopMargin="36.0000" BottomMargin="1295.0000" FontSize="50" LabelText="&quot;海底大捕获&quot;游戏说明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="500.0000" Y="50.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="540.0000" Y="1320.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="254" G="177" B="23" />
-                        <PrePosition X="0.5000" Y="0.9558" />
-                        <PreSize X="0.4630" Y="0.0362" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_1" ActionTag="18575747" Tag="27459" IconVisible="False" LeftMargin="100.0000" RightMargin="844.0000" TopMargin="188.5000" BottomMargin="1147.5000" FontSize="45" LabelText="1.玩法" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="136.0000" Y="45.0000" />
-                        <AnchorPoint ScaleY="0.5000" />
-                        <Position X="100.0000" Y="1170.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="0" />
-                        <PrePosition X="0.0926" Y="0.8472" />
-                        <PreSize X="0.1259" Y="0.0326" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_2" ActionTag="34215536" Tag="27461" IconVisible="False" LeftMargin="135.0000" RightMargin="50.0000" TopMargin="253.5000" BottomMargin="1092.5000" FontSize="35" LabelText="(1)在20秒倒计时内，用户可以选择海洋生物和押注礼物。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="895.0000" Y="35.0000" />
-                        <AnchorPoint ScaleY="0.5000" />
-                        <Position X="135.0000" Y="1110.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.8038" />
-                        <PreSize X="0.8287" Y="0.0253" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_3" ActionTag="11675258" Tag="27463" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="301.0000" BottomMargin="930.0000" IsCustomSize="True" FontSize="35" LabelText="(2)每次最多只能选择4中海洋生物进行押注。点击重复押注按钮时，会按照用户上一次选择的海洋生物和押注礼物进行下注。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="860.0000" Y="150.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="135.0000" Y="1080.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.7820" />
-                        <PreSize X="0.7963" Y="0.1086" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_4" ActionTag="3388305" Tag="27465" IconVisible="False" LeftMargin="100.0000" RightMargin="844.0000" TopMargin="558.5000" BottomMargin="777.5000" FontSize="45" LabelText="2.奖励" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="136.0000" Y="45.0000" />
-                        <AnchorPoint ScaleY="0.5000" />
-                        <Position X="100.0000" Y="800.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="0" />
-                        <PrePosition X="0.0926" Y="0.5793" />
-                        <PreSize X="0.1259" Y="0.0326" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_5" ActionTag="42694776" Tag="27467" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="611.0000" BottomMargin="670.0000" IsCustomSize="True" FontSize="35" LabelText="(1)内环中的2个中奖海洋生物，猜中返回1.5倍。外环中的4个中奖海洋生物，猜中返回5-50倍。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="860.0000" Y="100.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="135.0000" Y="770.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.5576" />
-                        <PreSize X="0.7963" Y="0.0724" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_6" ActionTag="16412613" Tag="27469" IconVisible="False" LeftMargin="135.0000" RightMargin="190.0000" TopMargin="711.0000" BottomMargin="635.0000" FontSize="35" LabelText="(2)&quot;大捕获&quot;，外环海洋生物全中，内环不中奖。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="755.0000" Y="35.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="135.0000" Y="670.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.4852" />
-                        <PreSize X="0.6991" Y="0.0253" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_7" ActionTag="24127799" Tag="27471" IconVisible="False" LeftMargin="135.0000" RightMargin="190.0000" TopMargin="761.0000" BottomMargin="585.0000" FontSize="35" LabelText="(3)&quot;小捕获&quot;，内环海洋生物全中，外环不中奖。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="755.0000" Y="35.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="135.0000" Y="620.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.4490" />
-                        <PreSize X="0.6991" Y="0.0253" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="label_8" ActionTag="40155067" Tag="28165" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="451.0000" BottomMargin="830.0000" IsCustomSize="True" FontSize="35" LabelText="(3)押注扣除金币,中奖获得点数(2个点=1金币), 可以点击上方兑换按钮把点数兑换成金币。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="860.0000" Y="100.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="135.0000" Y="930.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.1250" Y="0.6734" />
-                        <PreSize X="0.7963" Y="0.0724" />
-                        <OutlineColor A="0" R="0" G="0" B="0" />
-                        <ShadowColor A="0" R="0" G="0" B="0" />
-                      </AbstractNodeData>
-                    </Children>
+                  <AbstractNodeData Name="back" ActionTag="35654905" Tag="27445" IconVisible="False" LeftMargin="913.0000" RightMargin="35.0000" TopMargin="-7.0000" BottomMargin="1256.0000" TouchEnable="True" FontSize="14" Scale9Width="132" Scale9Height="132" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                    <Size X="132.0000" Y="132.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="540.0000" Y="960.0000" />
+                    <Position X="979.0000" Y="1322.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5000" Y="0.5000" />
-                    <PreSize X="1.0000" Y="0.7193" />
-                    <FileData Type="Normal" Path="qietu/tymb/daBox.png" Plist="" />
+                    <PrePosition X="0.9065" Y="0.9573" />
+                    <PreSize X="0.1222" Y="0.0956" />
+                    <TextColor A="255" R="255" G="255" B="255" />
+                    <PressedFileData Type="Normal" Path="qietu/tymb/guanbiBt02.png" Plist="" />
+                    <NormalFileData Type="Normal" Path="qietu/tymb/guanbiBt01.png" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="title" ActionTag="58557143" Tag="27458" IconVisible="False" LeftMargin="289.0000" RightMargin="289.0000" TopMargin="29.0000" BottomMargin="1288.0000" FontSize="50" LabelText="&quot;海底大捕获&quot;游戏说明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="502.0000" Y="64.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="540.0000" Y="1320.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="254" G="177" B="23" />
+                    <PrePosition X="0.5000" Y="0.9558" />
+                    <PreSize X="0.4648" Y="0.0463" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_1" ActionTag="18575747" Tag="27459" IconVisible="False" LeftMargin="100.0000" RightMargin="846.0000" TopMargin="182.5000" BottomMargin="1141.5000" FontSize="45" LabelText="1.玩法" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="134.0000" Y="57.0000" />
+                    <AnchorPoint ScaleY="0.5000" />
+                    <Position X="100.0000" Y="1170.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="0" />
+                    <PrePosition X="0.0926" Y="0.8472" />
+                    <PreSize X="0.1241" Y="0.0413" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_2" ActionTag="34215536" Tag="27461" IconVisible="False" LeftMargin="135.0000" RightMargin="66.0000" TopMargin="249.0000" BottomMargin="1088.0000" FontSize="35" LabelText="(1)在20秒倒计时内，用户可以选择海洋生物和押注礼物。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="879.0000" Y="44.0000" />
+                    <AnchorPoint ScaleY="0.5000" />
+                    <Position X="135.0000" Y="1110.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.8038" />
+                    <PreSize X="0.8139" Y="0.0319" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_3" ActionTag="11675258" Tag="27463" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="301.0000" BottomMargin="930.0000" IsCustomSize="True" FontSize="35" LabelText="(2)每次最多只能选择4中海洋生物进行押注。点击重复押注按钮时，会按照用户上一次选择的海洋生物和押注礼物进行下注。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="860.0000" Y="150.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="135.0000" Y="1080.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.7820" />
+                    <PreSize X="0.7963" Y="0.1086" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_4" ActionTag="3388305" Tag="27465" IconVisible="False" LeftMargin="100.0000" RightMargin="848.0000" TopMargin="552.5000" BottomMargin="771.5000" FontSize="45" LabelText="2.奖励" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="132.0000" Y="57.0000" />
+                    <AnchorPoint ScaleY="0.5000" />
+                    <Position X="100.0000" Y="800.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="0" />
+                    <PrePosition X="0.0926" Y="0.5793" />
+                    <PreSize X="0.1222" Y="0.0413" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_5" ActionTag="42694776" Tag="27467" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="611.0000" BottomMargin="670.0000" IsCustomSize="True" FontSize="35" LabelText="(1)内环中的2个中奖海洋生物，猜中返回1.5倍。外环中的4个中奖海洋生物，猜中返回5-50倍。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="860.0000" Y="100.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="135.0000" Y="770.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.5576" />
+                    <PreSize X="0.7963" Y="0.0724" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_6" ActionTag="16412613" Tag="27469" IconVisible="False" LeftMargin="135.0000" RightMargin="214.0000" TopMargin="711.0000" BottomMargin="626.0000" FontSize="35" LabelText="(2)&quot;大捕获&quot;，外环海洋生物全中，内环不中奖。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="731.0000" Y="44.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="135.0000" Y="670.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.4852" />
+                    <PreSize X="0.6769" Y="0.0319" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_7" ActionTag="24127799" Tag="27471" IconVisible="False" LeftMargin="135.0000" RightMargin="214.0000" TopMargin="761.0000" BottomMargin="576.0000" FontSize="35" LabelText="(3)&quot;小捕获&quot;，内环海洋生物全中，外环不中奖。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="731.0000" Y="44.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="135.0000" Y="620.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.4490" />
+                    <PreSize X="0.6769" Y="0.0319" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="label_8" ActionTag="40155067" Tag="28165" IconVisible="False" LeftMargin="135.0000" RightMargin="85.0000" TopMargin="451.0000" BottomMargin="830.0000" IsCustomSize="True" FontSize="35" LabelText="(3)押注扣除金币,中奖获得点数(2个点=1金币), 可以点击上方兑换按钮把点数兑换成金币。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="860.0000" Y="100.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="135.0000" Y="930.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1250" Y="0.6734" />
+                    <PreSize X="0.7963" Y="0.0724" />
+                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <OutlineColor A="255" R="0" G="0" B="0" />
+                    <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
                 </Children>
-                <AnchorPoint />
-                <Position />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="540.0000" Y="961.6434" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="1.0000" Y="1.0000" />
-                <SingleColor A="255" R="150" G="200" B="255" />
-                <FirstColor A="255" R="255" G="255" B="255" />
-                <EndColor A="255" R="150" G="200" B="255" />
-                <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                <PrePosition X="0.5000" Y="0.5009" />
+                <PreSize X="1.0000" Y="0.7193" />
+                <FileData Type="Normal" Path="qietu/tymb/daBox.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />

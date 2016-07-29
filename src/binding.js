@@ -53,7 +53,8 @@ var BindingLayer = cc.Layer.extend({
         this.editBox1.setMaxLength(20);
         this.editBox1.setPlaceHolder("请输入您的手机号码");
         this.editBox1.setString("");
-        this.bindingscene.node.addChild(this.editBox1);
+        this.bindingscene.node.addChild(this.editBox1,1);
+        // input_1.addNode(this.editBox1);
         var input_2 = ccui.helper.seekWidgetByName(this.bindingscene.node,"input_2");
         var inputSize2 = input_2.getContentSize();
         this.editBox2 = new cc.EditBox(cc.size(inputSize2.width-60,inputSize2.height),new cc.Scale9Sprite(res.empty));
@@ -67,7 +68,7 @@ var BindingLayer = cc.Layer.extend({
         this.editBox2.setMaxLength(10);
         this.editBox2.setPlaceHolder("请输入验证码");
         this.editBox2.setString("");
-        this.bindingscene.node.addChild(this.editBox2);
+        this.bindingscene.node.addChild(this.editBox2,1);
         var send = ccui.helper.seekWidgetByName(this.bindingscene.node,"send");
         send.addTouchEventListener(this.onSend,this);
         var btn = ccui.helper.seekWidgetByName(this.bindingscene.node,"btn");
@@ -109,8 +110,8 @@ var BindingLayer = cc.Layer.extend({
                     currentScene.addChild(new AlertLayer(this,"手机号码应该为数字"),100);
                 }
                 else{
-                    var callStr = "4001^&^1^&^"+string;
-                    socketCall(callStr);
+                    // var callStr = "4001^&^1^&^"+string;
+                    nc.socketCall({1:4001,2:1,3:string});
                 }
             }
         }
@@ -130,8 +131,8 @@ var BindingLayer = cc.Layer.extend({
                     currentScene.addChild(new AlertLayer(this,"验证码应该为数字"),100);
                 }
                 else{
-                    var callStr = "5001^&^1^&^"+string+this.sendNumber;
-                    socketCall(callStr);
+                    // var callStr = "5001^&^1^&^"+string+this.sendNumber;
+                    nc.socketCall({1:5001,2:1,3:string,4:this.sendNumber});
                 }
             }
         }
@@ -140,5 +141,8 @@ var BindingLayer = cc.Layer.extend({
         if (event == ccui.Widget.TOUCH_ENDED){
             console.log("confirmFunc@@!!!!");
         }
+    },
+    onExit:function() {
+        console.log("BindingLayer onExit");
     }
 });

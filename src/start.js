@@ -16,7 +16,7 @@ var StartLayer = cc.Layer.extend({
     initView:function(){
         console.log("initView!!!!!!!!!");
         var startBtn = ccui.helper.seekWidgetByName(this.startscene.node, "btn");
-        startBtn.addClickEventListener(this.onStartFunc);
+        startBtn.addClickEventListener(this.onStart);
         var bg = ccui.helper.seekWidgetByName(this.startscene.node, "bg");
         var light = new cc.Sprite("res/qietu/start/guang.png");
         light.setPosition(540,1290);
@@ -33,12 +33,20 @@ var StartLayer = cc.Layer.extend({
             star.runAction(blink);
         }
     },
-    onStartFunc:function(){
+    onStart:function(){        
         console.log("onclick");
-        contect(function(){
-            var callStr = "1001^&^1^&^"+"1111"+"^&^1";
+        if (nc === undefined) {
+            console.log("undefined");
+        }
+        else if(nc === null) {
+            console.log("null");
+        }
+        else {
+            // console.log(nc);
+        }
+        nc.contect(function(){
             console.log("onContectSucceed!!!!!!!!!");
-            socketCall(callStr);
+            nc.socketCall({1:1001,2:1,3:"aaa",4:1});
         });
     }
 });

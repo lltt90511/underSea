@@ -6,6 +6,7 @@ var MainLayer = cc.Layer.extend({
     settingBtnList:null,
     settingPosList:null,
     settingFuncList:null,
+    listener1:null,
     ctor:function () {
         this._super();
 
@@ -30,7 +31,7 @@ var MainLayer = cc.Layer.extend({
         this.initTopBtn();
         this.initBottomBtn();
         this.initMiddle();
-        var _listener1 = cc.EventListener.create({
+        this.listener1 = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
             eventName: "login_succeed",
             callback: function(event){
@@ -38,7 +39,7 @@ var MainLayer = cc.Layer.extend({
                 console.log("login_succeed!!!!!!!");
             }
         });    
-        cc.eventManager.addListener(_listener1, 1);
+        cc.eventManager.addListener(this.listener1, 1);
     },
     initTop:function(){
         var top = ccui.helper.seekWidgetByName(this.mainscene.node,"top");
@@ -47,6 +48,7 @@ var MainLayer = cc.Layer.extend({
         headImage.addTouchEventListener(this.onSelfInfo,this);
         var name = ccui.helper.seekWidgetByName(top,"name");
         name.setString(userData.nickName);
+        name.setContentSize(name.getVirtualRendererSize());
         var vip = ccui.helper.seekWidgetByName(top,"vip");
         vip.loadTexture("res/qietu/user/v"+(userData.viplevel+1)+".png");
         var gold = ccui.helper.seekWidgetByName(top,"gold");
@@ -111,13 +113,13 @@ var MainLayer = cc.Layer.extend({
         // middleView.setBackGroundColor(cc.color(255,255,255,255));
         var funcList = [
         function(){
-            socketCall("6001^&^12");
+            nc.socketCall({1:6001,2:12});
         },
         function(){
-            socketCall("6001^&^11");
+            nc.socketCall({1:6001,2:11});
         },
         function(){
-            socketCall("6001^&^10");
+            nc.socketCall({1:6001,2:10});
         }];
         for(var i=1;i<4;i++){
             middleView.pushItem(res["game"+i],funcList[i-1]);
@@ -225,6 +227,9 @@ var MainLayer = cc.Layer.extend({
 
             }
         }
+    },
+    onExit:function() {
+        cc.eventManager.removeListener(this.listener1); 
     }
 });
 

@@ -493,6 +493,7 @@
         <Project Name="lottery.csd" Type="Layer" />
         <Project Name="mail.csd" Type="Layer" />
         <Project Name="main_scene.csd" Type="Layer" />
+        <TTF Name="Microsoft YaHei UI Bold.ttf" />
         <Project Name="moraGame.csd" Type="Layer" />
         <Image Name="num01.png" />
         <Image Name="num02.png" />

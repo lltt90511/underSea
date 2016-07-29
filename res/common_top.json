@@ -30,6 +30,8 @@
             "ColorVector": {
               "ScaleY": -1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -58,6 +60,8 @@
                   "Path": "qietu/top/top_bg.png",
                   "Plist": ""
                 },
+                "Scale9Width": 1081,
+                "Scale9Height": 170,
                 "AnchorPoint": {
                   "ScaleY": 1.0
                 },
@@ -81,6 +85,7 @@
                   "X": 1.0009,
                   "Y": 1.0
                 },
+                "RightMargin": -1.0,
                 "Tag": 15003,
                 "Children": [
                   {
@@ -89,6 +94,8 @@
                       "Path": "qietu/top/head.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 148,
+                    "Scale9Height": 148,
                     "AnchorPoint": {
                       "ScaleY": 0.5
                     },
@@ -104,12 +111,16 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.0093,
-                      "Y": -0.5
+                      "Y": 0.5
                     },
                     "PreSize": {
                       "X": 0.1369,
                       "Y": 0.8706
                     },
+                    "LeftMargin": 10.0,
+                    "RightMargin": 923.0,
+                    "TopMargin": 11.0,
+                    "BottomMargin": 11.0,
                     "Tag": 15004,
                     "Children": [
                       {
@@ -118,13 +129,15 @@
                           "Path": "qietu/main2/default.jpg",
                           "Plist": ""
                         },
+                        "Scale9Width": 200,
+                        "Scale9Height": 200,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
                           "ScaleY": 0.5
                         },
                         "Position": {
                           "X": 74.0,
-                          "Y": 0.0
+                          "Y": 74.0
                         },
                         "Scale": {
                           "ScaleX": 1.0,
@@ -142,6 +155,10 @@
                           "X": 0.8649,
                           "Y": 0.8649
                         },
+                        "LeftMargin": 10.0,
+                        "RightMargin": 10.0,
+                        "TopMargin": 10.0,
+                        "BottomMargin": 10.0,
                         "Tag": 15005,
                         "ActionTag": 28201437,
                         "Size": {
@@ -153,7 +170,6 @@
                       }
                     ],
                     "ActionTag": 18046573,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 148.0,
                       "Y": 148.0
@@ -167,6 +183,8 @@
                       "Path": "qietu/top/name_bg.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 379,
+                    "Scale9Height": 56,
                     "AnchorPoint": {
                       "ScaleY": 0.5
                     },
@@ -182,17 +200,36 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.1573,
-                      "Y": -0.2647
+                      "Y": 0.7353
                     },
                     "PreSize": {
                       "X": 0.3506,
                       "Y": 0.3294
                     },
+                    "LeftMargin": 170.0,
+                    "RightMargin": 532.0,
+                    "TopMargin": 17.0,
+                    "BottomMargin": 97.0,
                     "Tag": 15006,
                     "Children": [
                       {
                         "FontSize": 30,
                         "LabelText": "用户名称7个0",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
                         "ShadowOffsetX": 2.0,
                         "ShadowOffsetY": -2.0,
                         "AnchorPoint": {
@@ -210,25 +247,27 @@
                         "IconVisible": false,
                         "PrePosition": {
                           "X": 0.0528,
-                          "Y": 0.0
+                          "Y": 0.5
                         },
                         "PreSize": {
-                          "X": 0.4908,
-                          "Y": 0.6964
+                          "X": 0.5013,
+                          "Y": 0.6786
                         },
+                        "LeftMargin": 20.0,
+                        "RightMargin": 169.0,
+                        "TopMargin": 9.0,
+                        "BottomMargin": 9.0,
                         "Tag": 15007,
                         "ActionTag": 2615035,
-                        "IsAutoSize": true,
                         "Size": {
-                          "X": 186.0,
-                          "Y": 39.0
+                          "X": 190.0,
+                          "Y": 38.0
                         },
                         "Name": "name",
                         "ctype": "TextObjectData"
                       }
                     ],
                     "ActionTag": 52486342,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 379.0,
                       "Y": 56.0
@@ -242,13 +281,15 @@
                       "Path": "qietu/user/v0.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 110,
+                    "Scale9Height": 32,
                     "AnchorPoint": {
                       "ScaleX": 0.5,
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 610.0,
-                      "Y": -45.0
+                      "X": 610.0083,
+                      "Y": 125.001
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -266,9 +307,12 @@
                       "X": 0.1018,
                       "Y": 0.1882
                     },
+                    "LeftMargin": 555.0083,
+                    "RightMargin": 415.9917,
+                    "TopMargin": 28.999,
+                    "BottomMargin": 109.001,
                     "Tag": 15009,
                     "ActionTag": 44484840,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 110.0,
                       "Y": 32.0
@@ -282,6 +326,8 @@
                       "Path": "qietu/top/gold_bg.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 398,
+                    "Scale9Height": 69,
                     "AnchorPoint": {
                       "ScaleY": 0.5
                     },
@@ -297,12 +343,16 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.1573,
-                      "Y": -0.7059
+                      "Y": 0.2941
                     },
                     "PreSize": {
                       "X": 0.3682,
                       "Y": 0.4059
                     },
+                    "LeftMargin": 170.0,
+                    "RightMargin": 513.0,
+                    "TopMargin": 85.5,
+                    "BottomMargin": 15.5,
                     "Tag": 15011,
                     "Children": [
                       {
@@ -318,6 +368,18 @@
                           "Type": "Normal",
                           "Path": "qietu/top/add1.png",
                           "Plist": ""
+                        },
+                        "Scale9Width": 159,
+                        "Scale9Height": 68,
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
                         },
                         "ShadowOffsetX": 2.0,
                         "ShadowOffsetY": -2.0,
@@ -338,15 +400,17 @@
                         "IconVisible": false,
                         "PrePosition": {
                           "X": 1.1809,
-                          "Y": 0.0
+                          "Y": 0.4928
                         },
                         "PreSize": {
                           "X": 0.3995,
                           "Y": 0.9855
                         },
+                        "LeftMargin": 390.5,
+                        "RightMargin": -151.5,
+                        "TopMargin": 1.0,
                         "Tag": 15012,
                         "ActionTag": 15867334,
-                        "IsAutoSize": true,
                         "Size": {
                           "X": 159.0,
                           "Y": 68.0
@@ -379,15 +443,18 @@
                         "IconVisible": false,
                         "PrePosition": {
                           "X": 0.1884,
-                          "Y": -0.0435
+                          "Y": 0.4493
                         },
                         "PreSize": {
                           "X": 0.7236,
                           "Y": 0.6377
                         },
+                        "LeftMargin": 75.0,
+                        "RightMargin": 35.0,
+                        "TopMargin": 16.0,
+                        "BottomMargin": 9.0,
                         "Tag": 15013,
                         "ActionTag": 8588279,
-                        "IsAutoSize": true,
                         "Size": {
                           "X": 288.0,
                           "Y": 44.0
@@ -397,7 +464,6 @@
                       }
                     ],
                     "ActionTag": 46502279,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 398.0,
                       "Y": 69.0
@@ -419,6 +485,18 @@
                       "Path": "qietu/top/get1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 203,
+                    "Scale9Height": 143,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -438,15 +516,18 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.8788,
-                      "Y": -0.5
+                      "Y": 0.5
                     },
                     "PreSize": {
                       "X": 0.1878,
                       "Y": 0.8412
                     },
+                    "LeftMargin": 747.0,
+                    "RightMargin": 131.0,
+                    "TopMargin": 13.5,
+                    "BottomMargin": 13.5,
                     "Tag": 15014,
                     "ActionTag": 10185653,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 203.0,
                       "Y": 143.0
@@ -468,6 +549,18 @@
                       "Path": "qietu/top/close1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 98,
+                    "Scale9Height": 99,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -487,15 +580,18 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.9898,
-                      "Y": -0.5
+                      "Y": 0.5
                     },
                     "PreSize": {
                       "X": 0.0907,
                       "Y": 0.5824
                     },
+                    "LeftMargin": 972.0,
+                    "RightMargin": 11.0,
+                    "TopMargin": 35.5,
+                    "BottomMargin": 35.5,
                     "Tag": 15015,
                     "ActionTag": 24562016,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 98.0,
                       "Y": 99.0
@@ -505,7 +601,6 @@
                   }
                 ],
                 "ActionTag": 55232782,
-                "IsAutoSize": true,
                 "Size": {
                   "X": 1081.0,
                   "Y": 170.0
@@ -525,12 +620,13 @@
         ],
         "Size": {
           "X": 1080.0,
-          "Y": 1920.0
+          "Y": 170.0
         },
         "Name": "UiEntity19372405",
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
+        "Microsoft YaHei UI Bold.ttf",
         "qietu/main2/default.jpg",
         "qietu/text/vipNum.png",
         "qietu/top/add1.png",

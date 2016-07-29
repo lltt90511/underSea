@@ -35,10 +35,18 @@ var StartLayer = cc.Layer.extend({
     },
     onStartFunc:function(){
         console.log("onclick");
-        contect(function(){
-            var callStr = "1001^&^1^&^"+"1111"+"^&^1";
+        if (nc === undefined) {
+            console.log("undefined");
+        }
+        else if(nc === null) {
+            console.log("null");
+        }
+        else {
+            // console.log(nc);
+        }
+        nc.contect(function(){
             console.log("onContectSucceed!!!!!!!!!");
-            socketCall(callStr);
+            nc.socketCall("1001^&^1^&^"+"aaa"+"^&^1");
         });
     }
 });

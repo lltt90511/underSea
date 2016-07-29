@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/7/13 11:36:52。
+﻿生成启动时间为 2016/7/27 10:51:43。
      1>项目“C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\underSea.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\underSea\frameworks\runtime-src\proj.win32\Debug.win32\underSea.exe) does not match the Linker's OutputFile property value (C:\Users\Administrator\Desktop\underSea\simulator\win32\underSea.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>PreLinkEvent:
@@ -29,12 +29,22 @@
          :VCEnd
          D:\Cocos310\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\README.md -> C:\Users\Administrator\Desktop\underSea\simulator\win32\script\debugger\README.md
          复制了 1 个文件
-         C:\Users\Administrator\Desktop\underSea\src\loading.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\loading.js
+         C:\Users\Administrator\Desktop\underSea\src\about.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\about.js
+         C:\Users\Administrator\Desktop\underSea\src\alert.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\alert.js
+         C:\Users\Administrator\Desktop\underSea\src\binding.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\binding.js
+         C:\Users\Administrator\Desktop\underSea\src\chat.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\chat.js
+         C:\Users\Administrator\Desktop\underSea\src\commonTop.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\commonTop.js
+         C:\Users\Administrator\Desktop\underSea\src\fish.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\fish.js
+         C:\Users\Administrator\Desktop\underSea\src\main.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\main.js
+         C:\Users\Administrator\Desktop\underSea\src\network.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\network.js
+         C:\Users\Administrator\Desktop\underSea\src\public.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\public.js
          C:\Users\Administrator\Desktop\underSea\src\resource.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\resource.js
+         C:\Users\Administrator\Desktop\underSea\src\sliderView.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\sliderView.js
          C:\Users\Administrator\Desktop\underSea\src\start.js -> C:\Users\Administrator\Desktop\underSea\simulator\win32\src\start.js
-         复制了 3 个文件
+         复制了 12 个文件
          C:\Users\Administrator\Desktop\underSea\res\about.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\about.json
          C:\Users\Administrator\Desktop\underSea\res\activity.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\activity.json
+         C:\Users\Administrator\Desktop\underSea\res\alert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\alert.json
          C:\Users\Administrator\Desktop\underSea\res\betAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\betAlert.json
          C:\Users\Administrator\Desktop\underSea\res\binding.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\binding.json
          C:\Users\Administrator\Desktop\underSea\res\charge.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\charge.json
@@ -69,8 +79,17 @@
          C:\Users\Administrator\Desktop\underSea\res\userAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\userAlert.json
          C:\Users\Administrator\Desktop\underSea\res\vip.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\vip.json
          C:\Users\Administrator\Desktop\underSea\res\waitInviterAlert.json -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\waitInviterAlert.json
-         C:\Users\Administrator\Desktop\underSea\res\qietu\start\guang.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\start\guang.png
-         复制了 37 个文件
+         C:\Users\Administrator\Desktop\underSea\res\Default\Button_Disable.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\Default\Button_Disable.png
+         C:\Users\Administrator\Desktop\underSea\res\picture\empty.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\picture\empty.png
+         C:\Users\Administrator\Desktop\underSea\res\picture\game01.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\picture\game01.png
+         C:\Users\Administrator\Desktop\underSea\res\picture\game02.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\picture\game02.png
+         C:\Users\Administrator\Desktop\underSea\res\picture\game03.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\picture\game03.png
+         C:\Users\Administrator\Desktop\underSea\res\qietu\fish\bo.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\fish\bo.png
+         C:\Users\Administrator\Desktop\underSea\res\qietu\fish\equip_2.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\fish\equip_2.png
+         C:\Users\Administrator\Desktop\underSea\res\qietu\fish\equip_3.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\fish\equip_3.png
+         C:\Users\Administrator\Desktop\underSea\res\qietu\fish\equip_4.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\fish\equip_4.png
+         C:\Users\Administrator\Desktop\underSea\res\qietu\fish\shan.png -> C:\Users\Administrator\Desktop\underSea\simulator\win32\res\qietu\fish\shan.png
+         复制了 47 个文件
          已复制         1 个文件。
          已复制         1 个文件。
          复制了 16 个文件
@@ -79,4 +98,4 @@
 
 生成成功。
 
-已用时间 00:00:31.75
+已用时间 00:02:37.80

@@ -223,7 +223,6 @@ ccui.Scale9Sprite = cc.Scale9Sprite = cc.Node.extend(/** @lends ccui.Scale9Sprit
         this._renderers = [];
 
         if(file != undefined){
-        console.log("has!!!! file!!"+file);
             if(file instanceof cc.SpriteFrame)
                 this.initWithSpriteFrame(file, rect);
             else{
@@ -234,7 +233,6 @@ ccui.Scale9Sprite = cc.Scale9Sprite = cc.Node.extend(/** @lends ccui.Scale9Sprit
                     this.initWithFile(file, rect, capInsets);
             }
         }else{
-        console.log("has!!!! no file!!"+file);
             this.init();
         }
     },

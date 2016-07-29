@@ -27,7 +27,6 @@
               "G": 200
             },
             "ColorVector": {
-              "ScaleX": 0.0,
               "ScaleY": -1.0
             },
             "Scale9Width": 1,
@@ -188,7 +187,6 @@
                   "G": 200
                 },
                 "ColorVector": {
-                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -248,7 +246,7 @@
                     },
                     "LeftMargin": 149.9999,
                     "RightMargin": 150.0001,
-                    "TopMargin": 62.5,
+                    "TopMargin": 62.4999,
                     "BottomMargin": 250.5001,
                     "Tag": 556,
                     "ActionTag": 16730860,
@@ -352,7 +350,6 @@
                   "G": 200
                 },
                 "ColorVector": {
-                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -913,7 +910,6 @@
                       "G": 200
                     },
                     "ColorVector": {
-                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -2050,7 +2046,6 @@
                       "G": 200
                     },
                     "ColorVector": {
-                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -2323,7 +2318,6 @@
                   "G": 200
                 },
                 "ColorVector": {
-                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,

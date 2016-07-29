@@ -5,16 +5,22 @@ var MainLayer = cc.Layer.extend({
     settingPanel:null,
     settingBtnList:null,
     settingPosList:null,
+    settingFuncList:null,
+    listener1:null,
     ctor:function () {
         this._super();
-
-        var size = cc.winSize;
 
         this.mainscene = ccs.load(res.main_json);
         this.addChild(this.mainscene.node);
 
         this.settingBtnList = new Array();
         this.settingPosList = new Array();
+        this.settingFuncList = new Array();
+
+        this.settingFuncList[1] = this.onAbout;
+        this.settingFuncList[2] = this.onBinding;
+        this.settingFuncList[3] = this.onSetting;
+        this.settingFuncList[4] = this.onSelfInfo;
 
         this.initView();
         return true;
@@ -25,6 +31,15 @@ var MainLayer = cc.Layer.extend({
         this.initTopBtn();
         this.initBottomBtn();
         this.initMiddle();
+        this.listener1 = cc.EventListener.create({
+            event: cc.EventListener.CUSTOM,
+            eventName: "login_succeed",
+            callback: function(event){
+                // 可以通过getUserData来设置需要传输的用户自定义数据
+                console.log("login_succeed!!!!!!!");
+            }
+        });    
+        cc.eventManager.addListener(this.listener1, 1);
     },
     initTop:function(){
         var top = ccui.helper.seekWidgetByName(this.mainscene.node,"top");
@@ -33,6 +48,7 @@ var MainLayer = cc.Layer.extend({
         headImage.addTouchEventListener(this.onSelfInfo,this);
         var name = ccui.helper.seekWidgetByName(top,"name");
         name.setString(userData.nickName);
+        name.setContentSize(name.getVirtualRendererSize());
         var vip = ccui.helper.seekWidgetByName(top,"vip");
         vip.loadTexture("res/qietu/user/v"+(userData.viplevel+1)+".png");
         var gold = ccui.helper.seekWidgetByName(top,"gold");
@@ -63,11 +79,15 @@ var MainLayer = cc.Layer.extend({
         var bottom = ccui.helper.seekWidgetByName(this.mainscene.node,"bottom");
         this.settingPanel = ccui.helper.seekWidgetByName(bottom,"setting_panel");
         this.settingPanel.setVisible(false);
-        for (var i=1;i<=5;i++){
+        for (var i=1;i<5;i++){
             this.settingBtnList[i] = ccui.helper.seekWidgetByName(this.settingPanel,"btn"+i);
             this.settingPosList[i] = this.settingBtnList[i].getPosition();
             this.settingBtnList[i].setTouchEnabled(false);
+            this.settingBtnList[i].addTouchEventListener(this.settingFuncList[i],this);
         }
+        var settingBtn = ccui.helper.seekWidgetByName(this.settingPanel,"btn5");
+        settingBtn.setVisible(false);
+        settingBtn.setTouchEnabled(false);
         var dating = ccui.helper.seekWidgetByName(bottom,"dating");
         dating.addTouchEventListener(this.onDaTing,this);
         var shangcheng = ccui.helper.seekWidgetByName(bottom,"shangcheng");
@@ -82,20 +102,30 @@ var MainLayer = cc.Layer.extend({
     initMiddle:function(){
         console.log("initMiddle!!!!!!!!!!!!!!");
         var middle = ccui.helper.seekWidgetByName(this.mainscene.node,"middle");
-        middle.setVisible(false);
-        middle.setTouchEnabled(false);
+        // middle.setVisible(false);
+        // middle.setTouchEnabled(false);
         var middleView = new sliderView(this.mainscene.node,540,694,0,0);
         // middleView.setTouchEnabled(true);
-        middleView.setPosition(middle.getPosition());
+        middleView.setPosition(cc.p(0,0));
         middleView.setContentSize(middle.getSize());
-        console.log("initMiddle!!!!!!!!!!!!!!"+middle.getSize().width+middle.getSize().height);
-        middleView.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-        middleView.setBackGroundColor(cc.color(255,255,255,255));
-        middleView.pushItem("res/game01.png");
-        middleView.pushItem("res/game02.png");
-        middleView.pushItem("res/game03.png");
-        middleView.addTouchEvent();
-        this.mainscene.node.addChild(middleView);
+        // console.log("initMiddle!!!!!!!!!!!!!!"+middle.getSize().width+middle.getSize().height);
+        // middleView.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+        // middleView.setBackGroundColor(cc.color(255,255,255,255));
+        var funcList = [
+        function(){
+            nc.socketCall("6001^&^12");
+        },
+        function(){
+            nc.socketCall("6001^&^11");
+        },
+        function(){
+            nc.socketCall("6001^&^10");
+        }];
+        for(var i=1;i<4;i++){
+            middleView.pushItem(res["game"+i],funcList[i-1]);
+        }
+        middle.addChild(middleView);
+        cc.eventManager.addListener(middleView.touchListener,middleView);
     },
     showOrHidden:function(obj,flag){
         // console.log("showOrHidden!!!!"+obj+flag);
@@ -107,10 +137,33 @@ var MainLayer = cc.Layer.extend({
             console.log("onSelfInfo!!!!"+target+event);
         }
     },
+    onSetting:function(target,event){
+
+    },
+    onBinding:function(target,event){
+        if (event == ccui.Widget.TOUCH_ENDED){
+            console.log("onAbout!!!!"+target+event);
+            this.settingVis = !this.settingVis;
+            this.switchSetting();
+            var binding = new BindingLayer();
+            this.addChild(binding);
+        }
+
+    },
     onShangCheng:function(target,event){
         if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onShangCheng!!!!");
         }
+    },
+    onAbout:function(target,event){
+        if (event == ccui.Widget.TOUCH_ENDED){
+            console.log("onAbout!!!!"+target+event);
+            this.settingVis = !this.settingVis;
+            this.switchSetting();
+            var about = new AboutLayer();
+            this.addChild(about);
+        }
+
     },
     onLingqu:function(target,event){
         if (event == ccui.Widget.TOUCH_ENDED){
@@ -138,7 +191,7 @@ var MainLayer = cc.Layer.extend({
                 this.settingVis = true;
             }
             this.settingPanel.setVisible(this.settingVis);
-            for(var i=1;i<=5;i++){
+            for(var i=1;i<5;i++){
                 if(this.settingVis){
                     this.settingBtnList[i].setPositionY(this.settingPosList[1].y);
                     var move = cc.moveTo(0.2,this.settingPosList[i]);
@@ -149,7 +202,7 @@ var MainLayer = cc.Layer.extend({
                     this.settingBtnList[i].runAction(seq);
                 } 
                 else{
-                    for(var i=1;i<=5;i++){
+                    for(var i=1;i<5;i++){
                         this.settingBtnList[i].setTouchEnabled(false);
                         this.settingBtnList[i].setPositionY(this.settingPosList[i].y);
                     }
@@ -174,6 +227,9 @@ var MainLayer = cc.Layer.extend({
 
             }
         }
+    },
+    onExit:function() {
+        cc.eventManager.removeListener(listener1); 
     }
 });
 

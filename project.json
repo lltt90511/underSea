@@ -13,6 +13,7 @@
 
     "jsList" : [
         "src/resource.js",
+        "src/network.js",
         "src/start.js",
         "src/main.js",
         "src/public.js",
@@ -20,6 +21,8 @@
         "src/about.js",
         "src/binding.js",
         "src/alert.js",
-        "src/fish.js"
+        "src/fish.js",
+        "src/commonTop.js",
+        "src/chat.js"
     ]
 }

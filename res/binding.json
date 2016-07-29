@@ -16,7 +16,6 @@
         "Children": [
           {
             "ClipAble": false,
-            "BackColorAlpha": 0,
             "SingleColor": {
               "R": 150,
               "G": 200
@@ -104,13 +103,11 @@
                     "Scale9Width": 132,
                     "Scale9Height": 132,
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -199,14 +196,17 @@
                   {
                     "FontSize": 35,
                     "LabelText": "请输入您的手机号码：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -231,18 +231,18 @@
                       "Y": 0.8182
                     },
                     "PreSize": {
-                      "X": 0.3241,
-                      "Y": 0.0253
+                      "X": 0.313,
+                      "Y": 0.0319
                     },
                     "LeftMargin": 140.0,
-                    "RightMargin": 590.0,
-                    "TopMargin": 233.5,
-                    "BottomMargin": 1112.5,
+                    "RightMargin": 602.0,
+                    "TopMargin": 229.0,
+                    "BottomMargin": 1108.0,
                     "Tag": 1828,
                     "ActionTag": 33365709,
                     "Size": {
-                      "X": 350.0,
-                      "Y": 35.0
+                      "X": 338.0,
+                      "Y": 44.0
                     },
                     "Name": "text_1",
                     "ctype": "TextObjectData"
@@ -309,13 +309,11 @@
                     "Scale9Width": 280,
                     "Scale9Height": 91,
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -354,8 +352,12 @@
                       {
                         "FontSize": 40,
                         "LabelText": "发送",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
-                          "A": 0,
                           "R": 0,
                           "G": 0,
                           "B": 0
@@ -365,7 +367,7 @@
                           "B": 130
                         },
                         "ShadowOffsetX": 0.0,
-                        "ShadowOffsetY": 2.0,
+                        "ShadowOffsetY": -2.0,
                         "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
@@ -390,19 +392,19 @@
                           "Y": 0.4945
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.4396
+                          "X": 0.2964,
+                          "Y": 0.5604
                         },
-                        "LeftMargin": 100.0,
-                        "RightMargin": 100.0,
-                        "TopMargin": 26.0,
-                        "BottomMargin": 25.0,
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 20.5,
+                        "BottomMargin": 19.5,
                         "Tag": 1831,
                         "ActionTag": 11215509,
                         "ZOrder": 1,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 40.0
+                          "X": 83.0,
+                          "Y": 51.0
                         },
                         "Name": "label",
                         "ctype": "TextObjectData"
@@ -419,14 +421,17 @@
                   {
                     "FontSize": 35,
                     "LabelText": "请输入验证码：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -451,18 +456,18 @@
                       "Y": 0.6589
                     },
                     "PreSize": {
-                      "X": 0.2269,
-                      "Y": 0.0253
+                      "X": 0.2157,
+                      "Y": 0.0319
                     },
                     "LeftMargin": 140.0,
-                    "RightMargin": 695.0,
-                    "TopMargin": 453.5,
-                    "BottomMargin": 892.5,
+                    "RightMargin": 707.0,
+                    "TopMargin": 449.0,
+                    "BottomMargin": 888.0,
                     "Tag": 1834,
                     "ActionTag": 59654549,
                     "Size": {
-                      "X": 245.0,
-                      "Y": 35.0
+                      "X": 233.0,
+                      "Y": 44.0
                     },
                     "Name": "text_2",
                     "ctype": "TextObjectData"
@@ -516,14 +521,17 @@
                     "IsCustomSize": true,
                     "FontSize": 40,
                     "LabelText": "如果5分钟内未收到验证码，请点击\"发送\"按钮重新发送,1个小时之内只能发送3条验证码!",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -572,14 +580,17 @@
                     "IsCustomSize": true,
                     "FontSize": 40,
                     "LabelText": "  绑定手机可确保您的游戏账号安全，在重新安装游戏，手机刷机重置，更换手机后可以重新绑定找回您的游戏账号",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -641,13 +652,11 @@
                     "Scale9Width": 280,
                     "Scale9Height": 91,
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -686,8 +695,12 @@
                       {
                         "FontSize": 40,
                         "LabelText": "绑定",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
-                          "A": 0,
                           "R": 0,
                           "G": 0,
                           "B": 0
@@ -722,19 +735,19 @@
                           "Y": 0.4945
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.4396
+                          "X": 0.2964,
+                          "Y": 0.5604
                         },
-                        "LeftMargin": 100.0,
-                        "RightMargin": 100.0,
-                        "TopMargin": 26.0,
-                        "BottomMargin": 25.0,
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 20.5,
+                        "BottomMargin": 19.5,
                         "Tag": 1843,
                         "ActionTag": 7333695,
                         "ZOrder": 1,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 40.0
+                          "X": 83.0,
+                          "Y": 51.0
                         },
                         "Name": "label",
                         "ctype": "TextObjectData"
@@ -751,14 +764,17 @@
                   {
                     "FontSize": 35,
                     "LabelText": "您的账号已绑定手机：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -783,18 +799,18 @@
                       "Y": 0.7169
                     },
                     "PreSize": {
-                      "X": 0.3241,
-                      "Y": 0.0253
+                      "X": 0.313,
+                      "Y": 0.0319
                     },
                     "LeftMargin": 140.0,
-                    "RightMargin": 590.0,
-                    "TopMargin": 373.5,
-                    "BottomMargin": 972.5,
+                    "RightMargin": 602.0,
+                    "TopMargin": 369.0,
+                    "BottomMargin": 968.0,
                     "Tag": 2109,
                     "ActionTag": 17600908,
                     "Size": {
-                      "X": 350.0,
-                      "Y": 35.0
+                      "X": 338.0,
+                      "Y": 44.0
                     },
                     "VisibleForFrame": false,
                     "Name": "text_3",
@@ -841,14 +857,17 @@
                       {
                         "FontSize": 40,
                         "LabelText": "",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
-                          "A": 0,
                           "R": 0,
                           "G": 0,
                           "B": 0
                         },
                         "ShadowColor": {
-                          "A": 0,
                           "R": 0,
                           "G": 0,
                           "B": 0
@@ -903,14 +922,17 @@
                     "IsCustomSize": true,
                     "FontSize": 40,
                     "LabelText": "  为了保证账号的安全，再未更换手机的情况下，请勿随意解除绑定！",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -973,13 +995,11 @@
                     "Scale9Width": 280,
                     "Scale9Height": 91,
                     "OutlineColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
                     },
                     "ShadowColor": {
-                      "A": 0,
                       "R": 0,
                       "G": 0,
                       "B": 0
@@ -1018,8 +1038,12 @@
                       {
                         "FontSize": 40,
                         "LabelText": "解除绑定",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
                         "OutlineColor": {
-                          "A": 0,
                           "R": 0,
                           "G": 0,
                           "B": 0
@@ -1029,7 +1053,7 @@
                           "B": 130
                         },
                         "ShadowOffsetX": 0.0,
-                        "ShadowOffsetY": 2.0,
+                        "ShadowOffsetY": -2.0,
                         "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
@@ -1054,19 +1078,19 @@
                           "Y": 0.4945
                         },
                         "PreSize": {
-                          "X": 0.5714,
-                          "Y": 0.4396
+                          "X": 0.5821,
+                          "Y": 0.5604
                         },
-                        "LeftMargin": 60.0,
-                        "RightMargin": 60.0,
-                        "TopMargin": 26.0,
-                        "BottomMargin": 25.0,
+                        "LeftMargin": 58.5,
+                        "RightMargin": 58.5,
+                        "TopMargin": 20.5,
+                        "BottomMargin": 19.5,
                         "Tag": 3732,
                         "ActionTag": 56357471,
                         "ZOrder": 1,
                         "Size": {
-                          "X": 160.0,
-                          "Y": 40.0
+                          "X": 163.0,
+                          "Y": 51.0
                         },
                         "Name": "label",
                         "ctype": "TextObjectData"
@@ -1108,6 +1132,7 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
+        "Microsoft YaHei UI Bold.ttf",
         "qietu/tymb/changBt01.png",
         "qietu/tymb/changBt02.png",
         "qietu/tymb/daBox.png",
