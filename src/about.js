@@ -19,7 +19,7 @@ var AboutLayer = cc.Layer.extend({
     onBack:function(target,event){
     	if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onBack!!!!"+target+event);
-            this.removeFromParentAndCleanup(true);
+            this.removeFromParent(true);
         }
     }
 });

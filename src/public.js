@@ -4,6 +4,8 @@ var DEFAULT_FONT ="Microsoft YaHei UI Bold";
 var userData=[];
 var currentScene=null;
 var nc = new network();
+var SceneWidth = 1080;
+var SceneHeight = 1920;
 
 var setTextString = function(target,str) {
 	target.setString(str);

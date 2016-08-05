@@ -27,7 +27,7 @@ var BindingLayer = cc.Layer.extend({
     onBack:function(target,event){
     	if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onBack!!!!"+target+event);
-            this.removeFromParentAndCleanup(true);
+            this.removeFromParent(true);
         }
     },
     initEditBox1:function(){
@@ -111,7 +111,7 @@ var BindingLayer = cc.Layer.extend({
                 }
                 else{
                     // var callStr = "4001^&^1^&^"+string;
-                    nc.socketCall({1:4001,2:1,3:string});
+                    nc.socketCall(new Array(4001,1,string));
                 }
             }
         }
@@ -132,7 +132,7 @@ var BindingLayer = cc.Layer.extend({
                 }
                 else{
                     // var callStr = "5001^&^1^&^"+string+this.sendNumber;
-                    nc.socketCall({1:5001,2:1,3:string,4:this.sendNumber});
+                    nc.socketCall(new Array(5001,1,string,this.sendNumber));
                 }
             }
         }

@@ -559,7 +559,7 @@ ccui.CheckBox = ccui.Widget.extend(/** @lends ccui.CheckBox# */{
 
     _frontCrossTextureScaleChangedWithSize: function () {
         var locRenderer = this._frontCrossRenderer, locContentSize = this._contentSize;
-        if (this._ignoreSize)
+        if (this._ignoreSize) 
             locRenderer.setScale(1.0);
         else {
             var textureSize = locRenderer.getContentSize();
@@ -572,6 +572,7 @@ ccui.CheckBox = ccui.Widget.extend(/** @lends ccui.CheckBox# */{
             locRenderer.setScaleX(scaleX);
             locRenderer.setScaleY(scaleY);
         }
+        locRenderer.setScale(1);
         locRenderer.setPosition(locContentSize.width * 0.5, locContentSize.height * 0.5);
     },
 

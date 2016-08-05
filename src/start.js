@@ -46,7 +46,7 @@ var StartLayer = cc.Layer.extend({
         }
         nc.contect(function(){
             console.log("onContectSucceed!!!!!!!!!");
-            nc.socketCall({1:1001,2:1,3:"aaa",4:1});
+            nc.socketCall(new Array(1001,1,"aaa",1));
         });
     }
 });

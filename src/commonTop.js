@@ -2,25 +2,24 @@ var CommonTopLayer = cc.Layer.extend({
 	commonTopScene:null,
 	goldLabel:null,
 	vipImage:null,
+    targetObj:null,
 
     listener1:null,
-	ctor:function () {
+	ctor:function (_targetObj) {
         this._super();
 
         console.log("CommonTopLayer ctor");
         this.commonTopScene = ccs.load(res.commonTop_json);
         this.addChild(this.commonTopScene.node);
-
+        this.targetObj = _targetObj;
         this.initView();
         return true;
     },
     initView:function() {
     	var name = ccui.helper.seekWidgetByName(this.commonTopScene.node,"name");
-    	name.setString(userData.nickName);
-        name.setContentSize(name.getVirtualRendererSize());
+        setTextString(name,userData.nickName);
     	this.goldLabel = ccui.helper.seekWidgetByName(this.commonTopScene.node,"num");
-    	this.goldLabel.setString(userData.owncash);
-        this.goldLabel.setContentSize(this.goldLabel.getVirtualRendererSize());
+        setTextString(this.goldLabel,userData.owncash);
     	this.vipImage = ccui.helper.seekWidgetByName(this.commonTopScene.node,"vip");
         this.vipImage.loadTexture("res/qietu/user/v"+userData.viplevel+".png");
         var exchange = ccui.helper.seekWidgetByName(this.commonTopScene.node,"add");
@@ -47,6 +46,7 @@ var CommonTopLayer = cc.Layer.extend({
     onExchange:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
         	console.log("onExchange");
+            this.targetObj.showExchange();
     	}
     },
     onCharge:function(target,event) {

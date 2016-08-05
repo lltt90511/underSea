@@ -8,11 +8,15 @@ var res = {
     fish_json : "res/fish_machine.json",
     commonTop_json : "res/common_top.json",
     chat_json : "res/chat.json",
+    userAlert_json : "res/userAlert.json",
+    exchange_json : "res/exchange.json",
 
     game1 : "res/picture/game01.png",
     game2 : "res/picture/game02.png",
     game3 : "res/picture/game03.png",
     empty : "res/picture/empty.png",
+    bo : "res/qietu/fish/bo.png",
+    light : "res/qietu/fish/shan.png",
     
     v0 : "res/qietu/user/v0.png",
     v1 : "res/qietu/user/v1.png",

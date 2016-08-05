@@ -1,3 +1,4 @@
+//socket连接类
 var network = cc.Class.extend({
 	websocket:null,
 	//创建一个socket连接 func是连接成功的回调
@@ -44,7 +45,13 @@ var network = cc.Class.extend({
 		}
 		var socketStr = "";
 		for(var i in s) {
-			socketStr = socketStr + "^&^" + s[i];
+			if (i === 1) {
+				socketStr = s[i];
+			}
+			else {
+				socketStr = socketStr + "^&^" + s[i];
+			}
+			
 		}
 		this.websocket.send(socketStr);
 	    console.log("WebSocket send !!!!!"+socketStr);
@@ -176,6 +183,9 @@ var network = cc.Class.extend({
 			break;
 			case 19002:
 				return this.onUserOperateSucceed;
+			break;
+			case 19003:
+				return this.onUserOperateFailed;
 			break;
 	   		//charge
 			case 21002:
@@ -357,6 +367,11 @@ var network = cc.Class.extend({
 	},
 	onUserOperateSucceed:function(data){
 	    console.log("onUserOperateSucceed!!!!!");
+	    this.pushEvent("ON_USER_OPERATE_SUCCEED",data);
+	},
+	onUserOperateFailed:function(data){
+		console.log("onUserOperateFailed!!!!!");
+	    this.pushEvent("ON_USER_OPERATE_FAILED",data);
 	},
 	onGetChargeIdSucceed:function(data){
 	    console.log("onGetChargeIdSucceed!!!!!");

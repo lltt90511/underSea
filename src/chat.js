@@ -6,7 +6,7 @@ var ChatLayer = cc.Layer.extend({
 	currentTabCnt:1,
 	isPrivate:0,
     privateCnt:0,
-    max_list_y:-500,
+    max_list_y:-100,
     isShowSay:false,
     targetId:-1,
     targetName:"",
@@ -15,10 +15,12 @@ var ChatLayer = cc.Layer.extend({
     defultTitleW:110,
     messageCnt1:0,
     messageCnt2:0,
+    isSystemMessagePlaying:false,
 
     tabBtnList:[],
     listViewList:[],
 	messageList:[],
+    systemMessageList:[],
     targetList:[],
     userRankList:[],
 
@@ -30,6 +32,7 @@ var ChatLayer = cc.Layer.extend({
     sayBg:null,
     sayLabelList:[],
     sayLineList:[],
+    systemBg:null,
 
     listener1:null,
     listener2:null,
@@ -68,6 +71,7 @@ var ChatLayer = cc.Layer.extend({
     	}
         this.tabText1 = ccui.helper.seekWidgetByTag(this.chatScene.node,15044);
         this.tabText2 = ccui.helper.seekWidgetByTag(this.chatScene.node,17404);
+        this.systemBg = ccui.helper.seekWidgetByTag(this.chatScene.node,15047);
         this.checkBox = ccui.helper.seekWidgetByName(this.chatScene.node,"check");
         this.checkBox.addEventListener(this.onCheck, this);
         var sendBtn = ccui.helper.seekWidgetByName(this.chatScene.node,"send");
@@ -76,8 +80,17 @@ var ChatLayer = cc.Layer.extend({
     	this.initEditBox();
         this.resetTabStatus();
         this.resetPanelSay();
-
-        nc.socketCall({1:6101,2:0});
+        var m1 = [];
+        m1 = [];
+        m1.name = "123123";
+        m1.money = 10;
+        var m2 = [];
+        m2.name = "456456";
+        m2.money = 100;
+        this.systemMessageList.push(m1);
+        this.systemMessageList.push(m2);
+        this.playSystemMessageEffect();
+        nc.socketCall(new Array(6101,0));
     },
     initListener:function() {
     	this.listener1 = cc.EventListener.create({
@@ -140,6 +153,12 @@ var ChatLayer = cc.Layer.extend({
             callback: this.onUserOperateSucceed.bind(this)
         });    
         cc.eventManager.addListener(this.listener10, 10);
+        this.listener11 = cc.EventListener.create({
+            event: cc.EventListener.CUSTOM,
+            eventName: "ON_USER_OPERATE_FAILED",
+            callback: this.onUserOperateFailed.bind(this)
+        });    
+        cc.eventManager.addListener(this.listener11, 11);
     },
     initEditBox:function() {
     	var input = ccui.helper.seekWidgetByTag(this.chatScene.node,15059);
@@ -189,6 +208,14 @@ var ChatLayer = cc.Layer.extend({
             this.listViewList[4].pushBackCustomItem(obj);
         }
     },       
+    removeRankItem:function(index){
+        this.userAllCnt = this.userAllCnt - 1;
+        if (this.userAllCnt < 0) {
+            this.userAllCnt = 0;
+        }
+        this.listViewList[4].removeItem(index);
+        setTextString(this.tabText2,"观众("+this.userAllCnt+")");
+    },
     resetTabStatus:function() {
         this.resetTab(1);
         this.resetTab(2);
@@ -241,13 +268,13 @@ var ChatLayer = cc.Layer.extend({
     setSayList:function() {
         for (var i=1;i<6;i++){
             if (this.targetList.length >= i){
+                this.max_list_y = this.max_list_y - 80;
                 this.sayLineList[i].setVisible(true); 
                 this.sayLabelList[i+1].setVisible(true);
                 this.sayLabelList[i+1].setTouchEnabled(true);
                 setTextString(this.sayLabelList[i+1],this.targetList[i]);
             }
             else{
-                this.max_list_y = this.max_list_y + 80;
                 this.sayLineList[i].setVisible(false); 
                 this.sayLabelList[i+1].setVisible(false);
                 this.sayLabelList[i+1].setTouchEnabled(false);
@@ -257,6 +284,7 @@ var ChatLayer = cc.Layer.extend({
         this.sayBg.setPositionY(this.max_list_y);
     },
     setPanelSay:function(_id,_name,_private) {
+        console.log("setPanelSay!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",this.currentTabCnt);
         this.nameType = 1;
         var isIn = false;
         for (var i in this.targetList) {
@@ -288,13 +316,14 @@ var ChatLayer = cc.Layer.extend({
             this.messageList[id].shift();
             this.listViewList[id].removeItem(0);
         }
-        this.addMessage(message,this.listViewList[id]);
+        this.addMessage(message,id);
     },
-    addMessage:function(message, list, time){
+    addMessage:function(message, id, time){
         if (time === undefined || time === null) {
             time = 0.1;
         }
         var richWidth = 0;
+        var list = this.listViewList[id];
         // var func = function(){
         var _label = new ccui.Text();
         _label.setFontSize(40);
@@ -305,12 +334,21 @@ var ChatLayer = cc.Layer.extend({
         var richText = new ccui.RichText();
         richText.ignoreContentAdaptWithSize(false);
         richText.setContentSize(cc.size(this.WIDTH,this.fontHeight));
-        if (message.time === undefined || message.time === null) {
-            message.time = "";
+        var myDate = new Date();
+        var h = myDate.getHours();
+        var m = myDate.getMinutes();
+        var hs = h.toString();
+        var ms = m.toString();
+        if (h < 10) {
+            hs = "0" + hs;
         }
-        var timeText = new ccui.RichElementText(1,cc.color(255,255,255,255),255,message.time,DEFAULT_FONT,40);
+        if (m < 10) {
+            ms = "0" + ms;
+        }
+        var timeStr = hs + ":" + ms;
+        var timeText = new ccui.RichElementText(1,cc.color(255,255,255,255),255,timeStr,DEFAULT_FONT,40);
         richText.pushBackElement(timeText);
-        _label.setString(message.time); 
+        _label.setString(timeStr); 
         richWidth = richWidth + _label.getContentSize().width;
         switch (message.type) {
             case -3: 
@@ -342,12 +380,13 @@ var ChatLayer = cc.Layer.extend({
             _label.setString(message[0].name);
             var _layout = new ccui.Layout();
             _layout.setUserData(message[0]);
+            _layout.setTag(id);
             _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
             _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight));
             _layout.setPosition(cc.p(richWidth,0));       
             _layout.setTouchEnabled(true);
-            _layout.addTouchEventListener(this.onTouchName,this);
+            _layout.addTouchEventListener(this.onTouchName.bind(this),this);
             layout.addChild(_layout,1);
             richWidth = richWidth + _label.getContentSize().width;
             var text2 = new ccui.RichElementText(4,cc.color(255,255,255,255),255,say,DEFAULT_FONT,40)         
@@ -362,12 +401,13 @@ var ChatLayer = cc.Layer.extend({
             _label.setString(message[1].name);
             var _layout1 = new ccui.Layout();
             _layout1.setUserData(message[1]);
+            _layout.setTag(id);
             _layout1.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
             _layout1.setBackGroundColor(cc.color(255,0,0,255));
             _layout1.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout1.setPosition(cc.p(richWidth,0));     
             _layout1.setTouchEnabled(true);
-            _layout1.addTouchEventListener(this.onTouchName,this);
+            _layout1.addTouchEventListener(this.onTouchName.bind(this),this);
             layout.addChild(_layout1,1);
             richWidth = richWidth + _label.getContentSize().width;
             var text4 = new ccui.RichElementText(7,cc.color(255,255,255,255),255,msg,DEFAULT_FONT,40);         
@@ -417,12 +457,13 @@ var ChatLayer = cc.Layer.extend({
             _label.setString(message.name);
             var _layout = new ccui.Layout();
             _layout.setUserData(message);
+            _layout.setTag(id);
             _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
             _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout.setPosition(cc.p(richWidth,0));     
             _layout.setTouchEnabled(true);
-            _layout.addTouchEventListener(this.onTouchName,this);
+            _layout.addTouchEventListener(this.onTouchName.bind(this),this);
             layout.addChild(_layout,1);
             richWidth = richWidth + _label.getContentSize().width;
             var text3 = new ccui.RichElementText(5,cc.color(255,252,204,255),255,_room,DEFAULT_FONT,40);
@@ -480,12 +521,13 @@ var ChatLayer = cc.Layer.extend({
             _label.setString(message.name);
             var _layout = new ccui.Layout();
             _layout.setUserData(message);
+            _layout.setTag(id);
             _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
             _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout.setPosition(cc.p(richWidth,0));     
             _layout.setTouchEnabled(true);
-            _layout.addTouchEventListener(this.onTouchName,this);
+            _layout.addTouchEventListener(this.onTouchName.bind(this),this);
             layout.addChild(_layout,1);
             richWidth = richWidth + _label.getContentSize().width;
             var text2 = new ccui.RichElementText(4,cc.color(255,255,255,255),255,"说："+message.msg,DEFAULT_FONT,40);         
@@ -505,6 +547,60 @@ var ChatLayer = cc.Layer.extend({
         layout.addChild(richText);   
         list.pushBackCustomItem(layout);
         // }
+    },
+    playSystemMessageEffect:function(){
+        if (this.isSystemMessagePlaying) {
+            return;
+        }
+        var _this = this;
+        var func = function(){
+            if (userData.isInGame) {
+                var delay = cc.delayTime(1.0);
+                var callFunc = cc.callFunc(function(target,data){
+                    func();
+                },_this);
+                var seq = cc.sequence(delay,callFunc);
+                _this.runAction(seq);
+            }
+            else {
+                if (_this.systemMessageList.length === 0) {
+                    _this.isSystemMessagePlaying = false;
+                    return;
+                }
+                _this.isSystemMessagePlaying = true;
+                var data = _this.systemMessageList.shift();
+                var label = new ccui.Text();
+                label.setString(data.name+"获得"+data.money+"点游戏豆");
+                label.setFontSize(40);
+                label.setFontName(DEFAULT_FONT); 
+                var layout = new ccui.Layout();
+                layout.setContentSize(cc.size(label.getContentSize().width,66));
+                layout.setPosition(cc.p(_this.systemBg.getContentSize().width,0)); 
+                var richText = new ccui.RichText();
+                richText.setAnchorPoint(cc.p(0,0.5));
+                richText.setPosition(cc.p(-layout.getContentSize().width/2,25));
+                richText.ignoreContentAdaptWithSize(false);
+                richText.setContentSize(cc.size(label.getContentSize().width+5,66));
+                var text1 = new ccui.RichElementText(1,cc.color(254,177,23,255),255,data.name,DEFAULT_FONT,40); 
+                richText.pushBackElement(text1);     
+                var text2 = new ccui.RichElementText(2,cc.color(255,255,255,255),255,"获得",DEFAULT_FONT,40);         
+                richText.pushBackElement(text2);  
+                var text3 = new ccui.RichElementText(3,cc.color(253,78,62,255),255,data.money.toString(),DEFAULT_FONT,40);         
+                richText.pushBackElement(text3);  
+                var text4 = new ccui.RichElementText(4,cc.color(255,255,255,255),255,"点游戏豆",DEFAULT_FONT,40);         
+                richText.pushBackElement(text4); 
+                layout.addChild(richText);
+                _this.systemBg.addChild(layout);
+                var move = cc.moveTo(0.5*(layout.getContentSize().width/50),cc.p(-layout.getContentSize().width,0));
+                var callFunc = cc.callFunc(function(target,data){
+                    layout.removeFromParent(true);
+                    func();
+                },_this);
+                var seq = cc.sequence(move,callFunc);
+                layout.runAction(seq);
+            }
+        }
+        func();
     },
     onTab:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
@@ -529,7 +625,7 @@ var ChatLayer = cc.Layer.extend({
             this.targetId = -1;
             this.targetName = "";
         }
-        nc.socketCall({1:11001,2:this.targetId,3:this.isPrivate,4:str});
+        nc.socketCall(new Array(11001,this.targetId,this.isPrivate,str));
         this.editBox.setString("");
     },
     onCheck:function(target,type) {
@@ -615,13 +711,18 @@ var ChatLayer = cc.Layer.extend({
     onTouchName:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
             var data = target.getUserData();
-            console.log("onTouchName!!!!%d@@%s",data.id,data.name);
+            var tag = target.getTag();       
+            var container = this.listViewList[tag].getInnerContainer();
+            var offset = target.getParent().getPositionY() + container.getPositionY();  
+            var pos = cc.p(540/2,126+offset);
+            currentScene.addChild(new UserAlertLayer(this,pos,data),100);
         }
     },
     onUser:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
             var data = target.getUserData();
             console.log("onTouchName!!!!%d@@%s",data.id,data.name);
+            currentScene.addChild(new UserAlertLayer(),100);
         }
     },
     editBoxEditingDidBegin: function (sender) {
@@ -685,22 +786,9 @@ var ChatLayer = cc.Layer.extend({
                 setTextString(this.tabText1,"私聊("+this.privateCnt+")");
             }
         } 
-        console.log("this.replaceStr!!!!"+this.replaceStr);
         var reg = new RegExp(this.replaceStr,"g");
         message.msg = data.con.replace(reg,'"');
         message.private = data.qiaoqiao;
-        var myDate = new Date();
-        var h = myDate.getHours();
-        var m = myDate.getMinutes();
-        var hs = h.toString();
-        var ms = m.toString();
-        if (h < 10) {
-            hs = "0" + hs;
-        }
-        if (m < 10) {
-            ms = "0" + ms;
-        }
-        message.time = hs + ":" + ms;
         var id = 1;
         if (message.type === 4 || message.type === 5){
             id = 2;
@@ -709,27 +797,109 @@ var ChatLayer = cc.Layer.extend({
     },
     onSendMessageFailed:function(event){
         var data = event.getUserData(); 
+        currentScene.addChild(new AlertLayer(this,data.msg,true),100);
     },
     onEnterGameNotice:function(event){
         var data = event.getUserData(); 
+        if (data.user._uidx === userData.uidx || data.index > this.userRankList.length) {
+            return;
+        }
+        this.userRankList[data.index+1] = data.user;
+        this.addRankItem(data.user,data.index);
+        this.userAllCnt = this.userAllCnt + 1;
+        setTextString(this.tabText2,"观众("+this.userAllCnt+")");
+        var message = [];
+        message.type = -1;
+        message.name = data.user._nickName;
+        message.id = data.user._uidx;
+        message.grade = data.user._uGrade;
+        message.pic = data.user._picUrl;
+        message.sex = data.user._sex;
+        this.setMessage(message,1);   
     },
     onExitGameNotice:function(event){
         var data = event.getUserData(); 
+        var index = 0;
+        for (var i in this.userRankList) {
+            index = index + 1;
+            if (this.userRankList[i]._uidx === data.user._uidx) {
+                break;
+            } 
+        }
+        if (index <= this.userRankList.length) {
+            this.userRankList.splice(index,1);
+            this.removeRankItem(index-1);
+        } 
     },
     onGetUserListSucceed:function(event){
         var data = event.getUserData(); 
+        if (data.users === undefined || data.users === null || data.users.length === 0) {
+            return;
+        }
+        this.userAllCnt = data.Count;
+        this.initRankView(data.users);
+        setTextString(this.tabText2,"观众("+this.userAllCnt+")");
+        var delay = cc.delayTime(0.15);
+        var callFunc = cc.callFunc(function(target,data){
+            target.listViewList[4].setBounceEnabled(false);
+        },this);
+        var delay1 = cc.delayTime(0.6);
+        var callFunc1 = cc.callFunc(function(target,data){
+            target.listViewList[4].setBounceEnabled(true);
+        },this);
+        var seq = cc.sequence(delayTime,callFunc,delay1,callFunc1); 
+        this.runAction(seq);
     },
     onGetUserListFailed:function(event){
         var data = event.getUserData(); 
     },
     onSystemContext:function(event){
         var data = event.getUserData(); 
+        for (var i in data.msg) {
+            this.systemMessageList.push(data.msg[i]);
+        }
+        this.playSystemMessageEffect();
     },
     onGetSystemMessage:function(event){
         var data = event.getUserData(); 
+        var message = [];
+        message.type = -3;
+        message.msg = data.msg;
+        this.addMessage(message,1);
+        this.addMessage(message,3);
     },
     onUserOperateSucceed:function(event){
         var data = event.getUserData(); 
+        var message = [];
+        message[0] = [];
+        message[1] = [];
+        message.type = -2;
+        message[0].id = data.fromU._uidx;
+        message[0].grade = data.fromU._uGrade;
+        message[0].sex = data.fromU._sex;
+        message[0].pic = data.fromU._picUrl;
+        if (data.fromU._uidx === userData.uidx) {
+            message[0].name = "你";
+        }
+        else {
+            message[0].name = data.fromU._nickName;
+        }
+        message[1].id = data.fromU._uidx;
+        message[1].grade = data.fromU._uGrade;
+        message[1].sex = data.fromU._sex;
+        message[1].pic = data.fromU._picUrl;
+        if (data.fromU._uidx === userData.uidx) {
+            message[1].name = "你";
+        }
+        else {
+            message[1].name = data.fromU._nickName;
+        }
+        message.msg = data.msg;
+        this.addMessage(message,1);
+    },
+    onUserOperateFailed:function(event){
+        var data = event.getUserData(); 
+        currentScene.addChild(new AlertLayer(this,data.msg,true),100);
     },
     onExit:function(){
         cc.eventManager.removeListener(this.listener1); 

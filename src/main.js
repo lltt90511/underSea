@@ -113,13 +113,13 @@ var MainLayer = cc.Layer.extend({
         // middleView.setBackGroundColor(cc.color(255,255,255,255));
         var funcList = [
         function(){
-            nc.socketCall({1:6001,2:12});
+            nc.socketCall(new Array(6001,12));
         },
         function(){
-            nc.socketCall({1:6001,2:11});
+            nc.socketCall(new Array(6001,11));
         },
         function(){
-            nc.socketCall({1:6001,2:10});
+            nc.socketCall(new Array(6001,10));
         }];
         for(var i=1;i<4;i++){
             middleView.pushItem(res["game"+i],funcList[i-1]);

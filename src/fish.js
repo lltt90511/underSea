@@ -57,6 +57,7 @@ var FishLayer = cc.Layer.extend({
     bottomLayoutBg:null,
     commonTopLayer:null,
     chatLayer:null,
+    bigWinLayer:null,
 
     listener1:null,
     listener2:null,
@@ -96,6 +97,7 @@ var FishLayer = cc.Layer.extend({
         this.bottomLayoutText = ccui.helper.seekWidgetByTag(this.fishscene.node,15112);
         this.bottomLayoutBg = ccui.helper.seekWidgetByTag(this.fishscene.node,24117);
         this.rebetBtn = ccui.helper.seekWidgetByTag(this.fishscene.node,14797);
+        this.bigWinLayer = ccui.helper.seekWidgetByTag(this.fishscene.node,24871);
         this.lightList[0] = [];
         this.lightList[1] = [];
         this.fishList[0] = [];
@@ -122,7 +124,7 @@ var FishLayer = cc.Layer.extend({
         this.initData();
         this.schedule(this.startFishTimer.bind(this),1);
 
-        this.commonTopLayer = new CommonTopLayer();
+        this.commonTopLayer = new CommonTopLayer(this);
         this.commonTopLayer.setPosition(cc.p(0,1750));
         this.fishscene.node.addChild(this.commonTopLayer,5);
 
@@ -150,7 +152,9 @@ var FishLayer = cc.Layer.extend({
             this.rebetBtn.setTouchEnabled(false);
             this.bottomLayout.setVisible(true);
             this.bottomLayout.setTouchEnabled(true);
-            this.playFishEffect();
+            if (!this.isPlaying) {
+                this.playFishEffect();
+            }
             if (this.fishData.type === 200) {
                 this.bottomLayoutText.setString("开奖中......");
             }
@@ -290,16 +294,16 @@ var FishLayer = cc.Layer.extend({
         var cnt = 0;
         var _this = this;
         var func = function(){
-            console.log("func!!!!"+st);
+            // console.log("func!!!!"+st);
             if (_this.fishData.type === 100) {
                 _this.endEffect();
                 return;
             }
-            console.log("show!!!!"+tag);
+            // console.log("show!!!!"+tag);
             _this.lightList[tag][st].setVisible(true);
             var delayTime = cc.delayTime(delay);
             var callFunc = cc.callFunc(function(target,data){
-                console.log("callFunc!!!!");
+                // console.log("callFunc!!!!");
                 _this.lightList[tag][st].stopAllActions();
                 var _st = st;
                 if (_this.fishData.type === 201) {
@@ -328,9 +332,9 @@ var FishLayer = cc.Layer.extend({
                         delay = 0.1;
                     }
                 }
-                console.log("st!!!!%d,%d",st,maxNum+1);
+                // console.log("st!!!!%d,%d",st,maxNum+1);
                 if (st === (maxNum + 1)) {
-                    console.log("reset st!!!!%d,%d",st,maxNum+1);
+                    // console.log("reset st!!!!%d,%d",st,maxNum+1);
                     st = 1;
                 }
                 _this.lightList[tag][_st].setVisible(false);
@@ -362,6 +366,10 @@ var FishLayer = cc.Layer.extend({
             this.betImgList[j].setVisible(false);
         }
         this.betEndTime = 20;
+        this.goBo();
+    },
+    showExchange:function () {
+        this.fishscene.node.addChild(new ExchangeLayer(this.gameId),100);
     },
     onBet:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED){
@@ -370,7 +378,7 @@ var FishLayer = cc.Layer.extend({
             this.betMaskList[id].setVisible(true);
             this.betMaskList[id].setTouchEnabled(true);
             var needGold = this.singleGoldArr[this.singleIndex];
-            nc.socketCall({1:9001,2:this.betTypeList[id-1],3:needGold});
+            nc.socketCall(new Array(9001,this.betTypeList[id-1],needGold));
         }
     },
     onBetBtn:function(target,event) {
@@ -380,20 +388,20 @@ var FishLayer = cc.Layer.extend({
             console.log("onBetBtn!!!!"+id);
     		for (var i=1;i<5;i++) {
     			if (this.singleIndex === i) {
-                   this.betBtnList[i].setTouchEnabled(false);
-                   this.betBtnList[i].setBright(false);
-                   var text = this.betBtnList[i].getChildByName("text");
-                   text.setColor(cc.color(42,25,6,255));
-                   var num = this.betBtnList[i].getChildByName("num");
-                   num.setColor(cc.color(42,25,6,255));
+                    this.betBtnList[i].setTouchEnabled(false);
+                    this.betBtnList[i].setBright(false);
+                    var text = this.betBtnList[i].getChildByName("text");
+                    text.setColor(cc.color(42,25,6,255));
+                    var num = this.betBtnList[i].getChildByName("num");
+                    num.setColor(cc.color(42,25,6,255));
     			}
     			else{
-                   this.betBtnList[i].setTouchEnabled(true);
-                   this.betBtnList[i].setBright(true);
-                   var text = this.betBtnList[i].getChildByName("text");
-                   text.setColor(cc.color(254,177,23,255));
-                   var num = this.betBtnList[i].getChildByName("num");
-                   num.setColor(cc.color(254,177,23,255));
+                    this.betBtnList[i].setTouchEnabled(true);
+                    this.betBtnList[i].setBright(true);
+                    var text = this.betBtnList[i].getChildByName("text");
+                    text.setColor(cc.color(254,177,23,255));
+                    var num = this.betBtnList[i].getChildByName("num");
+                    num.setColor(cc.color(254,177,23,255));
     			}
     		}
     	}
@@ -422,7 +430,7 @@ var FishLayer = cc.Layer.extend({
         var equipId = 0;
         for (var i in this.singleGoldArr) {
             if (data.betMoney === this.singleGoldArr[i]) {
-                equipId = equipId+1;
+                equipId = equipId + 1;
                 break;
             }
         }
@@ -454,7 +462,7 @@ var FishLayer = cc.Layer.extend({
     	console.log("startFishTimer2!!!!"+this.betEndTime);
     			if (this.betEndTime < 0){
     				this.betEndTime = 0;
-    				nc.socketCall({1:8001});
+    				// nc.socketCall(new Array(8001));
     				// this.unschedule(this.startFishTimer);
     			}
 	    		if (this.betEndTime < 10){
@@ -475,7 +483,44 @@ var FishLayer = cc.Layer.extend({
             }
     	}
     },
-    onExit:function(){
+    setIsBigWin:function () {
+        this.showLight(cc.p(545,530));
+        this.showLight(cc.p(320,250));
+        this.showLight(cc.p(760,250));
+
+        var dabuhuo = new cc.Sprite("res/qietu/fish/fish_13.png");
+        dabuhuo.setAnchorPoint(cc.p(0.5,0));
+        dabuhuo.setPosition(cc.p(545,445));
+        this.bigWinLayer.addChild(dabuhuo,100);
+        var rotateto1 = cc.RotateTo(0.6,15);
+        var rotateto2 = cc.RotateTo(0.6,0);
+        var seq = cc.sequence(rotateto1,rotateto2).repeatForever();
+        dabuhuo.runAction(seq);
+    },
+    showLight:function (_p) {
+        var light = new cc.Sprite(res.light);
+        light.setPosition(_p);
+        this.bigWinLayer.addChild(light,90);
+        var rotateby = cc.RotateBy(1.0,60).repeatForever();
+        light.runAction(rotateby);
+    },
+    goBo:function () {
+        var bo = new cc.Sprite(res.bo);
+        bo.setAnchorPoint(cc.p(0,0));
+        bo.setPosition(cc.p(-768,0));
+        this.bigWinLayer.addChild(bo,100);
+        var move1 = cc.moveTo(1.0,cc.p(SceneWidth+768,0));
+        var callFunc1 = cc.callFunc(function(target,data){
+            bo.setFlippedX(true);
+        },this);
+        var move2 = cc.moveTo(1.0,cc.p(-768,0));
+        var callFunc2 = cc.callFunc(function(target,data){
+            bo.removeFromParent(true);
+        },this);
+        var seq = new cc.sequence(move1,callFunc1,move2,callFunc2);
+        bo.runAction(seq);
+    },
+    onExit:function() {
         cc.eventManager.removeListener(this.listener1); 
         cc.eventManager.removeListener(this.listener2); 
         cc.eventManager.removeListener(this.listener3); 

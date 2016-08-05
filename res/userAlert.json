@@ -30,6 +30,8 @@
             "ColorVector": {
               "ScaleY": -1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -46,6 +48,10 @@
               "X": 0.0,
               "Y": 0.0
             },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
             "PreSize": {
               "X": 1.0,
               "Y": 1.0
@@ -68,10 +74,12 @@
                 "ColorVector": {
                   "ScaleY": -1.0
                 },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
                 "TouchEnable": true,
                 "AnchorPoint": {},
                 "Position": {
-                  "X": 263.0,
+                  "X": 261.64,
                   "Y": 76.0
                 },
                 "Scale": {
@@ -81,13 +89,17 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.2435,
+                  "X": 0.2423,
                   "Y": 0.0396
                 },
                 "PreSize": {
                   "X": 0.5,
                   "Y": 0.3073
                 },
+                "LeftMargin": 261.64,
+                "RightMargin": 278.36,
+                "TopMargin": 1254.0,
+                "BottomMargin": 76.0,
                 "Tag": 19966,
                 "Children": [
                   {
@@ -96,13 +108,15 @@
                       "Path": "qietu/top/head.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 148,
+                    "Scale9Height": 148,
                     "AnchorPoint": {
                       "ScaleX": 0.5,
                       "ScaleY": 0.5
                     },
                     "Position": {
                       "X": 82.0,
-                      "Y": 508.0
+                      "Y": 505.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -112,15 +126,29 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.1519,
-                      "Y": 0.861
+                      "Y": 0.8559
                     },
                     "PreSize": {
                       "X": 0.2741,
                       "Y": 0.2508
                     },
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 8.0,
+                    "RightMargin": 384.0,
+                    "TopMargin": 11.0,
+                    "BottomMargin": 431.0,
                     "Tag": 17360,
                     "Children": [
                       {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "qietu/main2/default.jpg",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 66,
+                        "Scale9OriginY": 66,
+                        "Scale9Width": 68,
+                        "Scale9Height": 68,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
                           "ScaleY": 0.5
@@ -136,25 +164,28 @@
                         "CColor": {},
                         "IconVisible": false,
                         "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
+                          "X": 0.5,
+                          "Y": 0.5
                         },
                         "PreSize": {
-                          "X": 0.9459,
-                          "Y": 0.9459
+                          "X": 0.8649,
+                          "Y": 0.8649
                         },
+                        "LeftMargin": 10.0,
+                        "RightMargin": 10.0,
+                        "TopMargin": 10.0,
+                        "BottomMargin": 10.0,
                         "Tag": 17361,
                         "ActionTag": 29860598,
                         "Size": {
-                          "X": 140.0,
-                          "Y": 140.0
+                          "X": 128.0,
+                          "Y": 128.0
                         },
                         "Name": "icon",
                         "ctype": "ImageViewObjectData"
                       }
                     ],
                     "ActionTag": 35767306,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 148.0,
                       "Y": 148.0
@@ -165,6 +196,23 @@
                   {
                     "FontSize": 32,
                     "LabelText": "这个是名字名字名",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
@@ -172,7 +220,7 @@
                     },
                     "Position": {
                       "X": 166.0,
-                      "Y": 536.0
+                      "Y": 535.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -186,15 +234,18 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.3074,
-                      "Y": 0.9093
+                      "Y": 0.9068
                     },
                     "PreSize": {
                       "X": 0.4741,
                       "Y": 0.0695
                     },
+                    "LeftMargin": 166.0,
+                    "RightMargin": 118.0,
+                    "TopMargin": 34.5,
+                    "BottomMargin": 514.5,
                     "Tag": 17363,
                     "ActionTag": 984157,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 256.0,
                       "Y": 41.0
@@ -208,12 +259,14 @@
                       "Path": "qietu/user/v0.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 110,
+                    "Scale9Height": 32,
                     "AnchorPoint": {
                       "ScaleY": 0.5
                     },
                     "Position": {
                       "X": 422.0,
-                      "Y": 532.0
+                      "Y": 535.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -223,15 +276,18 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.7815,
-                      "Y": 0.9017
+                      "Y": 0.9068
                     },
                     "PreSize": {
                       "X": 0.2037,
                       "Y": 0.0542
                     },
+                    "LeftMargin": 422.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 519.0,
                     "Tag": 19664,
                     "ActionTag": 56738760,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 110.0,
                       "Y": 32.0
@@ -242,6 +298,23 @@
                   {
                     "FontSize": 30,
                     "LabelText": "(1231231)",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
@@ -249,7 +322,7 @@
                     },
                     "Position": {
                       "X": 166.0,
-                      "Y": 477.0
+                      "Y": 475.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -263,26 +336,37 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.3074,
-                      "Y": 0.8093
+                      "Y": 0.8051
                     },
                     "PreSize": {
-                      "X": 0.2704,
-                      "Y": 0.0661
+                      "X": 0.2907,
+                      "Y": 0.0644
                     },
+                    "LeftMargin": 166.0,
+                    "RightMargin": 217.0,
+                    "TopMargin": 96.0,
+                    "BottomMargin": 456.0,
                     "Tag": 17364,
                     "ActionTag": 10068291,
-                    "IsAutoSize": true,
                     "Size": {
-                      "X": 146.0,
-                      "Y": 39.0
+                      "X": 157.0,
+                      "Y": 38.0
                     },
                     "Name": "id",
                     "ctype": "TextObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "私聊",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -293,6 +377,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -302,7 +400,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 393.0
+                      "Y": 390.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -310,61 +408,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.6661
+                      "Y": 0.661
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 168.0,
+                    "BottomMargin": 358.0,
                     "Tag": 19967,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "私聊",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.1527,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19968,
-                        "ActionTag": 40417241,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 17509433,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -373,9 +430,17 @@
                     "ctype": "ButtonObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "悄悄话",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -386,6 +451,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -395,7 +474,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 323.0
+                      "Y": 320.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -403,61 +482,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.5475
+                      "Y": 0.5424
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 238.0,
+                    "BottomMargin": 288.0,
                     "Tag": 19971,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "悄悄话",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.229,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19972,
-                        "ActionTag": 42446305,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 120.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 41998958,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -466,9 +504,17 @@
                     "ctype": "ButtonObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "禁言",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -479,6 +525,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -488,7 +548,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 253.0
+                      "Y": 250.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -496,61 +556,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.4288
+                      "Y": 0.4237
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 308.0,
+                    "BottomMargin": 218.0,
                     "Tag": 19975,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "禁言",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.1527,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19976,
-                        "ActionTag": 14554926,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 53812997,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -559,9 +578,17 @@
                     "ctype": "ButtonObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "解除禁言",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -572,6 +599,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -581,7 +622,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 183.0
+                      "Y": 180.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -589,61 +630,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.3102
+                      "Y": 0.3051
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 378.0,
+                    "BottomMargin": 148.0,
                     "Tag": 19977,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "解除禁言",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.3053,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19978,
-                        "ActionTag": 19768343,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 160.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 46935725,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -652,9 +652,17 @@
                     "ctype": "ButtonObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "封号",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -665,6 +673,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -674,7 +696,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 113.0
+                      "Y": 110.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -682,61 +704,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.1915
+                      "Y": 0.1864
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 448.0,
+                    "BottomMargin": 78.0,
                     "Tag": 19979,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "封号",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.1527,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19980,
-                        "ActionTag": 46627483,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 24888686,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -745,9 +726,17 @@
                     "ctype": "ButtonObjectData"
                   },
                   {
-                    "FontSize": 14,
-                    "ButtonText": "",
-                    "TextColor": {},
+                    "FontSize": 40,
+                    "ButtonText": "冻结账户",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "TextColor": {
+                      "G": 252,
+                      "B": 204
+                    },
                     "PressedFileData": {
                       "Type": "Normal",
                       "Path": "qietu/chat/userBtn2.png",
@@ -758,6 +747,20 @@
                       "Path": "qietu/chat/userBtn1.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 524,
+                    "Scale9Height": 64,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -767,7 +770,7 @@
                     },
                     "Position": {
                       "X": 270.0,
-                      "Y": 43.0
+                      "Y": 40.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -775,61 +778,20 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.0729
+                      "Y": 0.0678
                     },
                     "PreSize": {
                       "X": 0.9704,
                       "Y": 0.1085
                     },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 8.0,
+                    "TopMargin": 518.0,
+                    "BottomMargin": 8.0,
                     "Tag": 19981,
-                    "Children": [
-                      {
-                        "FontSize": 40,
-                        "LabelText": "冻结账户",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 262.0,
-                          "Y": 32.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 252,
-                          "B": 204
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
-                        },
-                        "PreSize": {
-                          "X": 0.3053,
-                          "Y": 0.8125
-                        },
-                        "Tag": 19982,
-                        "ActionTag": 38005727,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 160.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      }
-                    ],
                     "ActionTag": 21709136,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 524.0,
                       "Y": 64.0
@@ -864,8 +826,10 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
+        "Microsoft YaHei UI Bold.ttf",
         "qietu/chat/userBtn1.png",
         "qietu/chat/userBtn2.png",
+        "qietu/main2/default.jpg",
         "qietu/top/head.png",
         "qietu/user/v0.png"
       ],

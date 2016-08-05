@@ -6,7 +6,9 @@
 var AlertLayer = cc.Layer.extend({
 	alertscene:null,
 	targetObj:null,
-	ctor:function (targetObj,titleString,confirmString,cancleString) {
+    callConfirmFunc:null,
+    callCancleFunc:null,
+	ctor:function (targetObj,titleString,isOne,confirmFunc,cancleFunc,confirmString,cancleString) {
         this._super();
 
         console.log("AlertLayer ctor");
@@ -14,11 +16,13 @@ var AlertLayer = cc.Layer.extend({
         this.addChild(this.alertscene.node);
 
         // this.alertscene.node.setTouchEnabled(true);
+        this.callConfirmFunc = confirmFunc;
+        this.callCancleFunc = cancleFunc;
 
-        this.initView(targetObj,titleString,confirmString,cancleString);
+        this.initView(targetObj,titleString,isOne,confirmString,cancleString);
         return true;
     },
-    initView:function(targetObj,titleString,confirmString,cancleString){
+    initView:function(targetObj,titleString,isOne,confirmString,cancleString){
     	this.targetObj = targetObj;
     	var title = ccui.helper.seekWidgetByName(this.alertscene.node,"title");
     	title.setString(titleString);
@@ -27,39 +31,37 @@ var AlertLayer = cc.Layer.extend({
         confirm.addTouchEventListener(this.onConfirm,this);
     	var cancle = ccui.helper.seekWidgetByName(this.alertscene.node,"cancle");
         cancle.addTouchEventListener(this.onCancle,this);
-    	if ((confirmString === undefined || confirmString === null || confirmString === "") || (cancleString === undefined || cancleString === null || cancleString === "")){
-    		confirm.setPositionX(540);
-    		cancle.setVisible(false);
-    		cancle.setTouchEnabled(false);
-    	}
-    	else{
-	    	if (confirmString !== undefined && confirmString !== null && confirmString !== ""){
-	    		var text = ccui.helper.seekWidgetByName(confirm,"text");
-	    		text.setString(confirmString);
-	    	} 
-	    	if (cancleString !== undefined && cancleString !== null && cancleString !== ""){
-	    		var text = ccui.helper.seekWidgetByName(cancle,"text");
-	    		text.setString(cancleString);
-	    	} 
-    	}
+        if (confirmString !== undefined && confirmString !== null && confirmString !== ""){
+            var text = ccui.helper.seekWidgetByName(confirm,"text");
+            text.setString(confirmString);
+        }
+        if (cancleString !== undefined && cancleString !== null && cancleString !== ""){
+            var text = ccui.helper.seekWidgetByName(cancle,"text");
+            text.setString(cancleString);
+        }
+        if (isOne) {
+            confirm.setPositionX(540);
+            cancle.setVisible(false);
+            cancle.setTouchEnabled(false);
+        }
     },
     onConfirm:function(target,event){
         if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onConfirm!!!!");
-            if (this.targetObj.confirmFunc !== undefined && this.targetObj.confirmFunc !== null){
-    			this.targetObj.confirmFunc(target,event);
+            if (this.callConfirmFunc !== undefined && this.callConfirmFunc !== null){
+    			this.callConfirmFunc(target,event);
     		}
-            this.removeFromParentAndCleanup(true);
+            this.removeFromParent(true);
         }
     },
     onCancle:function(target,event){
         if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onCancle!!!!");
-            if (this.targetObj.cancleFunc !== undefined && this.targetObj.cancleFunc !== null){
+            if (this.callCancleFunc !== undefined && this.callCancleFunc !== null){
     			// this.call(this.targetObj,cancleFunc);
-    			this.targetObj.cancleFunc(target,event);
+    			this.callCancleFunc(target,event);
     		}
-            this.removeFromParentAndCleanup(true);
+            this.removeFromParent(true);
         }
     }
 });
