@@ -11,13 +11,33 @@ var res = {
     userAlert_json : "res/userAlert.json",
     exchange_json : "res/exchange.json",
 
+    ani_shayu_json : "res/ani/shayu.ExportJson",
+    ani_shayu_plist : "res/ani/shayu0.plist",
+    ani_shayu_png : "res/ani/shayu0.png",
+
+    ani_moguiyu_json : "res/ani/moguiyu.ExportJson",
+    ani_moguiyu_plist : "res/ani/moguiyu0.plist",
+    ani_moguiyu_png : "res/ani/moguiyu0.png",
+    
+    ani_denglongyu_json : "res/ani/denglongyu.ExportJson",
+    ani_denglongyu_plist : "res/ani/denglongyu0.plist",
+    ani_denglongyu_png : "res/ani/denglongyu0.png",
+    
+    ani_wugui_json : "res/ani/wugui.ExportJson",
+    ani_wugui_plist : "res/ani/wugui0.plist",
+    ani_wugui_png : "res/ani/wugui0.png",
+    
+    ani_gold_json : "res/ani/gold.ExportJson",
+    ani_gold_plist : "res/ani/gold0.plist",
+    ani_gold_png : "res/ani/gold0.png",
+
     game1 : "res/picture/game01.png",
     game2 : "res/picture/game02.png",
     game3 : "res/picture/game03.png",
     empty : "res/picture/empty.png",
     bo : "res/qietu/fish/bo.png",
     light : "res/qietu/fish/shan.png",
-    
+
     v0 : "res/qietu/user/v0.png",
     v1 : "res/qietu/user/v1.png",
     v2 : "res/qietu/user/v2.png",

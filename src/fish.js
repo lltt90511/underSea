@@ -33,6 +33,9 @@ var FishLayer = cc.Layer.extend({
     insideId:1,
     outsideId:1,
 
+    armature1:null,
+    armature2:null,
+
     singleArr:["玫瑰","千纸鹤","水晶鞋","兰博基尼"],
 	singleGoldArr:[],
 	isBetList:[],
@@ -50,7 +53,6 @@ var FishLayer = cc.Layer.extend({
 	rebetBtn:null,
 	cdNumber:null,
 	helpLayer:null,
-
 	bottomLayer:null,
 	bottomLayout:null,
     bottomLayoutText:null,
@@ -58,6 +60,8 @@ var FishLayer = cc.Layer.extend({
     commonTopLayer:null,
     chatLayer:null,
     bigWinLayer:null,
+    panel_shayu:null,
+    panel_moguiyu:null,
 
     listener1:null,
     listener2:null,
@@ -98,6 +102,8 @@ var FishLayer = cc.Layer.extend({
         this.bottomLayoutBg = ccui.helper.seekWidgetByTag(this.fishscene.node,24117);
         this.rebetBtn = ccui.helper.seekWidgetByTag(this.fishscene.node,14797);
         this.bigWinLayer = ccui.helper.seekWidgetByTag(this.fishscene.node,24871);
+        this.panel_shayu = ccui.helper.seekWidgetByTag(this.fishscene.node,14854);
+        this.panel_moguiyu = ccui.helper.seekWidgetByTag(this.fishscene.node,14872);
         this.lightList[0] = [];
         this.lightList[1] = [];
         this.fishList[0] = [];
@@ -131,6 +137,12 @@ var FishLayer = cc.Layer.extend({
         this.chatLayer = new ChatLayer();
         this.chatLayer.setPosition(cc.p(0,0));
         this.fishscene.node.addChild(this.chatLayer,5);
+
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_shayu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_moguiyu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_denglongyu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_wugui_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_gold_json);
     },
     initData:function() {
         if (this.fishData.type === 100) {
@@ -160,9 +172,9 @@ var FishLayer = cc.Layer.extend({
             }
             else {
                 this.bottomLayoutText.setString("开奖中，请稍后...");
-                if (this.fishData.GameResult.f[1] === 1 || this.fishData.GameResult.f[1] === 3 || this.fishData.GameResult.f[1] === 4){
-
-                }
+                // if (this.fishData.GameResult.f[1] === 1 || this.fishData.GameResult.f[1] === 3 || this.fishData.GameResult.f[1] === 4){
+                    this.setIsBigWin();
+                // }
             }
         }
     },
@@ -366,7 +378,47 @@ var FishLayer = cc.Layer.extend({
             this.betImgList[j].setVisible(false);
         }
         this.betEndTime = 20;
-        this.goBo();
+        // if (this.fishData.GameResult !== undefined && this.fishData.GameResult !== null && this.fishData.GameResult.f !== undefined && this.fishData.GameResult.f !== null) {
+        
+            this.fishList[1][1].stopAllActions();
+            this.fishList[1][1].setRotation(0);
+            this.fishList[1][3].setVisible(true);
+            this.armature1.removeFromParent(true);
+            this.armature1 = null;
+            this.fishList[1][5].setVisible(true);
+            this.armature2.removeFromParent(true);
+            this.armature2 = null;
+            this.stopAllActions();
+            this.bigWinLayer.removeAllChildrenWithCleanup(true);
+            this.showArmature("gold",cc.p(SceneWidth/2,260),1,0,90);
+            // if (this.fishData.GameResult[1] === 1) {
+                var dabuhuo = new cc.Sprite("res/qietu/fish/fish_13.png");
+                dabuhuo.setAnchorPoint(cc.p(0.5,0));
+                dabuhuo.setPosition(cc.p(SceneWidth/2,230));
+                this.bigWinLayer.addChild(dabuhuo,100);
+                var rotateto1 = cc.rotateTo(0.6,15);
+                var rotateto2 = cc.rotateTo(0.6,0);
+                var seq1 = cc.sequence(rotateto1,rotateto2);
+                dabuhuo.runAction(cc.repeatForever(seq1));
+                this.showArmature("shayu",cc.p(400,400),1,-60,100);
+                this.showArmature("moguiyu",cc.p(680,500),1,-150,100);
+                this.showArmature("denglongyu",cc.p(440,220),1,0,100);
+                this.showArmature("wugui",cc.p(640,220),1,0,100);
+            // }
+            // else if (this.fishData.GameResult[1] === 3) {
+            //     this.showArmature("shayu",cc.p(SceneWidth/2,692/2),1.5,-30,100);
+            // }
+            // else if (this.fishData.GameResult[1] === 4) {
+            //     this.showArmature("moguiyu",cc.p(SceneWidth/2,692/2),1.5,-150,100);
+            // }
+            var delayTime = cc.delayTime(2.0);
+            var callFunc = cc.callFunc(function(target,data){
+                target.bigWinLayer.removeAllChildrenWithCleanup(true);
+                target.goBo();
+            },this);
+            var seq = cc.sequence(delayTime,callFunc);
+            this.runAction(seq);
+        // }
     },
     showExchange:function () {
         this.fishscene.node.addChild(new ExchangeLayer(this.gameId),100);
@@ -488,21 +540,68 @@ var FishLayer = cc.Layer.extend({
         this.showLight(cc.p(320,250));
         this.showLight(cc.p(760,250));
 
+        this.showArmature("shayu",cc.p(260,250),1,0,100);
+        this.showArmature("moguiyu",cc.p(700,250),1,0,100);
+
         var dabuhuo = new cc.Sprite("res/qietu/fish/fish_13.png");
         dabuhuo.setAnchorPoint(cc.p(0.5,0));
         dabuhuo.setPosition(cc.p(545,445));
         this.bigWinLayer.addChild(dabuhuo,100);
-        var rotateto1 = cc.RotateTo(0.6,15);
-        var rotateto2 = cc.RotateTo(0.6,0);
-        var seq = cc.sequence(rotateto1,rotateto2).repeatForever();
-        dabuhuo.runAction(seq);
+        var rotateto1 = cc.rotateTo(0.6,15);
+        var rotateto2 = cc.rotateTo(0.6,0);
+        var seq1 = cc.sequence(rotateto1,rotateto2);
+        dabuhuo.runAction(cc.repeatForever(seq1));
+
+        var rotateto3 = cc.rotateTo(0.6,15);
+        var rotateto4 = cc.rotateTo(0.6,0);
+        var seq2 = cc.sequence(rotateto3,rotateto4);
+        this.fishList[1][1].runAction(cc.repeatForever(seq2));
+
+        this.fishList[1][3].setVisible(false);
+        if (this.armature1 === undefined || this.armature1 === null) {
+            this.armature1 = ccs.Armature.create("shayu");
+        }
+        var anim1 = this.armature1.getAnimation();
+        this.panel_shayu.addChild(this.armature1,10);
+        this.armature1.setPosition(cc.p(85,50));
+        this.armature1.setScaleX(270/480);
+        this.armature1.setScaleY(203/280);
+        anim1.playWithIndex(0);
+
+        this.fishList[1][5].setVisible(false);
+        if (this.armature2 === undefined || this.armature2 === null) {
+            this.armature2 = ccs.Armature.create("moguiyu");
+        }
+        var anim2 = armature2.getAnimation();
+        this.panel_moguiyu.addChild(this.armature2,10);
+        this.armature2.setPosition(cc.p(75,75));
+        this.armature2.setScaleX(175/320);
+        this.armature2.setScaleY(233/360);
+        anim2.playWithIndex(0);
+
+        var delayTime = cc.delayTime(2.0);
+        var callFunc = cc.callFunc(function(target,data){
+            target.bigWinLayer.removeAllChildrenWithCleanup(true);
+        },this);
+        var seq = cc.sequence(delayTime,callFunc);
+        this.runAction(seq);
     },
     showLight:function (_p) {
         var light = new cc.Sprite(res.light);
         light.setPosition(_p);
         this.bigWinLayer.addChild(light,90);
-        var rotateby = cc.RotateBy(1.0,60).repeatForever();
-        light.runAction(rotateby);
+        var rotateby = cc.rotateBy(1.0,60);
+        light.runAction(cc.repeatForever(rotateby));
+    },
+    showArmature:function (_str,_p,_s,_r,_z) {
+        console.log("showArmature!!!!");
+        var armature = ccs.Armature.create(_str);
+        armature.setPosition(_p);
+        armature.setScale(_s);
+        armature.setRotation(_r);
+        var anim = armature.getAnimation();
+        this.bigWinLayer.addChild(armature,_z);
+        anim.playWithIndex(0);
     },
     goBo:function () {
         var bo = new cc.Sprite(res.bo);
