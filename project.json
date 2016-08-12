@@ -25,6 +25,8 @@
         "src/commonTop.js",
         "src/chat.js",
         "src/userAlert.js",
-        "src/exchange.js"
+        "src/exchange.js",
+        "src/charge.js",
+        "src/quitAlert.js"
     ]
 }

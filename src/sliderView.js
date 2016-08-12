@@ -212,28 +212,28 @@ var sliderView = ccui.Layout.extend({
                 }
                 return true;
             },
-            onTouchMoved: function (touch, event) {         //实现onTouchMoved事件处理回调函数, 触摸移动时触发
-                console.log("onTouchMoved@@!!");
-                var pos = touch.getLocation();
-                var diffx = pos.x-_this.startPosX;
-                var direction = diffx > 0 ? -1 : 1;
-                if (_this.moveDisable === 0) {
-                    if(_this.lastDirection === 0 || direction === _this.lastDirection){
-                        _this.lastDirection = direction;
-                        _this.refresh(diffx);
-                        _this.moveDistance = _this.moveDistance + diffx;
-                    }
-                    else if(_this.lastDirection !== 0 && direction !== _this.lastDerection){
-                        _this.lastDirection = direction;
-                        _this.resetAllChildPosition();
-                        _this.moveDistance = 0;
-                    }
-                }
-                else{
-                    _this.lastDerection = direction;
-                }
-                _this.startPosX = pos.x;
-            },
+            // onTouchMoved: function (touch, event) {         //实现onTouchMoved事件处理回调函数, 触摸移动时触发
+            //     console.log("onTouchMoved@@!!");
+            //     var pos = touch.getLocation();
+            //     var diffx = pos.x-_this.startPosX;
+            //     var direction = diffx > 0 ? -1 : 1;
+            //     if (_this.moveDisable === 0) {
+            //         if(_this.lastDirection === 0 || direction === _this.lastDirection){
+            //             _this.lastDirection = direction;
+            //             _this.refresh(diffx);
+            //             _this.moveDistance = _this.moveDistance + diffx;
+            //         }
+            //         else if(_this.lastDirection !== 0 && direction !== _this.lastDerection){
+            //             _this.lastDirection = direction;
+            //             _this.resetAllChildPosition();
+            //             _this.moveDistance = 0;
+            //         }
+            //     }
+            //     else{
+            //         _this.lastDerection = direction;
+            //     }
+            //     _this.startPosX = pos.x;
+            // },
             onTouchEnded: function (touch, event) {         // 实现onTouchEnded事件处理回调函数
                 console.log("onTouchEnded@@!!");
                 if (_this.moveDisable === 0) {

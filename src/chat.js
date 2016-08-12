@@ -80,16 +80,6 @@ var ChatLayer = cc.Layer.extend({
     	this.initEditBox();
         this.resetTabStatus();
         this.resetPanelSay();
-        var m1 = [];
-        m1 = [];
-        m1.name = "123123";
-        m1.money = 10;
-        var m2 = [];
-        m2.name = "456456";
-        m2.money = 100;
-        this.systemMessageList.push(m1);
-        this.systemMessageList.push(m2);
-        this.playSystemMessageEffect();
         nc.socketCall(new Array(6101,0));
     },
     initListener:function() {
@@ -97,7 +87,7 @@ var ChatLayer = cc.Layer.extend({
             event: cc.EventListener.CUSTOM,
             eventName: "ON_SEND_MESSAGE_SUCCEED",
             callback: this.onSendMessageSucceed.bind(this)
-        });    
+        });     
         cc.eventManager.addListener(this.listener1, 1);
         this.listener2 = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
@@ -180,7 +170,7 @@ var ChatLayer = cc.Layer.extend({
         var cnt = this.userRankList.length;
         for (var i in _list) {
             this.userRankList.push(_list[i]);
-            addRankItem(_list[i],cnt);
+            this.addRankItem(_list[i],cnt);
             cnt = cnt + 1;
         }
     },
@@ -196,11 +186,12 @@ var ChatLayer = cc.Layer.extend({
         obj.setUserData(user);
         obj.addTouchEventListener(this.onUser,this);
         var grade = ccui.helper.seekWidgetByName(obj,"grade");
-        grade.loadTexture(res["v"+item.grade]);
+        grade.loadTexture(res["v"+user.grade]);
         var name = ccui.helper.seekWidgetByName(obj,"name");
         setTextString(name,user.name);
         var id = ccui.helper.seekWidgetByName(name,"id");
         setTextString(id,"("+user.id+")");
+        id.setPositionX(name.getContentSize().width+5);
         if (index !== undefined && index !== null && typeof index === "number") {
             this.listViewList[4].insertCustomItem(obj,index);
         }
@@ -329,8 +320,8 @@ var ChatLayer = cc.Layer.extend({
         _label.setFontSize(40);
         _label.setFontName(DEFAULT_FONT);
         var layout = new ccui.Layout();
-        layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-        layout.setBackGroundColor(cc.color(0,0,0,255));
+        // layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+        // layout.setBackGroundColor(cc.color(0,0,0,255));
         var richText = new ccui.RichText();
         richText.ignoreContentAdaptWithSize(false);
         richText.setContentSize(cc.size(this.WIDTH,this.fontHeight));
@@ -381,8 +372,8 @@ var ChatLayer = cc.Layer.extend({
             var _layout = new ccui.Layout();
             _layout.setUserData(message[0]);
             _layout.setTag(id);
-            _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-            _layout.setBackGroundColor(cc.color(255,0,0,255));
+            // _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+            // _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight));
             _layout.setPosition(cc.p(richWidth,0));       
             _layout.setTouchEnabled(true);
@@ -401,9 +392,9 @@ var ChatLayer = cc.Layer.extend({
             _label.setString(message[1].name);
             var _layout1 = new ccui.Layout();
             _layout1.setUserData(message[1]);
-            _layout.setTag(id);
-            _layout1.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-            _layout1.setBackGroundColor(cc.color(255,0,0,255));
+            _layout1.setTag(id);
+            // _layout1.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+            // _layout1.setBackGroundColor(cc.color(255,0,0,255));
             _layout1.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout1.setPosition(cc.p(richWidth,0));     
             _layout1.setTouchEnabled(true);
@@ -458,8 +449,8 @@ var ChatLayer = cc.Layer.extend({
             var _layout = new ccui.Layout();
             _layout.setUserData(message);
             _layout.setTag(id);
-            _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-            _layout.setBackGroundColor(cc.color(255,0,0,255));
+            // _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+            // _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout.setPosition(cc.p(richWidth,0));     
             _layout.setTouchEnabled(true);
@@ -479,7 +470,7 @@ var ChatLayer = cc.Layer.extend({
             _label.setString("第【"+message.cnt+"】轮游戏，选中的海洋生物是"); 
             richWidth = richWidth + _label.getContentSize().width;
             var text2 = new ccui.RichElementText(3,cc.color(253,78,62,255),255,message.inside,DEFAULT_FONT,40);
-            richText.pushBackElement(text23);
+            richText.pushBackElement(text2);
             _label.setString(message.inside); 
             richWidth = richWidth + _label.getContentSize().width;
             var text3 = new ccui.RichElementText(4,cc.color(255,252,204,255),255,"和",DEFAULT_FONT,40);
@@ -492,9 +483,6 @@ var ChatLayer = cc.Layer.extend({
             richWidth = richWidth + _label.getContentSize().width;
             break;
             case 1:
-            var image1 = new ccui.RichElementImage(2, cc.color(255,255,255,255), 255, res["v"+message.grade]);
-            richText.pushBackElement(image1);
-            richWidth = richWidth + this.defultTitleW;
             var text1 = new ccui.RichElementText(3,cc.color(254,177,23,255),255,message.name,DEFAULT_FONT,40);
             richText.pushBackElement(text1);
             _label.setString(message.name); 
@@ -522,8 +510,8 @@ var ChatLayer = cc.Layer.extend({
             var _layout = new ccui.Layout();
             _layout.setUserData(message);
             _layout.setTag(id);
-            _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
-            _layout.setBackGroundColor(cc.color(255,0,0,255));
+            // _layout.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+            // _layout.setBackGroundColor(cc.color(255,0,0,255));
             _layout.setContentSize(cc.size(_label.getContentSize().width,this.fontHeight)); 
             _layout.setPosition(cc.p(richWidth,0));     
             _layout.setTouchEnabled(true);
@@ -720,9 +708,11 @@ var ChatLayer = cc.Layer.extend({
     },
     onUser:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
-            var data = target.getUserData();
-            console.log("onTouchName!!!!%d@@%s",data.id,data.name);
-            currentScene.addChild(new UserAlertLayer(),100);
+            var data = target.getUserData(); 
+            var container = this.listViewList[4].getInnerContainer();
+            var offset = target.getPositionY() + container.getPositionY();  
+            var pos = cc.p(540/2,126+offset);
+            currentScene.addChild(new UserAlertLayer(this,pos,data),100);
         }
     },
     editBoxEditingDidBegin: function (sender) {
@@ -833,21 +823,22 @@ var ChatLayer = cc.Layer.extend({
     },
     onGetUserListSucceed:function(event){
         var data = event.getUserData(); 
+        console.log("editBoxReturn!!!!");
         if (data.users === undefined || data.users === null || data.users.length === 0) {
             return;
         }
         this.userAllCnt = data.Count;
         this.initRankView(data.users);
         setTextString(this.tabText2,"观众("+this.userAllCnt+")");
-        var delay = cc.delayTime(0.15);
+        var delayTime = cc.delayTime(0.15);
         var callFunc = cc.callFunc(function(target,data){
             target.listViewList[4].setBounceEnabled(false);
         },this);
-        var delay1 = cc.delayTime(0.6);
+        var delayTime1 = cc.delayTime(0.6);
         var callFunc1 = cc.callFunc(function(target,data){
             target.listViewList[4].setBounceEnabled(true);
         },this);
-        var seq = cc.sequence(delayTime,callFunc,delay1,callFunc1); 
+        var seq = cc.sequence(delayTime,callFunc,delayTime1,callFunc1); 
         this.runAction(seq);
     },
     onGetUserListFailed:function(event){

@@ -14,7 +14,7 @@ var UserAlertLayer = cc.Layer.extend({
         this.addChild(this.userAlertScene.node);
 
         for (var i in _user) {
-        	this.user[i] = _user[i];
+        	 this.user[i] = _user[i];
         }
 
         this.targetObj = _targetObj;

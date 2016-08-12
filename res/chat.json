@@ -27,6 +27,7 @@
               "G": 200
             },
             "ColorVector": {
+              "ScaleX": 0.0,
               "ScaleY": -1.0
             },
             "Scale9Width": 1,
@@ -626,6 +627,7 @@
                   "G": 200
                 },
                 "ColorVector": {
+                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -677,6 +679,7 @@
                   "G": 200
                 },
                 "ColorVector": {
+                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -722,6 +725,7 @@
                       "G": 150
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -775,6 +779,7 @@
                       "G": 150
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -828,6 +833,7 @@
                       "G": 150
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -880,6 +886,7 @@
                       "G": 150
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -937,6 +944,7 @@
                       "B": 100
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -1136,6 +1144,7 @@
                   "G": 200
                 },
                 "ColorVector": {
+                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -1180,6 +1189,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -1555,6 +1565,7 @@
                           "G": 200
                         },
                         "ColorVector": {
+                          "ScaleX": 0.0,
                           "ScaleY": -1.0
                         },
                         "Scale9Width": 1,
@@ -1608,6 +1619,7 @@
                           "G": 200
                         },
                         "ColorVector": {
+                          "ScaleX": 0.0,
                           "ScaleY": -1.0
                         },
                         "Scale9Width": 1,
@@ -1661,6 +1673,7 @@
                           "G": 200
                         },
                         "ColorVector": {
+                          "ScaleX": 0.0,
                           "ScaleY": -1.0
                         },
                         "Scale9Width": 1,
@@ -1714,6 +1727,7 @@
                           "G": 200
                         },
                         "ColorVector": {
+                          "ScaleX": 0.0,
                           "ScaleY": -1.0
                         },
                         "Scale9Width": 1,
@@ -1767,6 +1781,7 @@
                           "G": 200
                         },
                         "ColorVector": {
+                          "ScaleX": 0.0,
                           "ScaleY": -1.0
                         },
                         "Scale9Width": 1,
@@ -1873,6 +1888,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -2210,6 +2226,7 @@
                   "G": 200
                 },
                 "ColorVector": {
+                  "ScaleX": 0.0,
                   "ScaleY": -1.0
                 },
                 "Scale9Width": 1,
@@ -2365,7 +2382,6 @@
                           "B": 23
                         },
                         "IconVisible": false,
-                        "PositionPercentXEnabled": true,
                         "PrePosition": {
                           "X": 1.0,
                           "Y": 0.0
@@ -2409,6 +2425,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,

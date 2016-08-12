@@ -28,6 +28,7 @@
               "G": 200
             },
             "ColorVector": {
+              "ScaleX": 0.0,
               "ScaleY": -1.0
             },
             "Scale9Width": 1,
@@ -2516,6 +2517,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -2543,69 +2545,6 @@
                     "BottomMargin": 918.0,
                     "Tag": 15111,
                     "Children": [
-                      {
-                        "FontSize": 50,
-                        "LabelText": "正在开奖中,请稍后......",
-                        "FontResource": {
-                          "Type": "Normal",
-                          "Path": "Microsoft YaHei UI Bold.ttf",
-                          "Plist": ""
-                        },
-                        "HorizontalAlignmentType": "HT_Center",
-                        "VerticalAlignmentType": "VT_Center",
-                        "OutlineColor": {
-                          "R": 0,
-                          "G": 0,
-                          "B": 0
-                        },
-                        "ShadowColor": {
-                          "R": 0,
-                          "G": 0,
-                          "B": 0
-                        },
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 540.0,
-                          "Y": 90.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 0,
-                          "B": 4
-                        },
-                        "IconVisible": false,
-                        "PositionPercentXEnabled": true,
-                        "PositionPercentYEnabled": true,
-                        "PrePosition": {
-                          "X": 0.5,
-                          "Y": 0.5
-                        },
-                        "PreSize": {
-                          "X": 0.4611,
-                          "Y": 0.3556
-                        },
-                        "LeftMargin": 291.0,
-                        "RightMargin": 291.0,
-                        "TopMargin": 58.0,
-                        "BottomMargin": 58.0,
-                        "Tag": 15112,
-                        "ActionTag": 2859685,
-                        "ZOrder": 1,
-                        "Size": {
-                          "X": 498.0,
-                          "Y": 64.0
-                        },
-                        "Name": "text",
-                        "ctype": "TextObjectData"
-                      },
                       {
                         "FileData": {
                           "Type": "Normal",
@@ -2653,6 +2592,70 @@
                         },
                         "Name": "bg",
                         "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "开奖中，请稍后...",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 540.0,
+                          "Y": 90.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 0,
+                          "B": 4
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.9259,
+                          "Y": 0.3556
+                        },
+                        "LeftMargin": 40.0,
+                        "RightMargin": 40.0,
+                        "TopMargin": 58.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 15112,
+                        "ActionTag": 2859685,
+                        "ZOrder": 1,
+                        "Size": {
+                          "X": 1000.0,
+                          "Y": 64.0
+                        },
+                        "Name": "text",
+                        "ctype": "TextObjectData"
                       }
                     ],
                     "ActionTag": 40740550,
@@ -2661,7 +2664,6 @@
                       "X": 1080.0,
                       "Y": 180.0
                     },
-                    "VisibleForFrame": false,
                     "Name": "layout",
                     "ctype": "PanelObjectData"
                   }
@@ -2818,6 +2820,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -2960,6 +2963,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3103,6 +3107,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3246,6 +3251,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3389,6 +3395,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3532,6 +3539,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3675,6 +3683,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3818,6 +3827,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -3961,6 +3971,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4103,6 +4114,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4246,6 +4258,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4389,6 +4402,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4532,6 +4546,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4675,6 +4690,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4818,6 +4834,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -4961,6 +4978,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -5104,6 +5122,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -5247,6 +5266,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -5390,6 +5410,7 @@
                       "G": 200
                     },
                     "ColorVector": {
+                      "ScaleX": 0.0,
                       "ScaleY": -1.0
                     },
                     "Scale9Width": 1,
@@ -5585,6 +5606,7 @@
               "G": 200
             },
             "ColorVector": {
+              "ScaleX": 0.0,
               "ScaleY": -1.0
             },
             "Scale9Width": 1,

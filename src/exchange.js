@@ -4,8 +4,8 @@ var ExchangeLayer = cc.Layer.extend({
   	checkList2:[],
   	checkNum1:2,
   	checkNum2:6,
-  	selectNum:1,
-  	selectType:1,
+  	selectNum:0,
+  	selectType:0,
   	selectArr:new Array(1,5,10,50,100),
   	gameId:0,
   	bigNum:0,
@@ -52,20 +52,20 @@ var ExchangeLayer = cc.Layer.extend({
         for (var i=1;i<=this.checkNum1;i++) {
             var bar = ccui.helper.seekWidgetByTag(this.exchangeScene.node,20002);
             var check = ccui.helper.seekWidgetByName(this.exchangeScene.node,"check_"+i);
-            check.setName(i.toString());
+            check.setName((i-1).toString());
             check.addEventListenerCheckBox(this.onCheck1, this);
             check.setTouchEnabled(i===1?false:true);
             check.setSelectedState(i===1?true:false);
             this.checkList1[i] = check;
         }
-        for (var i=1;i<=this.checkNum2;i++) {
+        for (var j=1;j<=this.checkNum2;j++) {
             var bar = ccui.helper.seekWidgetByTag(this.exchangeScene.node,20010);
-            var check = ccui.helper.seekWidgetByName(this.exchangeScene.node,"check_"+i);
-            check.setName(i.toString());
+            var check = ccui.helper.seekWidgetByName(this.exchangeScene.node,"check_"+j);
+            check.setName((j-1).toString());
             check.addEventListenerCheckBox(this.onCheck2, this);
-            check.setTouchEnabled(i===1?false:true);
-            check.setSelectedState(i===1?true:false);
-            this.checkList2[i] = check;
+            check.setTouchEnabled(j===1?false:true);
+            check.setSelectedState(j===1?true:false);
+            this.checkList2[j] = check;
         }
         var text1 = ccui.helper.seekWidgetByTag(this.exchangeScene.node,20012);
         setTextString(text1,"大喇叭("+this.bigNum+")");
@@ -87,13 +87,14 @@ var ExchangeLayer = cc.Layer.extend({
     },
     onConfirm:function (target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
-            var p = this.selectType === 1 ? this.bigNum : this.smallNum;
+            var p = this.selectType === 0 ? this.bigNum : this.smallNum;
             var n = 0;
-            if (this.selectNum < 6) {
+        console.log("onConfirm ctor %d %d",p,this.selectType);
+            if (this.selectNum < 5) {
                 n = this.selectArr[this.selectNum];
             }
             else {
-                n = Math.floor(userdata.owncharm/p);
+                n = Math.floor(userData.owncharm/p);
             }
             if (userData.owncharm < n*p) {
                 currentScene.addChild(new AlertLayer(this,"点数不足，请前往商城充值",true),100);
@@ -109,7 +110,7 @@ var ExchangeLayer = cc.Layer.extend({
     onCheck1:function(target,type) {
         var tag = target.getTag();
         var id = Number(target.getName());
-        this.selectType = id;
+        this.selectType = id;   
         if (type === ccui.CheckBox.EVENT_SELECTED) {
             for (var i in this.checkList1) {
                 if (this.checkList1[i].getTag() === tag) {

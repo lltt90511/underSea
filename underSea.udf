@@ -24,8 +24,8 @@
         <KeystorePassword Value="" />
         <KeystoreAliasName Value="" />
         <KeystoreAliasPassword Value="" />
-        <EnableSourceMap Value="False" />
-        <EnableHTML5Advanced Value="False" />
+        <EnableSourceMap Value="True" />
+        <EnableHTML5Advanced Value="True" />
       </Value>
     </Item>
   </Properties>

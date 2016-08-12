@@ -30,6 +30,8 @@
             "ColorVector": {
               "ScaleY": -1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -58,6 +60,8 @@
                   "Path": "qietu/tymb/xiaoBox.png",
                   "Plist": ""
                 },
+                "Scale9Width": 1080,
+                "Scale9Height": 644,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -82,6 +86,8 @@
                   "X": 1.0,
                   "Y": 0.3354
                 },
+                "TopMargin": 638.0,
+                "BottomMargin": 638.0,
                 "Tag": 3564,
                 "Children": [
                   {
@@ -97,6 +103,20 @@
                       "Type": "Normal",
                       "Path": "qietu/tymb/changBt01.png",
                       "Plist": ""
+                    },
+                    "Scale9Width": 280,
+                    "Scale9Height": 91,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
                     },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
@@ -116,20 +136,40 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.1759,
-                      "Y": 0.0311
+                      "X": 0.6759,
+                      "Y": 0.5311
                     },
                     "PreSize": {
                       "X": 0.2593,
                       "Y": 0.1413
                     },
+                    "LeftMargin": 590.0,
+                    "RightMargin": 210.0,
+                    "TopMargin": 256.5,
+                    "BottomMargin": 296.5,
                     "Tag": 3571,
                     "Children": [
                       {
                         "FontSize": 40,
                         "LabelText": "取消",
-                        "ShadowOffsetX": 2.0,
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "A": 0,
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "G": 236,
+                          "B": 130
+                        },
+                        "ShadowOffsetX": 0.0,
                         "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
                           "ScaleY": 0.5
@@ -149,67 +189,29 @@
                         },
                         "IconVisible": false,
                         "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
+                          "X": 0.5,
+                          "Y": 0.4945
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.5714
+                          "X": 0.2929,
+                          "Y": 0.5604
                         },
+                        "LeftMargin": 99.0,
+                        "RightMargin": 99.0,
+                        "TopMargin": 20.5,
+                        "BottomMargin": 19.5,
                         "Tag": 3572,
                         "ActionTag": 10485479,
                         "ZOrder": 1,
-                        "IsAutoSize": true,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
+                          "X": 82.0,
+                          "Y": 51.0
                         },
                         "Name": "text",
-                        "ctype": "TextObjectData"
-                      },
-                      {
-                        "FontSize": 40,
-                        "LabelText": "取消",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 140.0,
-                          "Y": 43.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 236,
-                          "B": 130
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": -0.022
-                        },
-                        "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.5714
-                        },
-                        "Tag": 3573,
-                        "ActionTag": 27260454,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text_shadow",
                         "ctype": "TextObjectData"
                       }
                     ],
                     "ActionTag": 30991215,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 280.0,
                       "Y": 91.0
@@ -231,6 +233,20 @@
                       "Path": "qietu/tymb/changBt01.png",
                       "Plist": ""
                     },
+                    "Scale9Width": 280,
+                    "Scale9Height": 91,
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
@@ -249,20 +265,40 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": -0.1759,
-                      "Y": 0.0311
+                      "X": 0.3241,
+                      "Y": 0.5311
                     },
                     "PreSize": {
                       "X": 0.2593,
                       "Y": 0.1413
                     },
+                    "LeftMargin": 210.0,
+                    "RightMargin": 590.0,
+                    "TopMargin": 256.5,
+                    "BottomMargin": 296.5,
                     "Tag": 3581,
                     "Children": [
                       {
                         "FontSize": 40,
                         "LabelText": "确定",
-                        "ShadowOffsetX": 2.0,
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Microsoft YaHei UI Bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "A": 0,
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "G": 236,
+                          "B": 130
+                        },
+                        "ShadowOffsetX": 0.0,
                         "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
                         "AnchorPoint": {
                           "ScaleX": 0.5,
                           "ScaleY": 0.5
@@ -282,67 +318,29 @@
                         },
                         "IconVisible": false,
                         "PrePosition": {
-                          "X": 0.0,
-                          "Y": 0.0
+                          "X": 0.5,
+                          "Y": 0.4945
                         },
                         "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.5714
+                          "X": 0.2964,
+                          "Y": 0.5604
                         },
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 20.5,
+                        "BottomMargin": 19.5,
                         "Tag": 3582,
                         "ActionTag": 30404501,
                         "ZOrder": 1,
-                        "IsAutoSize": true,
                         "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
+                          "X": 83.0,
+                          "Y": 51.0
                         },
                         "Name": "text",
-                        "ctype": "TextObjectData"
-                      },
-                      {
-                        "FontSize": 40,
-                        "LabelText": "确定",
-                        "ShadowOffsetX": 2.0,
-                        "ShadowOffsetY": -2.0,
-                        "AnchorPoint": {
-                          "ScaleX": 0.5,
-                          "ScaleY": 0.5
-                        },
-                        "Position": {
-                          "X": 140.0,
-                          "Y": 43.0
-                        },
-                        "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
-                        },
-                        "CColor": {
-                          "G": 236,
-                          "B": 130
-                        },
-                        "IconVisible": false,
-                        "PrePosition": {
-                          "X": 0.0,
-                          "Y": -0.022
-                        },
-                        "PreSize": {
-                          "X": 0.2857,
-                          "Y": 0.5714
-                        },
-                        "Tag": 3583,
-                        "ActionTag": 5205056,
-                        "IsAutoSize": true,
-                        "Size": {
-                          "X": 80.0,
-                          "Y": 52.0
-                        },
-                        "Name": "text_shadow",
                         "ctype": "TextObjectData"
                       }
                     ],
                     "ActionTag": 10834818,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 280.0,
                       "Y": 91.0
@@ -353,6 +351,23 @@
                   {
                     "FontSize": 50,
                     "LabelText": "确认返回到游戏大厅？",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
@@ -370,19 +385,22 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.0,
-                      "Y": 0.264
+                      "X": 0.5,
+                      "Y": 0.764
                     },
                     "PreSize": {
-                      "X": 0.463,
-                      "Y": 0.1009
+                      "X": 0.4537,
+                      "Y": 0.0994
                     },
+                    "LeftMargin": 295.0,
+                    "RightMargin": 295.0,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 460.0,
                     "Tag": 3587,
                     "ActionTag": 49441378,
-                    "IsAutoSize": true,
                     "Size": {
-                      "X": 500.0,
-                      "Y": 65.0
+                      "X": 490.0,
+                      "Y": 64.0
                     },
                     "Name": "title",
                     "ctype": "TextObjectData"
@@ -420,16 +438,19 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": -0.287,
-                      "Y": -0.1708
+                      "X": 0.213,
+                      "Y": 0.3292
                     },
                     "PreSize": {
                       "X": 0.0694,
                       "Y": 0.1242
                     },
+                    "LeftMargin": 192.5,
+                    "RightMargin": 812.5,
+                    "TopMargin": 392.0,
+                    "BottomMargin": 172.0,
                     "Tag": 3589,
                     "ActionTag": 30145835,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 75.0,
                       "Y": 80.0
@@ -440,6 +461,23 @@
                   {
                     "FontSize": 40,
                     "LabelText": "游戏音乐",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
@@ -456,19 +494,22 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": -0.2269,
-                      "Y": -0.1708
+                      "X": 0.2731,
+                      "Y": 0.3292
                     },
                     "PreSize": {
-                      "X": 0.1481,
-                      "Y": 0.0807
+                      "X": 0.1509,
+                      "Y": 0.0792
                     },
+                    "LeftMargin": 295.0,
+                    "RightMargin": 622.0,
+                    "TopMargin": 406.5,
+                    "BottomMargin": 186.5,
                     "Tag": 3590,
                     "ActionTag": 61262136,
-                    "IsAutoSize": true,
                     "Size": {
-                      "X": 160.0,
-                      "Y": 52.0
+                      "X": 163.0,
+                      "Y": 51.0
                     },
                     "Name": "label_1",
                     "ctype": "TextObjectData"
@@ -506,16 +547,19 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.0833,
-                      "Y": -0.1708
+                      "X": 0.5833,
+                      "Y": 0.3292
                     },
                     "PreSize": {
                       "X": 0.0694,
                       "Y": 0.1242
                     },
+                    "LeftMargin": 592.5,
+                    "RightMargin": 412.5,
+                    "TopMargin": 392.0,
+                    "BottomMargin": 172.0,
                     "Tag": 3593,
                     "ActionTag": 41653587,
-                    "IsAutoSize": true,
                     "Size": {
                       "X": 75.0,
                       "Y": 80.0
@@ -526,6 +570,23 @@
                   {
                     "FontSize": 40,
                     "LabelText": "游戏音效",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Microsoft YaHei UI Bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "A": 0,
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
@@ -542,26 +603,28 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.1435,
-                      "Y": -0.1708
+                      "X": 0.6435,
+                      "Y": 0.3292
                     },
                     "PreSize": {
-                      "X": 0.1481,
-                      "Y": 0.0807
+                      "X": 0.1509,
+                      "Y": 0.0792
                     },
+                    "LeftMargin": 695.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": 406.5,
+                    "BottomMargin": 186.5,
                     "Tag": 3594,
                     "ActionTag": 44692535,
-                    "IsAutoSize": true,
                     "Size": {
-                      "X": 160.0,
-                      "Y": 52.0
+                      "X": 163.0,
+                      "Y": 51.0
                     },
                     "Name": "label_2",
                     "ctype": "TextObjectData"
                   }
                 ],
                 "ActionTag": 52065762,
-                "IsAutoSize": true,
                 "Size": {
                   "X": 1080.0,
                   "Y": 644.0
@@ -587,6 +650,7 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
+        "Microsoft YaHei UI Bold.ttf",
         "qietu/tymb/changBt01.png",
         "qietu/tymb/changBt02.png",
         "qietu/tymb/xiaoBox.png",

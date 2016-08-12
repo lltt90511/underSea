@@ -560,21 +560,9 @@
                     <PreSize X="0.2352" Y="0.1485" />
                     <FileData Type="Normal" Path="qietu/fish/bet_bg_2.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="layout" ActionTag="40740550" ZOrder="2" VisibleForFrame="False" Tag="15111" IconVisible="False" BottomMargin="918.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ComboBoxIndex="1" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <AbstractNodeData Name="layout" ActionTag="40740550" ZOrder="2" Tag="15111" IconVisible="False" BottomMargin="918.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ComboBoxIndex="1" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="1080.0000" Y="180.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="2859685" ZOrder="1" Tag="15112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="291.0000" RightMargin="291.0000" TopMargin="58.0000" BottomMargin="58.0000" FontSize="50" LabelText="正在开奖中,请稍后......" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="498.0000" Y="64.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="540.0000" Y="90.0000" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="0" B="4" />
-                        <PrePosition X="0.5000" Y="0.5000" />
-                        <PreSize X="0.4611" Y="0.3556" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
-                        <OutlineColor A="255" R="0" G="0" B="0" />
-                        <ShadowColor A="255" R="0" G="0" B="0" />
-                      </AbstractNodeData>
                       <AbstractNodeData Name="bg" ActionTag="14326175" Tag="24117" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="90.0000" RightMargin="90.0000" TopMargin="30.0000" BottomMargin="30.0000" Scale9Enable="True" LeftEage="176" RightEage="175" TopEage="66" BottomEage="67" Scale9OriginX="176" Scale9OriginY="66" Scale9Width="1" Scale9Height="1" ctype="ImageViewObjectData">
                         <Size X="900.0000" Y="120.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -584,6 +572,18 @@
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.8333" Y="0.6667" />
                         <FileData Type="Normal" Path="qietu/fish/win_bg.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="text" ActionTag="2859685" ZOrder="1" Tag="15112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="40.0000" RightMargin="40.0000" TopMargin="58.0000" BottomMargin="58.0000" IsCustomSize="True" FontSize="50" LabelText="开奖中，请稍后..." HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="1000.0000" Y="64.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="540.0000" Y="90.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="0" B="4" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="0.9259" Y="0.3556" />
+                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <OutlineColor A="255" R="0" G="0" B="0" />
+                        <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />

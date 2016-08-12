@@ -47,7 +47,7 @@ var FishLayer = cc.Layer.extend({
     fishList:[],
     resultName:[],
     betTypeList:[3,4,5,6,13,14],
-    beHistoryList:[],
+    betOwn:[],
 
 	fishLayer:null,
 	rebetBtn:null,
@@ -66,6 +66,7 @@ var FishLayer = cc.Layer.extend({
     listener1:null,
     listener2:null,
     listener3:null,
+    listener4:null,
 	ctor:function (data) {
         this._super();
         console.log("FishLayer ctor");
@@ -87,11 +88,18 @@ var FishLayer = cc.Layer.extend({
             console.log("singleGoldArr.id"+this.singleGoldArr[betData.id]);
 		}
 
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_shayu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_moguiyu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_denglongyu_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_wugui_json);
+        ccs.armatureDataManager.addArmatureFileInfo(res.ani_gold_json);
+
         this.initView();
         this.initFish();
         this.initBottom();
         this.initHelp();
         this.initListener();
+
         return true;
     },
     initView:function() {
@@ -101,6 +109,7 @@ var FishLayer = cc.Layer.extend({
         this.bottomLayoutText = ccui.helper.seekWidgetByTag(this.fishscene.node,15112);
         this.bottomLayoutBg = ccui.helper.seekWidgetByTag(this.fishscene.node,24117);
         this.rebetBtn = ccui.helper.seekWidgetByTag(this.fishscene.node,14797);
+        this.rebetBtn.addTouchEventListener(this.onRepeatBet,this);
         this.bigWinLayer = ccui.helper.seekWidgetByTag(this.fishscene.node,24871);
         this.panel_shayu = ccui.helper.seekWidgetByTag(this.fishscene.node,14854);
         this.panel_moguiyu = ccui.helper.seekWidgetByTag(this.fishscene.node,14872);
@@ -137,12 +146,6 @@ var FishLayer = cc.Layer.extend({
         this.chatLayer = new ChatLayer();
         this.chatLayer.setPosition(cc.p(0,0));
         this.fishscene.node.addChild(this.chatLayer,5);
-
-        ccs.armatureDataManager.addArmatureFileInfo(res.ani_shayu_json);
-        ccs.armatureDataManager.addArmatureFileInfo(res.ani_moguiyu_json);
-        ccs.armatureDataManager.addArmatureFileInfo(res.ani_denglongyu_json);
-        ccs.armatureDataManager.addArmatureFileInfo(res.ani_wugui_json);
-        ccs.armatureDataManager.addArmatureFileInfo(res.ani_gold_json);
     },
     initData:function() {
         if (this.fishData.type === 100) {
@@ -155,31 +158,43 @@ var FishLayer = cc.Layer.extend({
             else{
                 this.cdNumber.setString(this.betEndTime.toString());
             }
+            if (this.isDoBet) {
+                this.isDoBet = false;
+            }
+            this.rebetBtn.setVisible(true);
+            this.rebetBtn.setTouchEnabled(true);
             this.changeTouchEnabled(true);
+            this.bottomLayout.setTouchEnabled(false);
+            this.bottomLayout.setVisible(false);
+            this.bottomLayoutBg.setVisible(false);
         }
         else if (this.fishData.type === 200 || this.fishData.type === 201) {
             this.cdNumber.setString("00");
             this.cdNumber.setColor(cc.color(204,255,255,255));
-            this.rebetBtn.setBright(false);
+            this.rebetBtn.setVisible(false);
             this.rebetBtn.setTouchEnabled(false);
             this.bottomLayout.setVisible(true);
             this.bottomLayout.setTouchEnabled(true);
+            this.bottomLayoutBg.setVisible(false);
             if (!this.isPlaying) {
                 this.playFishEffect();
             }
             if (this.fishData.type === 200) {
-                this.bottomLayoutText.setString("开奖中......");
+                this.bottomLayoutText.setString("开奖中，请稍后...");
             }
             else {
-                this.bottomLayoutText.setString("开奖中，请稍后...");
-                // if (this.fishData.GameResult.f[1] === 1 || this.fishData.GameResult.f[1] === 3 || this.fishData.GameResult.f[1] === 4){
-                    this.setIsBigWin();
+                this.toNextTime = 10;
+                // if (this.isPlaying) {
+                //     this.bottomLayoutText.setString("开奖中，请稍后...");
                 // }
+                if (this.fishData.GameResult.f[1] === 1 || this.fishData.GameResult.f[1] === 3 || this.fishData.GameResult.f[1] === 4){
+                    this.setIsBigWin();
+                }
             }
         }
     },
     initFish:function() {
-    	var fish = ccui.helper.seekWidgetByName(this.fishscene.node,"fish");
+    	// var fish = ccui.helper.seekWidgetByName(this.fishscene.node,"fish");
     	var helpBtn = ccui.helper.seekWidgetByTag(this.fishscene.node,27476);
     	helpBtn.addTouchEventListener(this.onShowOrHideHelp,this);
     },
@@ -243,20 +258,26 @@ var FishLayer = cc.Layer.extend({
             event: cc.EventListener.CUSTOM,
             eventName: "ON_GET_GAME_STATUS",
             callback: this.onGetGameStatus.bind(this)
-        });    
+        });
         cc.eventManager.addListener(this.listener1, 1);
         this.listener2 = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
             eventName: "ON_BET_SUCCEED",
             callback: this.onBetSucceed.bind(this)
-        });    
+        });
         cc.eventManager.addListener(this.listener2, 2);
         this.listener3 = cc.EventListener.create({
             event: cc.EventListener.CUSTOM,
             eventName: "ON_BET_FAILED",
             callback: this.onBetFailed.bind(this)
-        });    
+        });
         cc.eventManager.addListener(this.listener3, 3);
+        this.listener4 = cc.EventListener.create({
+            event: cc.EventListener.CUSTOM,
+            eventName: "ON_LEAVE_GAME_SUCCEED",
+            callback: this.onLeaveGameSucceed.bind(this)
+        });
+        cc.eventManager.addListener(this.listener4, 4);
     },
     onUpdateGameData:function(data) {
     	this.fishData = [];
@@ -289,7 +310,7 @@ var FishLayer = cc.Layer.extend({
             this.rebetBtn.setBright(flag);
             this.rebetBtn.setTouchEnabled(flag);
         }
-        for (var i in this.isBet){
+        for (var i in this.isBet) {
             this.betList[i].setTouchEnabled(flag);
         }
     },
@@ -377,51 +398,98 @@ var FishLayer = cc.Layer.extend({
             this.betMaskList[j].setTouchEnabled(false);
             this.betImgList[j].setVisible(false);
         }
+        this.betOwn = [];
         this.betEndTime = 20;
-        // if (this.fishData.GameResult !== undefined && this.fishData.GameResult !== null && this.fishData.GameResult.f !== undefined && this.fishData.GameResult.f !== null) {
-        
-            this.fishList[1][1].stopAllActions();
-            this.fishList[1][1].setRotation(0);
-            this.fishList[1][3].setVisible(true);
-            this.armature1.removeFromParent(true);
-            this.armature1 = null;
-            this.fishList[1][5].setVisible(true);
-            this.armature2.removeFromParent(true);
-            this.armature2 = null;
-            this.stopAllActions();
-            this.bigWinLayer.removeAllChildrenWithCleanup(true);
-            this.showArmature("gold",cc.p(SceneWidth/2,260),1,0,90);
-            // if (this.fishData.GameResult[1] === 1) {
-                var dabuhuo = new cc.Sprite("res/qietu/fish/fish_13.png");
-                dabuhuo.setAnchorPoint(cc.p(0.5,0));
-                dabuhuo.setPosition(cc.p(SceneWidth/2,230));
-                this.bigWinLayer.addChild(dabuhuo,100);
-                var rotateto1 = cc.rotateTo(0.6,15);
-                var rotateto2 = cc.rotateTo(0.6,0);
-                var seq1 = cc.sequence(rotateto1,rotateto2);
-                dabuhuo.runAction(cc.repeatForever(seq1));
-                this.showArmature("shayu",cc.p(400,400),1,-60,100);
-                this.showArmature("moguiyu",cc.p(680,500),1,-150,100);
-                this.showArmature("denglongyu",cc.p(440,220),1,0,100);
-                this.showArmature("wugui",cc.p(640,220),1,0,100);
-            // }
-            // else if (this.fishData.GameResult[1] === 3) {
-            //     this.showArmature("shayu",cc.p(SceneWidth/2,692/2),1.5,-30,100);
-            // }
-            // else if (this.fishData.GameResult[1] === 4) {
-            //     this.showArmature("moguiyu",cc.p(SceneWidth/2,692/2),1.5,-150,100);
-            // }
-            var delayTime = cc.delayTime(2.0);
-            var callFunc = cc.callFunc(function(target,data){
-                target.bigWinLayer.removeAllChildrenWithCleanup(true);
-                target.goBo();
-            },this);
-            var seq = cc.sequence(delayTime,callFunc);
-            this.runAction(seq);
-        // }
+        this.finishCircleCnt = 0;
+        if (this.isRepeat) {
+            this.isRepeat = false;
+        }
+        this.checkWinResult();
+        if (this.fishData.GameResult !== undefined && this.fishData.GameResult !== null && this.fishData.GameResult.f !== undefined && this.fishData.GameResult.f !== null) {
+            if (this.fishData.GameResult.f[1] === 1 || this.fishData.GameResult.f[1] === 3 || this.fishData.GameResult.f[1] === 4) {
+                this.fishList[1][1].stopAllActions();
+                this.fishList[1][1].setRotation(0);
+                this.fishList[1][3].setVisible(true);
+                this.armature1.removeFromParent(true);
+                this.armature1 = null;
+                this.fishList[1][5].setVisible(true);
+                this.armature2.removeFromParent(true);
+                this.armature2 = null;
+                this.stopAllActions();
+                this.bigWinLayer.removeAllChildrenWithCleanup(true);
+                this.showArmature("gold",cc.p(SceneWidth/2,260),1,0,90);
+                if (this.fishData.GameResult.f[1] === 1) {
+                    var dabuhuo = new cc.Sprite("res/qietu/fish/fish_13.png");
+                    dabuhuo.setAnchorPoint(cc.p(0.5,0));
+                    dabuhuo.setPosition(cc.p(SceneWidth/2,230));
+                    this.bigWinLayer.addChild(dabuhuo,100);
+                    var rotateto1 = cc.rotateTo(0.6,15);
+                    var rotateto2 = cc.rotateTo(0.6,0);
+                    var seq1 = cc.sequence(rotateto1,rotateto2);
+                    dabuhuo.runAction(cc.repeatForever(seq1));
+                    this.showArmature("shayu",cc.p(400,400),1,-60,100);
+                    this.showArmature("moguiyu",cc.p(680,500),1,-150,100);
+                    this.showArmature("denglongyu",cc.p(440,220),1,0,100);
+                    this.showArmature("wugui",cc.p(640,220),1,0,100);
+                }
+                else if (this.fishData.GameResult.f[1] === 3) {
+                    this.showArmature("shayu",cc.p(SceneWidth/2,692/2),1.5,-30,100);
+                }
+                else if (this.fishData.GameResult.f[1] === 4) {
+                    this.showArmature("moguiyu",cc.p(SceneWidth/2,692/2),1.5,-150,100);
+                }
+                var delayTime = cc.delayTime(2.0);
+                var callFunc = cc.callFunc(function(target,data){
+                    target.bigWinLayer.removeAllChildrenWithCleanup(true);
+                    target.goBo();
+                },this);
+                var seq = cc.sequence(delayTime,callFunc);
+                this.runAction(seq);
+            }
+        }
+    },
+    checkWinResult:function () {
+        if (this.fishData.type === 201) {
+            var message = [];
+            message.type = 0;
+            message.cnt = this.fishData.GameResult.c;
+            message.outside = this.resultName[1];
+            message.inside = this.resultName[0];
+            this.chatLayer.setMessage(message,1); 
+            this.chatLayer.setMessage(message,3); 
+            var isInResult = false;
+            if (this.fishData.GameResult.u && this.fishData.GameResult.u.length > 0) {
+                for (var i in this.fishData.GameResult.u) {
+                    var resultMsg = [];
+                    var v = this.fishData.GameResult.u[i];
+                    if (v.i === userData.uidx) {
+                        isInResult = true;
+                        if (v.m > 0) {
+                            this.bottomLayoutText.setString("恭喜您获得"+v.m+"点游戏豆");
+                            this.bottomLayoutBg.setVisible(true);
+                        }
+                    }
+                    resultMsg.type = 1
+                    resultMsg.name = v.i === userData.uidx ? "你" : v.e;
+                    resultMsg.id = v.i;
+                    resultMsg.msg = v.m.toString();
+                    this.chatLayer.setMessage(resultMsg,1);
+                    if (v.i === userData.uidx) {
+                        this.chatLayer.setMessage(resultMsg,3) 
+                    }
+                }
+            }
+            if (!isInResult && this.isDoBet) {
+                this.bottomLayoutText.setString("很遗憾您没有中奖！") 
+                this.bottomLayoutBg.setVisible(true);
+            }
+        }
     },
     showExchange:function () {
         this.fishscene.node.addChild(new ExchangeLayer(this.gameId),100);
+    },
+    showBack:function () {
+        this.fishscene.node.addChild(new QuitAlertLayer(this.gameId),100);
     },
     onBet:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED){
@@ -458,6 +526,31 @@ var FishLayer = cc.Layer.extend({
     		}
     	}
     },
+    onRepeatBet:function(target,event) {
+        if (event === ccui.Widget.TOUCH_ENDED){
+            console.log("onRepeatBet!!!!");  
+            if (!this.isRepeat) {
+                this.isRepeat = true;
+            }
+            var totalCnt = 0;
+            for (var i in betHistoryList) {
+                totalCnt = totalCnt + betHistoryList[i];
+            }
+            if (totalCnt > userData.owncash){
+                currentScene.addChild(new AlertLayer(this,"余额不足！",true),100);
+            }
+            else {
+                for (var i in betHistoryList) {
+                    var delayTime = cc.delayTime(0.1);
+                    var callFunc = cc.callFunc(function(target,data){
+                        nc.socketCall(new Array(9001,data,betHistoryList[data]));
+                    },this,i);
+                    var seq = cc.sequence(delayTime,callFunc);
+                    this.runAction(seq);
+                }
+            }
+        }
+    },
     onHelpBack:function(target,event) {
     	if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onHelpBack!!!!");    	
@@ -482,58 +575,79 @@ var FishLayer = cc.Layer.extend({
         var equipId = 0;
         for (var i in this.singleGoldArr) {
             if (data.betMoney === this.singleGoldArr[i]) {
-                equipId = equipId + 1;
+                equipId = i;
                 break;
             }
         }
+        if (!this.betMaskList[this.isBetList[data.betid][1]].isVisible()) {
+            this.betMaskList[this.isBetList[data.betid][1]].setVisible(true);
+            this.betMaskList[this.isBetList[data.betid][1]].setTouchEnabled(true);
+        }
+        if (this.rebetBtn.isVisible()) {
+            this.rebetBtn.setVisible(false);
+            this.rebetBtn.setTouchEnabled(false);
+        }
         this.betImgList[this.isBetList[data.betid][1]].setVisible(true);
         this.betImgList[this.isBetList[data.betid][1]].loadTexture("res/qietu/fish/equip_"+equipId+".png");
+        this.betOwn[data.betid] = data.betMoney;
+        for (var i in this.betOwn) {
+            betHistoryList[i] = this.betOwn[i];
+        }
     },
     onBetFailed:function(event) {
         var data = event.getUserData();
         if (data.msg !== undefined || data.msg !== null) {
-            currentScene.addChild(new AlertLayer(this,data.msg),100);
+            currentScene.addChild(new AlertLayer(this,data.msg,true),100);
         }
         this.betMaskList[this.isBetList[data.betid][1]].setVisible(false);
         this.betMaskList[this.isBetList[data.betid][1]].setTouchEnabled(false);
         this.betImgList[this.isBetList[data.betid][1]].setVisible(false);
     },
+    onLeaveGameSucceed:function(event) {
+        var data = event.getUserData(); 
+        if (data.gameid === this.gameId) {
+            this.removeFromParent(true);
+        }
+    },
     startFishTimer:function(){
-    	if (this.isRepeat) {
-    	console.log("startFishTimer1!!!!"+this.isRepeat);
-    		this.isRepeat = false;
-    		// this.unschedule(this.startFishTimer);
-    	}
-    	else{
-    	console.log("startFishTimer2!!!!"+this.fishData.type);
-    		if (this.fishData.type === 100){
-    			if (this.bottomLayout.isVisible()){
-    				this.showOrHideObj(this.bottomLayout,false);
-    			}
-    			this.betEndTime = this.betEndTime - 1;
-    	console.log("startFishTimer2!!!!"+this.betEndTime);
-    			if (this.betEndTime < 0){
-    				this.betEndTime = 0;
-    				// nc.socketCall(new Array(8001));
-    				// this.unschedule(this.startFishTimer);
-    			}
-	    		if (this.betEndTime < 10){
-	    			this.cdNumber.setString("0"+this.betEndTime);
-		    		if (this.betEndTime < 5) {
-		    			this.cdNumber.setColor(cc.color(255,0,0,255));
-		    			var blink = cc.blink(0.5,1);
-		    			this.cdNumber.runAction(blink);
-		    		}
-	    		}
-	    		else{
-	    			this.cdNumber.setString(this.betEndTime.toString());
+        console.log("startFishTimer2!!!!"+this.fishData.type);
+		if (this.fishData.type === 100){
+			if (this.bottomLayout.isVisible()){
+				this.showOrHideObj(this.bottomLayout,false);
+			}
+			this.betEndTime = this.betEndTime - 1;
+	        console.log("startFishTimer2!!!!"+this.betEndTime);
+			if (this.betEndTime < 0){
+				this.betEndTime = 0;
+				// nc.socketCall(new Array(8001));
+				// this.unschedule(this.startFishTimer);
+			}
+    		if (this.betEndTime < 10){
+    			this.cdNumber.setString("0"+this.betEndTime);
+	    		if (this.betEndTime < 5) {
+	    			this.cdNumber.setColor(cc.color(255,0,0,255));
+	    			var blink = cc.blink(0.5,1);
+	    			this.cdNumber.runAction(blink);
 	    		}
     		}
-            else
-            {
-    			// this.unschedule(this.startFishTimer);
+    		else{
+    			this.cdNumber.setString(this.betEndTime.toString());
+    		}
+		}
+        else if (this.fishData.type === 201) {
+            this.toNextTime = this.toNextTime - 1;
+            if (this.toNextTime < 0) {
+                this.toNextTime = 10;
             }
-    	}
+            if (!this.isPlaying) {
+                this.bottomLayoutText.setString("等待开始...还剩"+this.toNextTime+"秒");
+            }
+            else {
+                if (!this.isDoBet) {
+                    this.bottomLayoutText.setString("开奖中，请稍后...");
+                }
+            }
+        }
     },
     setIsBigWin:function () {
         this.showLight(cc.p(545,530));
@@ -572,7 +686,7 @@ var FishLayer = cc.Layer.extend({
         if (this.armature2 === undefined || this.armature2 === null) {
             this.armature2 = ccs.Armature.create("moguiyu");
         }
-        var anim2 = armature2.getAnimation();
+        var anim2 = this.armature2.getAnimation();
         this.panel_moguiyu.addChild(this.armature2,10);
         this.armature2.setPosition(cc.p(75,75));
         this.armature2.setScaleX(175/320);
@@ -594,7 +708,7 @@ var FishLayer = cc.Layer.extend({
         light.runAction(cc.repeatForever(rotateby));
     },
     showArmature:function (_str,_p,_s,_r,_z) {
-        console.log("showArmature!!!!");
+        console.log("showArmature!!!!"+_str);
         var armature = ccs.Armature.create(_str);
         armature.setPosition(_p);
         armature.setScale(_s);
@@ -623,6 +737,7 @@ var FishLayer = cc.Layer.extend({
         cc.eventManager.removeListener(this.listener1); 
         cc.eventManager.removeListener(this.listener2); 
         cc.eventManager.removeListener(this.listener3); 
+        cc.eventManager.removeListener(this.listener4); 
     }
 });
 

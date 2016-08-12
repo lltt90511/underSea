@@ -289,21 +289,25 @@ var network = cc.Class.extend({
 	},
 	onEnterGameSucceed:function(data){
 	    console.log("onEnterGameSucceed!!!!!");
-	    currentScene = new FishScene();
-	    currentScene.initView(data);
-	    cc.director.runScene(currentScene);
+        var fishLayer = new FishLayer(data);
+        currentScene.addChild(fishLayer,10);
+	    // currentScene = new FishScene();
+	    // currentScene.initView(data);
+	    // cc.director.runScene(currentScene);
 	},
 	onEnterGameFailed:function(data){
 	    console.log("onEnterGameFailed!!!!!");
 	},
 	onGetUserListSucceed:function(data){
 	    console.log("onGetUserListSucceed!!!!!");
+	    this.pushEvent("ON_GET_USER_LIST_SUCCEED",data);   
 	},
 	onGetUserListFailed:function(data){
 	    console.log("onGetUserListFailed!!!!!");
 	},
 	onLeaveGameSucceed:function(data){
 	    console.log("onLeaveGameSucceed!!!!!");
+	    this.pushEvent("ON_LEAVE_GAME_SUCCEED",data);
 	},
 	onLeaveGameFailed:function(data){
 	    console.log("onLeaveGameFailed!!!!!");
@@ -320,7 +324,7 @@ var network = cc.Class.extend({
 	},
 	onBetSucceed:function(data){
 	    console.log("onBetSucceed!!!!!");
-	    userdata.owncash = userdata.owncash - data.betMoney;
+	    userData.owncash = userData.owncash - data.betMoney;
 	    this.pushEvent("ON_BET_SUCCEED",data);
 	    this.pushEvent("ON_CHANGE_GOLD");
 	},
@@ -351,7 +355,10 @@ var network = cc.Class.extend({
 	    console.log("onGetDailyGiftSucceed!!!!!");
 	},
 	onExchangeSucceed:function(data){
-	    console.log("onExchangeSucceed!!!!!");
+	    console.log("onExchangeSucceed!!!!!");		
+	    userData.owncharm = Number(data.beans);
+		userData.owncash = Number(data.cash);
+	    this.pushEvent("ON_CHANGE_GOLD");
 	},
 	onExchangeFailed:function(data){
 	    console.log("onExchangeFailed!!!!!");
@@ -375,6 +382,7 @@ var network = cc.Class.extend({
 	},
 	onGetChargeIdSucceed:function(data){
 	    console.log("onGetChargeIdSucceed!!!!!");
+	    this.pushEvent("ON_GET_CHARGEID_SUCCEED",data);
 	},
 	onGetChargeIdFailed:function(data){
 	    console.log("onGetChargeIdFailed!!!!!");

@@ -57,6 +57,7 @@ var CommonTopLayer = cc.Layer.extend({
     onBack:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
         	console.log("onBack");
+            this.targetObj.showBack();
     	}
     },
     onExit:function() {

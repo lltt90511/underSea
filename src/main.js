@@ -50,7 +50,7 @@ var MainLayer = cc.Layer.extend({
         name.setString(userData.nickName);
         name.setContentSize(name.getVirtualRendererSize());
         var vip = ccui.helper.seekWidgetByName(top,"vip");
-        vip.loadTexture("res/qietu/user/v"+(userData.viplevel+1)+".png");
+        vip.loadTexture("res/qietu/user/v"+(userData.viplevel)+".png");
         var gold = ccui.helper.seekWidgetByName(top,"gold");
         var goldNum = ccui.helper.seekWidgetByName(top,"gold_num");
         goldNum.setString(userData.owncash);
@@ -77,6 +77,7 @@ var MainLayer = cc.Layer.extend({
     },
     initBottomBtn:function(){
         var bottom = ccui.helper.seekWidgetByName(this.mainscene.node,"bottom");
+        this.showOrHidden(bottom,false);
         this.settingPanel = ccui.helper.seekWidgetByName(bottom,"setting_panel");
         this.settingPanel.setVisible(false);
         for (var i=1;i<5;i++){
@@ -86,15 +87,18 @@ var MainLayer = cc.Layer.extend({
             this.settingBtnList[i].addTouchEventListener(this.settingFuncList[i],this);
         }
         var settingBtn = ccui.helper.seekWidgetByName(this.settingPanel,"btn5");
-        settingBtn.setVisible(false);
-        settingBtn.setTouchEnabled(false);
+        this.showOrHidden(settingBtn,false);
         var dating = ccui.helper.seekWidgetByName(bottom,"dating");
+        this.showOrHidden(dating,false);
         dating.addTouchEventListener(this.onDaTing,this);
         var shangcheng = ccui.helper.seekWidgetByName(bottom,"shangcheng");
+        this.showOrHidden(shangcheng,false);
         shangcheng.addTouchEventListener(this.onShangCheng,this);
         var huodong = ccui.helper.seekWidgetByName(bottom,"huodong");
+        this.showOrHidden(huodong,false);
         huodong.addTouchEventListener(this.onHuodong,this);
         var shezhi = ccui.helper.seekWidgetByName(bottom,"shezhi");
+        this.showOrHidden(shezhi,false);
         shezhi.addTouchEventListener(this.onShezhi,this);
         var paihang = ccui.helper.seekWidgetByName(bottom,"paihang");
         this.showOrHidden(paihang,false);
@@ -121,9 +125,10 @@ var MainLayer = cc.Layer.extend({
         function(){
             nc.socketCall(new Array(6001,10));
         }];
-        for(var i=1;i<4;i++){
-            middleView.pushItem(res["game"+i],funcList[i-1]);
-        }
+        // for(var i=1;i<4;i++){
+        //     middleView.pushItem(res["game"+i],funcList[i-1]);
+        // }
+        middleView.pushItem(res["game1"],funcList[0]);
         middle.addChild(middleView);
         cc.eventManager.addListener(middleView.touchListener,middleView);
     },
@@ -153,6 +158,8 @@ var MainLayer = cc.Layer.extend({
     onShangCheng:function(target,event){
         if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onShangCheng!!!!");
+            var charge = new ChargeLayer(1);
+            this.addChild(charge);
         }
     },
     onAbout:function(target,event){

@@ -10,7 +10,9 @@ var res = {
     chat_json : "res/chat.json",
     userAlert_json : "res/userAlert.json",
     exchange_json : "res/exchange.json",
-
+    charge_json : "res/chargeAlert.json",
+    quitAlert_json : "res/quitAlert.json",
+    
     ani_shayu_json : "res/ani/shayu.ExportJson",
     ani_shayu_plist : "res/ani/shayu0.plist",
     ani_shayu_png : "res/ani/shayu0.png",
@@ -37,6 +39,9 @@ var res = {
     empty : "res/picture/empty.png",
     bo : "res/qietu/fish/bo.png",
     light : "res/qietu/fish/shan.png",
+    equip2 : "res/qietu/fish/equip_2.png",
+    equip3 : "res/qietu/fish/equip_3.png",
+    equip4 : "res/qietu/fish/equip_4.png",
 
     v0 : "res/qietu/user/v0.png",
     v1 : "res/qietu/user/v1.png",

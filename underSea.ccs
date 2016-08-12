@@ -18,7 +18,9 @@
             <Image Name="bg2.png" />
             <Image Name="bg3.png" />
             <Image Name="btn1.png" />
+            <Image Name="btn1_1.png" />
             <Image Name="btn2.png" />
+            <Image Name="btn2_1.png" />
             <Image Name="charge_bg.png" />
             <Image Name="charge1.png" />
             <Image Name="charge2.png" />

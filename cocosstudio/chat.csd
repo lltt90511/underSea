@@ -537,7 +537,7 @@
                   <AbstractNodeData Name="name" ActionTag="9000912" Tag="15116" IconVisible="False" LeftMargin="130.0000" RightMargin="635.0000" TopMargin="21.0000" BottomMargin="55.0000" FontSize="35" LabelText="名字名字名字名字" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="283.0000" Y="44.0000" />
                     <Children>
-                      <AbstractNodeData Name="id" ActionTag="11261553" Tag="17408" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="283.0000" RightMargin="-233.0000" TopMargin="6.0000" FontSize="30" LabelText="(12312313123)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="id" ActionTag="11261553" Tag="17408" IconVisible="False" LeftMargin="283.0000" RightMargin="-233.0000" TopMargin="6.0000" FontSize="30" LabelText="(12312313123)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="233.0000" Y="38.0000" />
                         <AnchorPoint />
                         <Position X="283.0000" />
