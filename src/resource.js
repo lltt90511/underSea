@@ -73,6 +73,11 @@ var res = {
     v26 : "res/qietu/user/v26.png",
     v27 : "res/qietu/user/v27.png",
     v28 : "res/qietu/user/v28.png",
+
+    bgMusic_1 : "res/sound/bgm1.mp3",
+    effect_1 : "res/sound/effect_01.wav", //倒计时音效
+    effect_2 : "res/sound/effect_02.wav", //转圈音效
+    effect_3 : "res/sound/effect_03.wav", //点击按钮音效
 };
 
 var g_resources = [];

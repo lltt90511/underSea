@@ -46,18 +46,21 @@ var CommonTopLayer = cc.Layer.extend({
     onExchange:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
         	console.log("onExchange");
+            cc.audioEngine.playEffect(res.effect_3,false);
             this.targetObj.showExchange();
-    	}
+    	}  
     },
     onCharge:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
         	console.log("onCharge");
+            cc.audioEngine.playEffect(res.effect_3,false);
             currentScene.addChild(new AlertLayer(this,"请前往微信公众号充值！",true),100);
     	}
     },
     onBack:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
         	console.log("onBack");
+            cc.audioEngine.playEffect(res.effect_3,false);
             this.targetObj.showBack();
     	}
     },

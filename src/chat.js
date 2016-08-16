@@ -592,6 +592,7 @@ var ChatLayer = cc.Layer.extend({
     },
     onTab:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
+            cc.audioEngine.playEffect(res.effect_3,false);
             var id = Number(target.getName());
             this.currentTabCnt = id;
             if (id === 2) {
@@ -603,6 +604,7 @@ var ChatLayer = cc.Layer.extend({
     },
     onSend:function() {
         console.log("onSend");
+        cc.audioEngine.playEffect(res.effect_3,false);
         var str = this.editBox.getString();
         if (str === undefined || str === null || str === "" ) {
             return;
@@ -620,6 +622,7 @@ var ChatLayer = cc.Layer.extend({
         // if (this.nameType === 0) {
         //     return;
         // }
+        cc.audioEngine.playEffect(res.effect_3,false);
         switch (type) {
             case ccui.CheckBox.EVENT_SELECTED:
                 console.log("checkbox select");
@@ -636,12 +639,12 @@ var ChatLayer = cc.Layer.extend({
         }
     },
     onSay:function(target,event) {
-            console.log("onSay");
         if (event === ccui.Widget.TOUCH_ENDED) {
             // if (this.targetList.length === 0){
             //     return;
             // }
-            console.log("onSay1");
+            console.log("onSay");
+            cc.audioEngine.playEffect(res.effect_3,false);
             this.say.setTouchEnabled(false);
             var posY = this.sayBg.getPositionY();
             var movePos = cc.p(0,0);
@@ -663,6 +666,7 @@ var ChatLayer = cc.Layer.extend({
     },
     onSayLabel:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
+            cc.audioEngine.playEffect(res.effect_3,false);
             var id = Number(target.getName());
             if (id === 1) {
                 this.targetId = -1;
@@ -698,6 +702,7 @@ var ChatLayer = cc.Layer.extend({
     },
     onTouchName:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
+            cc.audioEngine.playEffect(res.effect_3,false);
             var data = target.getUserData();
             var tag = target.getTag();       
             var container = this.listViewList[tag].getInnerContainer();
@@ -708,6 +713,7 @@ var ChatLayer = cc.Layer.extend({
     },
     onUser:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED) {
+            cc.audioEngine.playEffect(res.effect_3,false);
             var data = target.getUserData(); 
             var container = this.listViewList[4].getInnerContainer();
             var offset = target.getPositionY() + container.getPositionY();  

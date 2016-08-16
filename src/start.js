@@ -4,6 +4,8 @@ var StartLayer = cc.Layer.extend({
     totalStarNum:15,
     ctor:function () {
         this._super();
+        
+        cc.audioEngine.playMusic(res.bgMusic_1,true);
 
         var size = cc.winSize;
 
@@ -34,16 +36,8 @@ var StartLayer = cc.Layer.extend({
         }
     },
     onStart:function(){        
+        cc.audioEngine.playEffect(res.effect_3,false);
         console.log("onclick");
-        if (nc === undefined) {
-            console.log("undefined");
-        }
-        else if(nc === null) {
-            console.log("null");
-        }
-        else {
-            // console.log(nc);
-        }
         nc.contect(function(){
             console.log("onContectSucceed!!!!!!!!!");
             nc.socketCall(new Array(1001,1,"aaa",1));

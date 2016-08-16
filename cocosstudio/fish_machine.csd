@@ -390,14 +390,14 @@
                       <AbstractNodeData Name="btn_1" ActionTag="41341165" Tag="19875" IconVisible="False" LeftMargin="4.0000" RightMargin="128.0000" TopMargin="5.0000" BottomMargin="82.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="47698421" Tag="19878" IconVisible="False" LeftMargin="26.0000" RightMargin="26.0000" TopMargin="0.5000" BottomMargin="40.5000" FontSize="35" LabelText="玫瑰" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
-                            <Size X="70.0000" Y="35.0000" />
+                          <AbstractNodeData Name="text" ActionTag="47698421" Tag="19878" IconVisible="False" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="玫瑰" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="60.0000" Y="30.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.5738" Y="0.4605" />
+                            <PreSize X="0.4918" Y="0.3947" />
                             <FontResource Type="Default" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="255" G="236" B="130" />
@@ -431,27 +431,26 @@
                       <AbstractNodeData Name="btn_2" ActionTag="46226559" Tag="19881" IconVisible="False" LeftMargin="128.0000" RightMargin="4.0000" TopMargin="5.0000" BottomMargin="82.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="13385854" Tag="19882" IconVisible="False" LeftMargin="8.5000" RightMargin="8.5000" TopMargin="0.5000" BottomMargin="40.5000" FontSize="35" LabelText="千纸鹤" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
-                            <Size X="105.0000" Y="35.0000" />
+                          <AbstractNodeData Name="text" ActionTag="13385854" Tag="19882" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="千纸鹤" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="90.0000" Y="30.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.8607" Y="0.4605" />
+                            <PreSize X="0.7377" Y="0.3947" />
                             <FontResource Type="Default" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
-                          <AbstractNodeData Name="num" ActionTag="10140172" Tag="21945" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="36.0000" BottomMargin="-4.0000" FontSize="35" LabelText="1000" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
-                            <Size X="90.0000" Y="44.0000" />
+                          <AbstractNodeData Name="num" ActionTag="10140172" Tag="21945" IconVisible="False" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="40.5000" BottomMargin="0.5000" FontSize="35" LabelText="1000" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="72.0000" Y="35.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="18.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.2368" />
-                            <PreSize X="0.7377" Y="0.5789" />
-                            <FontResource Type="Normal" Path="" Plist="" />
+                            <PreSize X="0.5902" Y="0.4605" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="255" G="236" B="130" />
                           </AbstractNodeData>
@@ -472,14 +471,14 @@
                       <AbstractNodeData Name="btn_3" ActionTag="38587990" Tag="19883" IconVisible="False" LeftMargin="4.0000" RightMargin="128.0000" TopMargin="83.0000" BottomMargin="4.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="11747593" Tag="19884" IconVisible="False" LeftMargin="8.5000" RightMargin="8.5000" TopMargin="0.5000" BottomMargin="40.5000" FontSize="35" LabelText="水晶鞋" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
-                            <Size X="105.0000" Y="35.0000" />
+                          <AbstractNodeData Name="text" ActionTag="11747593" Tag="19884" IconVisible="False" LeftMargin="16.0000" RightMargin="16.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="水晶鞋" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="90.0000" Y="30.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="0.8607" Y="0.4605" />
+                            <PreSize X="0.7377" Y="0.3947" />
                             <FontResource Type="Default" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="255" G="236" B="130" />
@@ -513,14 +512,14 @@
                       <AbstractNodeData Name="btn_4" ActionTag="4466740" Tag="19885" IconVisible="False" LeftMargin="128.0000" RightMargin="4.0000" TopMargin="83.0000" BottomMargin="4.0000" TouchEnable="True" FontSize="14" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="76.0000" />
                         <Children>
-                          <AbstractNodeData Name="text" ActionTag="40200664" Tag="19886" IconVisible="False" LeftMargin="-9.0000" RightMargin="-9.0000" TopMargin="0.5000" BottomMargin="40.5000" FontSize="35" LabelText="兰博基尼" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
-                            <Size X="140.0000" Y="35.0000" />
+                          <AbstractNodeData Name="text" ActionTag="40200664" Tag="19886" IconVisible="False" LeftMargin="1.0000" RightMargin="1.0000" TopMargin="3.0000" BottomMargin="43.0000" FontSize="30" LabelText="兰博基尼" HorizontalAlignmentType="HT_Center" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+                            <Size X="120.0000" Y="30.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="58.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <CColor A="255" R="254" G="177" B="23" />
                             <PrePosition X="0.5000" Y="0.7632" />
-                            <PreSize X="1.1475" Y="0.4605" />
+                            <PreSize X="0.9836" Y="0.3947" />
                             <FontResource Type="Default" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="255" G="236" B="130" />

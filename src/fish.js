@@ -161,6 +161,7 @@ var FishLayer = cc.Layer.extend({
             if (this.isDoBet) {
                 this.isDoBet = false;
             }
+            this.hiddenAllLight();
             this.rebetBtn.setVisible(true);
             this.rebetBtn.setTouchEnabled(true);
             this.changeTouchEnabled(true);
@@ -301,6 +302,7 @@ var FishLayer = cc.Layer.extend({
     },
     onShowOrHideHelp:function(target,event) {
     	if (event == ccui.Widget.TOUCH_ENDED){
+            cc.audioEngine.playEffect(res.effect_3,false);
             console.log("onShowOrHideHelp!!!!"); 
             this.showOrHideObj(this.helpLayer,true);   	
         }
@@ -348,7 +350,7 @@ var FishLayer = cc.Layer.extend({
                         _this.resultName[tag] = _this.fishTypeList[_id].name;
                         _this.finishCircleCnt = _this.finishCircleCnt + 1;
                         _this.lastOpenId[tag] = st;
-                        _this.lightList[tag][st].setVisible(false);
+                        // _this.lightList[tag][st].setVisible(false);
                         if (_this.finishCircleCnt === 2) {
                             _this.endEffect();
                         }
@@ -375,6 +377,9 @@ var FishLayer = cc.Layer.extend({
             },_this);
             var seq = cc.sequence(delayTime,callFunc); 
             _this.lightList[tag][st].runAction(seq);
+            if (tag === 1) {
+                cc.audioEngine.playEffect(res.effect_2,false);
+            } 
         };
         func();
     },
@@ -493,6 +498,7 @@ var FishLayer = cc.Layer.extend({
     },
     onBet:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED){
+            cc.audioEngine.playEffect(res.effect_3,false);
             var id = Number(target.getName());
             console.log("onBet!!!!"+id+name);
             this.betMaskList[id].setVisible(true);
@@ -503,6 +509,7 @@ var FishLayer = cc.Layer.extend({
     },
     onBetBtn:function(target,event) {
     	if (event === ccui.Widget.TOUCH_ENDED){
+            cc.audioEngine.playEffect(res.effect_3,false);
     		var id = Number(target.getName());
     		this.singleIndex = id;
             console.log("onBetBtn!!!!"+id);
@@ -528,6 +535,7 @@ var FishLayer = cc.Layer.extend({
     },
     onRepeatBet:function(target,event) {
         if (event === ccui.Widget.TOUCH_ENDED){
+            cc.audioEngine.playEffect(res.effect_3,false);
             console.log("onRepeatBet!!!!");  
             if (!this.isRepeat) {
                 this.isRepeat = true;
@@ -553,6 +561,7 @@ var FishLayer = cc.Layer.extend({
     },
     onHelpBack:function(target,event) {
     	if (event == ccui.Widget.TOUCH_ENDED){
+            cc.audioEngine.playEffect(res.effect_3,false);
             console.log("onHelpBack!!!!");    	
             this.showOrHideObj(this.helpLayer,false);
         }
@@ -625,6 +634,7 @@ var FishLayer = cc.Layer.extend({
     		if (this.betEndTime < 10){
     			this.cdNumber.setString("0"+this.betEndTime);
 	    		if (this.betEndTime < 5) {
+                    cc.audioEngine.playEffect(res.effect_1,false);
 	    			this.cdNumber.setColor(cc.color(255,0,0,255));
 	    			var blink = cc.blink(0.5,1);
 	    			this.cdNumber.runAction(blink);

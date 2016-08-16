@@ -71,7 +71,7 @@
                   <AbstractNodeData Name="gold_bg" ActionTag="46502279" Tag="15011" IconVisible="False" LeftMargin="170.0000" RightMargin="513.0000" TopMargin="85.5000" BottomMargin="15.5000" Scale9Width="398" Scale9Height="69" ctype="ImageViewObjectData">
                     <Size X="398.0000" Y="69.0000" />
                     <Children>
-                      <AbstractNodeData Name="add" ActionTag="15867334" Tag="15012" IconVisible="False" LeftMargin="390.4997" RightMargin="-151.4998" BottomMargin="1.0000" TouchEnable="True" FontSize="14" Scale9Width="159" Scale9Height="68" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="add" ActionTag="15867334" Tag="15012" IconVisible="False" LeftMargin="390.4997" RightMargin="-151.4997" BottomMargin="1.0000" TouchEnable="True" FontSize="14" Scale9Width="159" Scale9Height="68" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="159.0000" Y="68.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="469.9997" Y="35.0000" />
@@ -104,13 +104,13 @@
                     <PreSize X="0.3682" Y="0.4059" />
                     <FileData Type="Normal" Path="qietu/top/gold_bg.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="get" ActionTag="10185653" Tag="15014" IconVisible="False" LeftMargin="866.9994" RightMargin="11.0006" TopMargin="13.4993" BottomMargin="13.5007" TouchEnable="True" FontSize="14" Scale9Width="203" Scale9Height="143" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                  <AbstractNodeData Name="get" ActionTag="10185653" Tag="15014" IconVisible="False" LeftMargin="797.0000" RightMargin="81.0000" TopMargin="13.4993" BottomMargin="13.5007" TouchEnable="True" FontSize="14" Scale9Width="203" Scale9Height="143" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="203.0000" Y="143.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
-                    <Position X="1069.9994" Y="85.0007" />
+                    <Position X="1000.0000" Y="85.0007" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.9898" Y="0.5000" />
+                    <PrePosition X="0.9251" Y="0.5000" />
                     <PreSize X="0.1878" Y="0.8412" />
                     <TextColor A="255" R="255" G="255" B="255" />
                     <PressedFileData Type="Normal" Path="qietu/top/get2.png" Plist="" />
