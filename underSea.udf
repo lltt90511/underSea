@@ -3,7 +3,7 @@
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
-        <IsLastPublish Value="True" />
+        <IsLastPublish Value="False" />
         <LastRunType Value="Simulator" />
       </Value>
     </Item>
@@ -24,8 +24,8 @@
         <KeystorePassword Value="" />
         <KeystoreAliasName Value="" />
         <KeystoreAliasPassword Value="" />
-        <EnableSourceMap Value="True" />
-        <EnableHTML5Advanced Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
   </Properties>

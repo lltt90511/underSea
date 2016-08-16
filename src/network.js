@@ -45,7 +45,7 @@ var network = cc.Class.extend({
 		}
 		var socketStr = "";
 		for(var i in s) {
-			if (i === 1) {
+			if (i === 0) {
 				socketStr = s[i];
 			}
 			else {
@@ -254,8 +254,9 @@ var network = cc.Class.extend({
 	            console.log(j+data[j]+"@@"+userData[j]);
 	        }
 	    }
-	    currentScene = new MainScene();
-	    cc.director.runScene(currentScene);
+	    // currentScene = new MainScene();
+	    // cc.director.runScene(currentScene);
+		this.socketCall(new Array(6001,12));
 	},
 	onLoginFailed:function(data){
 	    console.log("onLoginFailed!!!!!");
@@ -289,11 +290,11 @@ var network = cc.Class.extend({
 	},
 	onEnterGameSucceed:function(data){
 	    console.log("onEnterGameSucceed!!!!!");
-        var fishLayer = new FishLayer(data);
-        currentScene.addChild(fishLayer,10);
-	    // currentScene = new FishScene();
-	    // currentScene.initView(data);
-	    // cc.director.runScene(currentScene);
+        // var fishLayer = new FishLayer(data);
+        // currentScene.addChild(fishLayer,10);
+	    currentScene = new FishScene();
+	    currentScene.initView(data);
+	    cc.director.runScene(currentScene);
 	},
 	onEnterGameFailed:function(data){
 	    console.log("onEnterGameFailed!!!!!");

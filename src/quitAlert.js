@@ -24,7 +24,7 @@ var QuitAlertLayer = cc.Layer.extend({
         check1.addEventListener(this.onCheck, this);
     	var check2 = ccui.helper.seekWidgetByTag(this.quitAlertscene.node,3593);
         check2.addEventListener(this.onCheck, this);
-    },
+    },  
     onConfirm:function (target,event) {
     	if (event == ccui.Widget.TOUCH_ENDED){
             console.log("onConfirm!!!!");

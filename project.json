@@ -15,18 +15,12 @@
         "src/resource.js",
         "src/network.js",
         "src/start.js",
-        "src/main.js",
         "src/public.js",
-        "src/sliderView.js",
-        "src/about.js",
-        "src/binding.js",
         "src/alert.js",
         "src/fish.js",
         "src/commonTop.js",
         "src/chat.js",
         "src/userAlert.js",
-        "src/exchange.js",
-        "src/charge.js",
-        "src/quitAlert.js"
+        "src/exchange.js"
     ]
 }

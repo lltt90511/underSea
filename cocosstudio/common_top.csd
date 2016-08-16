@@ -37,15 +37,15 @@
                   <AbstractNodeData Name="name_bg" ActionTag="52486342" Tag="15006" IconVisible="False" LeftMargin="170.0000" RightMargin="532.0000" TopMargin="17.0000" BottomMargin="97.0000" Scale9Width="379" Scale9Height="56" ctype="ImageViewObjectData">
                     <Size X="379.0000" Y="56.0000" />
                     <Children>
-                      <AbstractNodeData Name="name" ActionTag="2615035" Tag="15007" IconVisible="False" LeftMargin="20.0000" RightMargin="169.0000" TopMargin="9.0000" BottomMargin="9.0000" FontSize="30" LabelText="用户名称7个0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="190.0000" Y="38.0000" />
+                      <AbstractNodeData Name="name" ActionTag="2615035" Tag="15007" IconVisible="False" LeftMargin="20.0000" RightMargin="148.0000" TopMargin="10.5000" BottomMargin="10.5000" FontSize="35" LabelText="用户名称7个0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="211.0000" Y="35.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position X="20.0000" Y="28.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <PrePosition X="0.0528" Y="0.5000" />
-                        <PreSize X="0.5013" Y="0.6786" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PreSize X="0.5567" Y="0.6250" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -71,13 +71,13 @@
                   <AbstractNodeData Name="gold_bg" ActionTag="46502279" Tag="15011" IconVisible="False" LeftMargin="170.0000" RightMargin="513.0000" TopMargin="85.5000" BottomMargin="15.5000" Scale9Width="398" Scale9Height="69" ctype="ImageViewObjectData">
                     <Size X="398.0000" Y="69.0000" />
                     <Children>
-                      <AbstractNodeData Name="add" ActionTag="15867334" Tag="15012" IconVisible="False" LeftMargin="390.5000" RightMargin="-151.5000" TopMargin="1.0000" TouchEnable="True" FontSize="14" Scale9Width="159" Scale9Height="68" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="add" ActionTag="15867334" Tag="15012" IconVisible="False" LeftMargin="390.4997" RightMargin="-151.4998" BottomMargin="1.0000" TouchEnable="True" FontSize="14" Scale9Width="159" Scale9Height="68" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="159.0000" Y="68.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="470.0000" Y="34.0000" />
+                        <Position X="469.9997" Y="35.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="1.1809" Y="0.4928" />
+                        <PrePosition X="1.1809" Y="0.5072" />
                         <PreSize X="0.3995" Y="0.9855" />
                         <TextColor A="255" R="255" G="255" B="255" />
                         <PressedFileData Type="Normal" Path="qietu/top/add2.png" Plist="" />
@@ -104,13 +104,13 @@
                     <PreSize X="0.3682" Y="0.4059" />
                     <FileData Type="Normal" Path="qietu/top/gold_bg.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="get" ActionTag="10185653" Tag="15014" IconVisible="False" LeftMargin="747.0000" RightMargin="131.0000" TopMargin="13.5000" BottomMargin="13.5000" TouchEnable="True" FontSize="14" Scale9Width="203" Scale9Height="143" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                  <AbstractNodeData Name="get" ActionTag="10185653" Tag="15014" IconVisible="False" LeftMargin="866.9994" RightMargin="11.0006" TopMargin="13.4993" BottomMargin="13.5007" TouchEnable="True" FontSize="14" Scale9Width="203" Scale9Height="143" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="203.0000" Y="143.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
-                    <Position X="950.0000" Y="85.0000" />
+                    <Position X="1069.9994" Y="85.0007" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.8788" Y="0.5000" />
+                    <PrePosition X="0.9898" Y="0.5000" />
                     <PreSize X="0.1878" Y="0.8412" />
                     <TextColor A="255" R="255" G="255" B="255" />
                     <PressedFileData Type="Normal" Path="qietu/top/get2.png" Plist="" />
@@ -118,17 +118,17 @@
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="close" ActionTag="24562016" Tag="15015" IconVisible="False" LeftMargin="972.0000" RightMargin="11.0000" TopMargin="35.5000" BottomMargin="35.5000" TouchEnable="True" FontSize="14" Scale9Width="98" Scale9Height="99" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                    <Size X="98.0000" Y="99.0000" />
+                  <AbstractNodeData Name="close" ActionTag="24562016" VisibleForFrame="False" Tag="15015" IconVisible="False" LeftMargin="986.0000" RightMargin="11.0000" TopMargin="42.5000" BottomMargin="42.5000" FontSize="14" LeftEage="32" RightEage="32" TopEage="32" BottomEage="32" Scale9OriginX="14" Scale9OriginY="4" Scale9Width="18" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                    <Size X="84.0000" Y="85.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
                     <Position X="1070.0000" Y="85.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.9898" Y="0.5000" />
-                    <PreSize X="0.0907" Y="0.5824" />
+                    <PreSize X="0.0777" Y="0.5000" />
                     <TextColor A="255" R="255" G="255" B="255" />
-                    <PressedFileData Type="Normal" Path="qietu/top/close2.png" Plist="" />
-                    <NormalFileData Type="Normal" Path="qietu/top/close1.png" Plist="" />
+                    <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>

@@ -50,7 +50,7 @@ var MainLayer = cc.Layer.extend({
         name.setString(userData.nickName);
         name.setContentSize(name.getVirtualRendererSize());
         var vip = ccui.helper.seekWidgetByName(top,"vip");
-        vip.loadTexture("res/qietu/user/v"+(userData.viplevel)+".png");
+        vip.loadTexture("res/qietu/user/v"+userData.viplevel+".png");
         var gold = ccui.helper.seekWidgetByName(top,"gold");
         var goldNum = ccui.helper.seekWidgetByName(top,"gold_num");
         goldNum.setString(userData.owncash);

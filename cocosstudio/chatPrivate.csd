@@ -95,7 +95,7 @@
                     <SingleColor A="255" R="150" G="150" B="255" />
                     <FirstColor A="255" R="255" G="255" B="255" />
                     <EndColor A="255" R="150" G="150" B="255" />
-                    <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                    <ColorVector ScaleY="-1.0000" />
                     <InnerNodeSize Width="0" Height="0" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="scroll" ActionTag="45093393" ZOrder="10" VisibleForFrame="False" Tag="10339" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="150" ComboBoxIndex="1" ColorAngle="270.0000" ScrollDirectionType="Vertical" ctype="ScrollViewObjectData">
@@ -120,7 +120,7 @@
                     <SingleColor A="255" R="0" G="0" B="0" />
                     <FirstColor A="255" R="255" G="255" B="255" />
                     <EndColor A="255" R="255" G="150" B="100" />
-                    <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                    <ColorVector ScaleY="-1.0000" />
                     <InnerNodeSize Width="960" Height="400" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="scroll_bg" ActionTag="35933031" ZOrder="11" VisibleForFrame="False" Tag="10343" IconVisible="False" ctype="ImageViewObjectData">
@@ -134,7 +134,7 @@
                         <CColor A="255" R="255" G="255" B="255" />
                         <PrePosition />
                         <PreSize X="0.3553" Y="0.5000" />
-                        <FileData Type="Normal" Path="buleLoadingBg.png" Plist="" />
+                        <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
@@ -143,7 +143,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.3927" Y="-0.0676" />
                     <PreSize X="0.0197" Y="0.2457" />
-                    <FileData Type="Normal" Path="buleLoading.png" Plist="" />
+                    <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="inviter" ActionTag="4908163" IsAutoSize="True" VisibleForFrame="False" Tag="12583" IconVisible="False" TouchEnable="True" FontSize="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="201.0000" Y="73.0000" />
@@ -231,7 +231,7 @@
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="255" G="255" B="255" />
                 <EndColor A="255" R="150" G="200" B="255" />
-                <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                <ColorVector ScaleY="-1.0000" />
               </AbstractNodeData>
               <AbstractNodeData Name="left" ActionTag="53419809" Tag="10318" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ColorAngle="270.0000" ctype="PanelObjectData">
                 <Size X="960.0000" Y="200.0000" />
@@ -277,7 +277,7 @@
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="255" G="255" B="255" />
                 <EndColor A="255" R="150" G="200" B="255" />
-                <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                <ColorVector ScaleY="-1.0000" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -289,7 +289,7 @@
             <SingleColor A="255" R="0" G="0" B="0" />
             <FirstColor A="255" R="255" G="255" B="255" />
             <EndColor A="255" R="150" G="200" B="255" />
-            <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+            <ColorVector ScaleY="-1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

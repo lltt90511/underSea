@@ -470,53 +470,13 @@
             <Image Name="v9.png" />
           </Folder>
         </Folder>
-        <Project Name="about.csd" Type="Layer" />
-        <Project Name="activity.csd" Type="Layer" />
         <Project Name="alert.csd" Type="Layer" />
-        <Project Name="betAlert.csd" Type="Layer" />
-        <Project Name="binding.csd" Type="Layer" />
-        <Image Name="buleLoading.png" />
-        <Image Name="buleLoadingBg.png" />
-        <Project Name="charge.csd" Type="Layer" />
-        <Project Name="charge_alert.csd" Type="Layer" />
-        <Project Name="chargeAlert.csd" Type="Layer" />
         <Project Name="chat.csd" Type="Layer" />
-        <Project Name="chatHistory.csd" Type="Layer" />
-        <Project Name="chatPrivate.csd" Type="Layer" />
         <Project Name="common_top.csd" Type="Layer" />
         <Project Name="exchange.csd" Type="Layer" />
         <Project Name="fish_machine.csd" Type="Layer" />
-        <Project Name="fruit_machine.csd" Type="Layer" />
-        <Project Name="inviterAlert.csd" Type="Layer" />
-        <Project Name="loading.csd" Type="Layer" />
-        <Project Name="login_alert.csd" Type="Layer" />
-        <Project Name="login_scene.csd" Type="Layer" />
-        <Project Name="loginGift.csd" Type="Layer" />
-        <Project Name="lottery.csd" Type="Layer" />
-        <Project Name="mail.csd" Type="Layer" />
-        <Project Name="main_scene.csd" Type="Layer" />
-        <TTF Name="Microsoft YaHei UI Bold.ttf" />
-        <Project Name="moraGame.csd" Type="Layer" />
-        <Image Name="num01.png" />
-        <Image Name="num02.png" />
-        <Image Name="num03.png" />
-        <Image Name="num04.png" />
-        <Image Name="num05.png" />
-        <Image Name="numDa01.png" />
-        <Image Name="numXiao01.png" />
-        <Project Name="quitAlert.csd" Type="Layer" />
-        <Project Name="Rank.csd" Type="Layer" />
-        <Project Name="receive.csd" Type="Layer" />
-        <Project Name="reward.csd" Type="Layer" />
-        <Project Name="self_info.csd" Type="Layer" />
-        <Project Name="service.csd" Type="Layer" />
-        <Project Name="setting.csd" Type="Layer" />
         <Project Name="start.csd" Type="Layer" />
-        <Project Name="startLoading.csd" Type="Layer" />
-        <Project Name="tree.csd" Type="Layer" />
         <Project Name="userAlert.csd" Type="Layer" />
-        <Project Name="vip.csd" Type="Layer" />
-        <Project Name="waitInviterAlert.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

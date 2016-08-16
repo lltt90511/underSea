@@ -18,7 +18,7 @@ var StartLayer = cc.Layer.extend({
         var startBtn = ccui.helper.seekWidgetByName(this.startscene.node, "btn");
         startBtn.addClickEventListener(this.onStart);
         var bg = ccui.helper.seekWidgetByName(this.startscene.node, "bg");
-        var light = new cc.Sprite("res/qietu/start/guang.png");
+        var light = new cc.Sprite(res.guang);
         light.setPosition(540,1290);
         light.setScale(2.0);
         light.setBlendFunc(gl.SRC_ALPHA, gl.ONE);

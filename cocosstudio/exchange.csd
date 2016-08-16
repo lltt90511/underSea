@@ -23,7 +23,7 @@
                         <CColor A="255" R="255" G="252" B="204" />
                         <PrePosition X="0.0613" Y="0.4945" />
                         <PreSize X="0.0808" Y="0.5604" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Normal" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -61,7 +61,7 @@
                         <CColor A="255" R="229" G="189" B="128" />
                         <PrePosition X="0.0273" Y="0.8571" />
                         <PreSize X="0.1811" Y="0.1457" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Normal" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -76,7 +76,7 @@
                             <CColor A="255" R="229" G="189" B="128" />
                             <PrePosition X="1.0206" Y="0.5000" />
                             <PreSize X="0.0940" Y="0.6375" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -88,7 +88,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="0.0459" Y="0.5000" />
                             <PreSize X="0.4667" Y="0.5375" />
-                            <LabelAtlasFileImage_CNB Type="Normal" Path="num01.png" Plist="" />
+                            <LabelAtlasFileImage_CNB Type="Normal" Path="" Plist="" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleY="0.5000" />
@@ -110,7 +110,7 @@
                             <CColor A="255" R="229" G="189" B="128" />
                             <PrePosition X="1.0206" Y="0.5000" />
                             <PreSize X="0.0493" Y="0.6375" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -122,7 +122,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="0.0459" Y="0.5000" />
                             <PreSize X="0.4667" Y="0.5375" />
-                            <LabelAtlasFileImage_CNB Type="Normal" Path="num01.png" Plist="" />
+                            <LabelAtlasFileImage_CNB Type="Normal" Path="" Plist="" />
                           </AbstractNodeData>
                         </Children>
                         <AnchorPoint ScaleY="0.5000" />
@@ -141,7 +141,7 @@
                         <CColor A="255" R="229" G="189" B="128" />
                         <PrePosition X="0.0273" Y="0.1429" />
                         <PreSize X="0.4985" Y="0.1457" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Normal" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -168,7 +168,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="5.7000" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -194,7 +194,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="4.8667" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -232,7 +232,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.1333" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -258,7 +258,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.1333" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -284,7 +284,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.5500" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -310,7 +310,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.5500" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -336,7 +336,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.9667" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -362,7 +362,7 @@
                             <CColor A="255" R="255" G="255" B="255" />
                             <PrePosition X="1.0833" Y="0.4915" />
                             <PreSize X="1.3833" Y="0.8644" />
-                            <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                            <FontResource Type="Normal" Path="" Plist="" />
                             <OutlineColor A="255" R="0" G="0" B="0" />
                             <ShadowColor A="255" R="0" G="0" B="0" />
                           </AbstractNodeData>
@@ -419,7 +419,7 @@
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="255" G="255" B="255" />
             <EndColor A="255" R="150" G="200" B="255" />
-            <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+            <ColorVector ScaleY="-1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

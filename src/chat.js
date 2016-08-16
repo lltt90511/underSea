@@ -336,7 +336,7 @@ var ChatLayer = cc.Layer.extend({
         if (m < 10) {
             ms = "0" + ms;
         }
-        var timeStr = hs + ":" + ms;
+        var timeStr = hs + ":" + ms + " ";
         var timeText = new ccui.RichElementText(1,cc.color(255,255,255,255),255,timeStr,DEFAULT_FONT,40);
         richText.pushBackElement(timeText);
         _label.setString(timeStr); 

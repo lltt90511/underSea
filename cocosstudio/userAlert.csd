@@ -42,7 +42,7 @@
                     <CColor A="255" R="229" G="189" B="128" />
                     <PrePosition X="0.3074" Y="0.9068" />
                     <PreSize X="0.4741" Y="0.0695" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <OutlineColor A="0" R="0" G="0" B="0" />
                     <ShadowColor A="0" R="0" G="0" B="0" />
                   </AbstractNodeData>
@@ -64,7 +64,7 @@
                     <CColor A="255" R="229" G="189" B="128" />
                     <PrePosition X="0.3074" Y="0.8051" />
                     <PreSize X="0.2907" Y="0.0644" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <OutlineColor A="0" R="0" G="0" B="0" />
                     <ShadowColor A="0" R="0" G="0" B="0" />
                   </AbstractNodeData>
@@ -76,7 +76,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.6610" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -91,7 +91,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.5424" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -106,7 +106,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.4237" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -121,7 +121,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.3051" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -136,7 +136,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.1864" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -151,7 +151,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.5000" Y="0.0678" />
                     <PreSize X="0.9704" Y="0.1085" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <FontResource Type="Normal" Path="" Plist="" />
                     <TextColor A="255" R="255" G="252" B="204" />
                     <PressedFileData Type="Normal" Path="qietu/chat/userBtn2.png" Plist="" />
                     <NormalFileData Type="Normal" Path="qietu/chat/userBtn1.png" Plist="" />
@@ -168,7 +168,7 @@
                 <SingleColor A="255" R="4" G="3" B="0" />
                 <FirstColor A="255" R="255" G="255" B="255" />
                 <EndColor A="255" R="150" G="200" B="255" />
-                <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+                <ColorVector ScaleY="-1.0000" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -180,7 +180,7 @@
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="255" G="255" B="255" />
             <EndColor A="255" R="150" G="200" B="255" />
-            <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
+            <ColorVector ScaleY="-1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

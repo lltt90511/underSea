@@ -15,15 +15,15 @@
                   <AbstractNodeData Name="tab_1" ActionTag="36472110" Tag="15041" IconVisible="False" LeftMargin="12.0000" RightMargin="780.0000" TopMargin="16.5000" BottomMargin="0.5000" TouchEnable="True" FontSize="14" Scale9Width="258" Scale9Height="67" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="258.0000" Y="67.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="59813538" Tag="15042" IconVisible="False" LeftMargin="88.5000" RightMargin="88.5000" TopMargin="8.5000" BottomMargin="7.5000" FontSize="40" LabelText="公聊" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="81.0000" Y="51.0000" />
+                      <AbstractNodeData Name="text" ActionTag="59813538" Tag="15042" IconVisible="False" LeftMargin="84.0000" RightMargin="84.0000" TopMargin="11.5000" BottomMargin="10.5000" FontSize="45" LabelText="公聊" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="90.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="129.0000" Y="33.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="252" B="204" />
                         <PrePosition X="0.5000" Y="0.4925" />
-                        <PreSize X="0.3140" Y="0.7612" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PreSize X="0.3488" Y="0.6716" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -44,15 +44,15 @@
                   <AbstractNodeData Name="tab_2" ActionTag="51095637" Tag="15043" IconVisible="False" LeftMargin="268.0000" RightMargin="524.0000" TopMargin="16.5000" BottomMargin="0.5000" TouchEnable="True" FontSize="14" Scale9Width="258" Scale9Height="67" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="258.0000" Y="67.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="57207557" Tag="15044" IconVisible="False" LeftMargin="88.5000" RightMargin="88.5000" TopMargin="8.5000" BottomMargin="7.5000" FontSize="40" LabelText="私聊" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="81.0000" Y="51.0000" />
+                      <AbstractNodeData Name="text" ActionTag="57207557" Tag="15044" IconVisible="False" LeftMargin="84.0000" RightMargin="84.0000" TopMargin="11.5000" BottomMargin="10.5000" FontSize="45" LabelText="私聊" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="90.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="129.0000" Y="33.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="252" B="204" />
                         <PrePosition X="0.5000" Y="0.4925" />
-                        <PreSize X="0.3140" Y="0.7612" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PreSize X="0.3488" Y="0.6716" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -73,15 +73,15 @@
                   <AbstractNodeData Name="tab_3" ActionTag="45105966" Tag="15045" IconVisible="False" LeftMargin="524.0000" RightMargin="268.0000" TopMargin="16.5000" BottomMargin="0.5000" TouchEnable="True" FontSize="14" Scale9Width="258" Scale9Height="67" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="258.0000" Y="67.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="3300515" Tag="15046" IconVisible="False" LeftMargin="47.5000" RightMargin="47.5000" TopMargin="8.5000" BottomMargin="7.5000" FontSize="40" LabelText="系统消息" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="163.0000" Y="51.0000" />
+                      <AbstractNodeData Name="text" ActionTag="3300515" Tag="15046" IconVisible="False" LeftMargin="39.0000" RightMargin="39.0000" TopMargin="11.5000" BottomMargin="10.5000" FontSize="45" LabelText="系统消息" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="180.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="129.0000" Y="33.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="252" B="204" />
                         <PrePosition X="0.5000" Y="0.4925" />
-                        <PreSize X="0.6318" Y="0.7612" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PreSize X="0.6977" Y="0.6716" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -102,15 +102,15 @@
                   <AbstractNodeData Name="tab_4" ActionTag="34166919" Tag="17403" IconVisible="False" LeftMargin="780.0000" RightMargin="12.0000" TopMargin="16.5000" BottomMargin="0.5000" TouchEnable="True" FontSize="14" Scale9Width="258" Scale9Height="67" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="258.0000" Y="67.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="39066822" Tag="17404" IconVisible="False" LeftMargin="60.5000" RightMargin="60.5000" TopMargin="8.5000" BottomMargin="7.5000" FontSize="40" LabelText="观众(0)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="137.0000" Y="51.0000" />
+                      <AbstractNodeData Name="text" ActionTag="39066822" Tag="17404" IconVisible="False" LeftMargin="49.5000" RightMargin="49.5000" TopMargin="11.5000" BottomMargin="10.5000" FontSize="45" LabelText="观众(0)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="159.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="129.0000" Y="33.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="252" B="204" />
                         <PrePosition X="0.5000" Y="0.4925" />
-                        <PreSize X="0.5310" Y="0.7612" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PreSize X="0.6163" Y="0.6716" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -231,10 +231,10 @@
                     <ColorVector ScaleX="0.0000" ScaleY="-1.0000" />
                     <InnerNodeSize Width="1059" Height="660" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="scroll_bg" ActionTag="7790745" ZOrder="11" VisibleForFrame="False" Tag="15056" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="1038.6772" RightMargin="-11.3228" TopMargin="128.0000" BottomMargin="-48.7020" Scale9Width="15" Scale9Height="550" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="scroll_bg" ActionTag="7790745" ZOrder="11" VisibleForFrame="False" Tag="15056" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="1038.6772" RightMargin="-11.3228" TopMargin="128.0000" BottomMargin="-48.7020" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
                     <Size X="20.6456" Y="540.7020" />
                     <Children>
-                      <AbstractNodeData Name="scroll_bar" ActionTag="3007842" Tag="15057" IconVisible="False" LeftMargin="5.5000" RightMargin="6.1456" TopMargin="0.7020" BottomMargin="340.0000" Scale9Width="9" Scale9Height="479" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="scroll_bar" ActionTag="3007842" Tag="15057" IconVisible="False" LeftMargin="5.5000" RightMargin="6.1456" TopMargin="0.7020" BottomMargin="340.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
                         <Size X="9.0000" Y="200.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                         <Position X="10.0000" Y="540.0000" />
@@ -242,7 +242,7 @@
                         <CColor A="255" R="255" G="255" B="255" />
                         <PrePosition X="0.4844" Y="0.9987" />
                         <PreSize X="0.4359" Y="0.3699" />
-                        <FileData Type="Normal" Path="buleLoadingBg.png" Plist="" />
+                        <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
@@ -251,7 +251,7 @@
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="1.0010" Y="0.7935" />
                     <PreSize X="0.0197" Y="0.8721" />
-                    <FileData Type="Normal" Path="buleLoading.png" Plist="" />
+                    <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint />
@@ -271,7 +271,7 @@
                   <AbstractNodeData Name="bg" ActionTag="3196531" Tag="18534" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="200" ComboBoxIndex="1" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="390.0000" Y="500.0000" />
                     <Children>
-                      <AbstractNodeData Name="label_1" ActionTag="33598809" Tag="18535" IconVisible="False" TopMargin="400.0000" BottomMargin="20.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_1" ActionTag="33598809" Tag="18535" IconVisible="False" TopMargin="400.0000" BottomMargin="20.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="20.0000" />
@@ -279,11 +279,11 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.0400" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="label_2" ActionTag="26675755" Tag="18537" IconVisible="False" TopMargin="320.0000" BottomMargin="100.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_2" ActionTag="26675755" Tag="18537" IconVisible="False" TopMargin="320.0000" BottomMargin="100.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="100.0000" />
@@ -291,11 +291,11 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.2000" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="label_3" ActionTag="12587895" Tag="25560" IconVisible="False" TopMargin="240.0000" BottomMargin="180.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_3" ActionTag="12587895" Tag="25560" IconVisible="False" TopMargin="240.0000" BottomMargin="180.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="180.0000" />
@@ -303,11 +303,11 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.3600" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="label_4" ActionTag="20721929" Tag="25561" IconVisible="False" TopMargin="160.0000" BottomMargin="260.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_4" ActionTag="20721929" Tag="25561" IconVisible="False" TopMargin="160.0000" BottomMargin="260.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="260.0000" />
@@ -315,11 +315,11 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.5200" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="label_5" ActionTag="29969051" Tag="25562" IconVisible="False" TopMargin="80.0000" BottomMargin="340.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_5" ActionTag="29969051" Tag="25562" IconVisible="False" TopMargin="80.0000" BottomMargin="340.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="340.0000" />
@@ -327,11 +327,11 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.6800" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="label_6" ActionTag="44311089" Tag="25563" IconVisible="False" BottomMargin="420.0000" IsCustomSize="True" FontSize="40" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="label_6" ActionTag="44311089" Tag="25563" IconVisible="False" BottomMargin="420.0000" IsCustomSize="True" FontSize="45" LabelText="所有人" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="390.0000" Y="80.0000" />
                         <AnchorPoint />
                         <Position Y="420.0000" />
@@ -339,7 +339,7 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition Y="0.8400" />
                         <PreSize X="1.0000" Y="0.1600" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -438,7 +438,7 @@
                   <AbstractNodeData Name="say" ActionTag="44020360" Tag="19869" IconVisible="False" RightMargin="132.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="100" ColorAngle="270.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="265.0000" Y="98.0000" />
                     <Children>
-                      <AbstractNodeData Name="text" ActionTag="18200597" Tag="19871" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="11.9965" RightMargin="13.0035" IsCustomSize="True" FontSize="35" LabelText="名字名字名字名字" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="text" ActionTag="18200597" Tag="19871" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="11.9965" RightMargin="13.0035" IsCustomSize="True" FontSize="40" LabelText="名字名字名字名字" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="240.0000" Y="98.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="131.9965" Y="49.0000" />
@@ -446,7 +446,7 @@
                         <CColor A="255" R="254" G="177" B="23" />
                         <PrePosition X="0.4981" Y="0.5000" />
                         <PreSize X="0.9057" Y="1.0000" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -474,15 +474,15 @@
                     <PressedBackFileData Type="Normal" Path="qietu/tymb/check.png" Plist="" />
                     <NodeNormalFileData Type="Normal" Path="qietu/tymb/gou.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="text" ActionTag="19410158" Tag="19873" IconVisible="False" LeftMargin="331.5000" RightMargin="12.5000" TopMargin="17.0000" BottomMargin="17.0000" FontSize="50" LabelText="密" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                    <Size X="53.0000" Y="64.0000" />
+                  <AbstractNodeData Name="text" ActionTag="19410158" Tag="19873" IconVisible="False" LeftMargin="330.5000" RightMargin="11.5000" TopMargin="21.5000" BottomMargin="21.5000" FontSize="55" LabelText="密" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="55.0000" Y="55.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="358.0000" Y="49.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="229" G="189" B="128" />
                     <PrePosition X="0.9018" Y="0.5000" />
-                    <PreSize X="0.1335" Y="0.6531" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <PreSize X="0.1385" Y="0.5612" />
+                    <FontResource Type="Default" Path="" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
@@ -534,18 +534,18 @@
                     <PreSize X="0.1050" Y="0.2667" />
                     <FileData Type="Normal" Path="qietu/user/v17.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="name" ActionTag="9000912" Tag="15116" IconVisible="False" LeftMargin="130.0000" RightMargin="635.0000" TopMargin="21.0000" BottomMargin="55.0000" FontSize="35" LabelText="名字名字名字名字" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                    <Size X="283.0000" Y="44.0000" />
+                  <AbstractNodeData Name="name" ActionTag="9000912" Tag="15116" IconVisible="False" LeftMargin="130.0000" RightMargin="598.0000" TopMargin="25.0000" BottomMargin="55.0000" FontSize="40" LabelText="名字名字名字名字" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="320.0000" Y="40.0000" />
                     <Children>
-                      <AbstractNodeData Name="id" ActionTag="11261553" Tag="17408" IconVisible="False" LeftMargin="283.0000" RightMargin="-233.0000" TopMargin="6.0000" FontSize="30" LabelText="(12312313123)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="233.0000" Y="38.0000" />
+                      <AbstractNodeData Name="id" ActionTag="11261553" Tag="17408" IconVisible="False" LeftMargin="327.0006" RightMargin="-241.0006" TopMargin="5.0000" FontSize="35" LabelText="(12312313123)" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="234.0000" Y="35.0000" />
                         <AnchorPoint />
-                        <Position X="283.0000" />
+                        <Position X="327.0006" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="254" G="177" B="23" />
-                        <PrePosition X="1.0000" />
-                        <PreSize X="0.8233" Y="0.8636" />
-                        <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                        <PrePosition X="1.0219" />
+                        <PreSize X="0.7312" Y="0.8750" />
+                        <FontResource Type="Default" Path="" Plist="" />
                         <OutlineColor A="255" R="0" G="0" B="0" />
                         <ShadowColor A="255" R="0" G="0" B="0" />
                       </AbstractNodeData>
@@ -555,8 +555,8 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="254" G="177" B="23" />
                     <PrePosition X="0.1240" Y="0.4583" />
-                    <PreSize X="0.2700" Y="0.3667" />
-                    <FontResource Type="Normal" Path="Microsoft YaHei UI Bold.ttf" Plist="" />
+                    <PreSize X="0.3053" Y="0.3333" />
+                    <FontResource Type="Default" Path="" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="0" G="0" B="0" />
                   </AbstractNodeData>
