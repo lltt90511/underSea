@@ -52,7 +52,7 @@ cc.LoaderScene = cc.Scene.extend({
         self.addChild(bgLayer, 0);
 
         //image move to CCSceneFile.js
-        var fontSize = 24, lblHeight =  -logoHeight / 2 + 100;
+        var fontSize = 40, lblHeight =  -logoHeight / 2 + 100;
         if(cc._loaderImage){
             //loading logo
             cc.loader.loadImg(cc._loaderImage, {isCrossOrigin : false }, function(err, img){
@@ -60,8 +60,8 @@ cc.LoaderScene = cc.Scene.extend({
                 logoHeight = img.height;
                 self._initStage(img, cc.visibleRect.center);
             });
-            fontSize = 14;
-            lblHeight = -logoHeight / 2 - 10;
+            fontSize = 35;
+            lblHeight = -logoHeight / 2 - 20;
         }
         //loading percent
         var label = self._label = new cc.LabelTTF("Loading... 0%", "Arial", fontSize);

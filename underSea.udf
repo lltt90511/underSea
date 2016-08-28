@@ -4,7 +4,7 @@
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="False" />
-        <LastRunType Value="Web" />
+        <LastRunType Value="Simulator" />
       </Value>
     </Item>
     <Item Key="PackageParamsKey">
@@ -18,7 +18,7 @@
         <iOS_Target Value="underSea-mobile" />
         <iOS_BundleID Value="" />
         <Platform Value="Web" />
-        <RunPlatform Value="Web" />
+        <RunPlatform Value="Simulator" />
         <FrameworkVersion Value="cocos2d-x-3.10" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
@@ -26,6 +26,20 @@
         <KeystoreAliasPassword Value="" />
         <EnableSourceMap Value="False" />
         <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="common_top.csd" />
+          <FilePathData Path="chat.csd" />
+          <FilePathData Path="alert.csd" />
+          <FilePathData Path="fish_machine.csd" />
+          <FilePathData Path="userAlert.csd" />
+          <FilePathData Path="exchange.csd" />
+          <FilePathData Path="start.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="fish_machine.csd" />
       </Value>
     </Item>
   </Properties>

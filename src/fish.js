@@ -152,6 +152,7 @@ var FishLayer = cc.Layer.extend({
             if (this.betEndTime < 10) {
                 this.cdNumber.setString("0"+this.betEndTime);
                 if (this.betEndTime < 5) {
+                    cc.audioEngine.playEffect(res.effect_1,false);
                     this.cdNumber.setColor(cc.color(255,0,0,255));
                 }
             }
